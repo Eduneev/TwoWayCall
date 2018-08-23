@@ -7,6 +7,7 @@
 #include "OpenLiveDlg.h"
 #include "afxdialogex.h"
 
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -149,14 +150,20 @@ BOOL COpenLiveDlg::OnInitDialog()
 
 	m_lpAgoraObject->SetLogFilePath(NULL);
 	m_lpAgoraObject->SetMsgHandlerWnd(GetSafeHwnd());
-	CAgoraObject::GetEngine()->setChannelProfile(CHANNEL_PROFILE_LIVE_BROADCASTING);
+	CAgoraObject::GetEngine()->setChannelProfile(CHANNEL_PROFILE_COMMUNICATION);
 	CAgoraObject::GetAgoraObject()->EnableVideo(TRUE);
-	CAgoraObject::GetAgoraObject()->SetClientRole(CLIENT_ROLE_BROADCASTER);
+	CAgoraObject::GetAgoraObject()->SetClientRole(CLIENT_ROLE_BROADCASTER); 
 
 	SetBackgroundImage(IDB_DLG_MAIN);
 	InitCtrls();
 	InitChildDialog();
 
+	auto t = concurrency::create_task([&]()
+	{
+		StartWebSockets();
+	});
+
+	atexit([]() {std::terminate();});
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
@@ -165,7 +172,7 @@ void COpenLiveDlg::InitCtrls()
 	CRect ClientRect;
 	CBitmap	bmpNetQuality;
 
-	MoveWindow(0, 0, 720, 600, 1);
+	MoveWindow(0, 0, 720, 650, 1);
 	GetClientRect(&ClientRect);
 
 	bmpNetQuality.LoadBitmap(IDB_NETWORK_QUALITY);
@@ -273,8 +280,6 @@ void COpenLiveDlg::DrawClient(CDC *lpDC)
 	LPCTSTR lpString = NULL;
 	CFont* defFont = lpDC->SelectObject(&m_ftTitle);
 
-//	m_imgNetQuality.Draw(lpDC, m_nNetworkQuality, CPoint(16, 40), ILD_NORMAL);
-
 	GetClientRect(&rcClient);
 	lpDC->SetBkColor(RGB(0x00, 0x9E, 0xEB));
 	lpDC->SetTextColor(RGB(0xFF, 0xFF, 0xFF));
@@ -282,12 +287,11 @@ void COpenLiveDlg::DrawClient(CDC *lpDC)
 	lpDC->TextOut(12, 3, lpString, _tcslen(lpString));
 	
 	lpDC->SelectObject(&m_ftVer);
-	lpDC->SetTextColor(RGB(0x91, 0x96, 0xA0));
-	lpDC->SetBkColor(RGB(0xFF, 0xFF, 0xFF));
+	lpDC->SetBkColor(RGB(0x00, 0x9E, 0xEB));
+	lpDC->SetTextColor(RGB(0xFF, 0xFF, 0xFF));
 
-	CString strVer = CAgoraObject::GetSDKVersionEx();
-	
-	rcText.SetRect(0, rcClient.Height() - 30, rcClient.Width(), rcClient.Height() - 5);
+	CString strVer = CString(_T("Eduneev Solutions"));
+	rcText.SetRect(0, rcClient.Height() - 30, rcClient.Width(), rcClient.Height()+2);
 	lpDC->DrawText(strVer, strVer.GetLength(), &rcText, DT_CENTER | DT_SINGLELINE);
 	lpDC->SelectObject(defFont);
 }
@@ -333,6 +337,7 @@ LRESULT COpenLiveDlg::OnNextPage(WPARAM wParam, LPARAM lParam)
 
 LRESULT COpenLiveDlg::OnJoinChannel(WPARAM wParam, LPARAM lParam)
 {
+
 	IRtcEngine		*lpRtcEngine = CAgoraObject::GetEngine();
 	CAgoraObject	*lpAgoraObject = CAgoraObject::GetAgoraObject();
 
@@ -397,3 +402,149 @@ void COpenLiveDlg::OnStnClickedLinkagora()
 {
 	// TODO: Add your control notification handler code here
 }
+
+void COutputLogger(const char* txt)
+{
+	std::ofstream log("output.txt", std::ios_base::app | std::ios_base::out);
+	log << txt << std::endl;
+}
+
+void COpenLiveDlg::StartWebSockets()
+{
+	using namespace std;
+	using json = nlohmann::json;
+
+	h.onConnection([](uWS::WebSocket<uWS::CLIENT> *ws, uWS::HttpRequest req) 
+	{
+		COutputLogger("Connection to server successful");
+		json jsConnectionConfirmation;
+		jsConnectionConfirmation["session"] = 5;
+		jsConnectionConfirmation["type"] = "center";
+		std::string server_conn = jsConnectionConfirmation.dump();
+		COutputLogger(server_conn.c_str());
+		ws->send(server_conn.c_str());
+	});
+
+	h.onMessage([&](uWS::WebSocket<uWS::CLIENT> *ws, char *message, size_t length, uWS::OpCode opCode) 
+	{
+		CAgoraObject	*lpAgoraObject = CAgoraObject::GetAgoraObject();
+		string sDataMessage = std::string(message).substr(0, length); //message contains excess packet data.
+		
+		COutputLogger("Messaged received");
+		COutputLogger(message);
+
+		// add the string in the lanuage.dll and pick from there
+		if (IsJson(sDataMessage)) {
+			json jsParseData = json::parse(sDataMessage);
+			if (jsParseData.find("type") != jsParseData.end()) {
+				auto type = jsParseData["type"].get<string>();
+
+				if (type.compare(string("2WayLive")) == 0) {
+					auto command = jsParseData["command"].get<string>();
+				
+					if (command.compare(string("join")) == 0) {
+						std::ofstream log("output.txt", std::ios_base::app | std::ios_base::out);
+						log << "Join call on channel " << m_dlgEnterChannel.GetChannelName() << endl;
+						COpenLiveDlg::OnJoinChannel(0, 0);
+						CVideoDlg::m_bInitialFullScreenCheck = TRUE;
+						system("stop.exe");
+					}
+
+					if (command.compare(string("leave")) == 0) {
+						// Leave video
+						COutputLogger("Leaving Call Channel");
+						lpAgoraObject->SetMsgHandlerWnd(m_dlgVideo.GetSafeHwnd());
+						m_dlgVideo.SendMessage(WM_LEAVEHANDLER, 0, 0);
+						system("start.exe");
+					}
+				}
+			}
+		}
+		else {
+			COutputLogger("Message was not json");
+		}
+	});
+
+	h.onDisconnection([](uWS::WebSocket<uWS::CLIENT> *ws, int code, char *message, size_t length) {
+		COutputLogger("CLIENT CLOSE: ");
+	});
+	
+	h.onError([&](void *user) {
+		ErrorCheck(user);
+	});
+
+	h.connect("ws://127.0.0.1:3000"); // connect to server Change to prod server for release 
+	h.run();
+	COutputLogger("Reaching the endd");
+	COutputLogger("reaching here2");
+}
+
+bool COpenLiveDlg::IsJson(std::string str)
+{
+	using namespace std;
+	nlohmann::json j;
+
+	try
+	{
+		j = nlohmann::json::parse(str);
+		COutputLogger("Input is valid JSON");
+		return true;
+	}
+	catch (nlohmann::json::exception e)
+	{
+		COutputLogger("Unable to parse string as JSON ");
+		COutputLogger(e.what());
+		return false;
+	}
+	return false;
+}
+
+void COpenLiveDlg::ErrorCheck(void* user)
+{
+	freopen("error.txt", "w", stderr);
+	COutputLogger("ERROR");
+	int protocolErrorCount = 0;
+	switch ((long)user) {
+	case 1:
+		std::cerr << "Client emitted error on invalid URI" << std::endl;
+		getchar();
+		break;
+	case 2:
+		std::cerr << "Client emitted error on resolve failure" << std::endl;
+		getchar();
+		break;
+	case 3:
+		std::cerr << "Client emitted error on connection timeout (non-SSL)" << std::endl;
+		getchar();
+		break;
+	case 5:
+		std::cerr << "Client emitted error on connection timeout (SSL)" << std::endl;
+		getchar();
+		break;
+	case 6:
+		std::cerr << "Client emitted error on HTTP response without upgrade (non-SSL)" << std::endl;
+		getchar();
+		break;
+	case 7:
+		std::cerr << "Client emitted error on HTTP response without upgrade (SSL)" << std::endl;
+		getchar();
+		break;
+	case 10:
+		std::cerr << "Client emitted error on poll error" << std::endl;
+		getchar();
+		break;
+	case 11:
+		protocolErrorCount++;
+		std::cerr << "Client emitted error on invalid protocol" << std::endl;
+		if (protocolErrorCount > 1) {
+			std::cerr << "FAILURE:  " << protocolErrorCount << " errors emitted for one connection!" << std::endl;
+			getchar();
+		}
+		break;
+	default:
+		COutputLogger("Could not connect to websocket\n");
+		std::cerr << "FAILURE: " << user << " could not connect to websocket server" << std::endl;
+		getchar();
+	}
+}
+
