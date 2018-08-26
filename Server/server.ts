@@ -129,7 +129,12 @@ const wss = new WebSocket.Server({ port: port});
 
 wss.on('connection', function connection(ws: WebSocket) {
     ws.on('close', function(){
-        CloseConnection(ws);
+        try {
+            CloseConnection(ws);
+        }
+        catch (e) {
+            console.error(e);
+        }
     });
 
     ws.on('message', function(message) {
@@ -182,13 +187,14 @@ function CloseConnection(ws:WebSocket) {
        delete studios[ws.id];
     } 
     else if (ws.id in classrooms) {
-        console.log("Removing Classroom connection");
-        var classroom:Classroom = classrooms[ws.id];
+        console.log("Removing Classroom connection. Number of Connections is " + (Object.keys(classrooms).length - 1));
+        var classroomWsID:number = ws.id;
+        var classroom:Classroom = classrooms[classroomWsID];
         var conn = classroom.conn;
 
         var index:number = -1;
         for (let i:number=0; i < conn.classroomWsID.length; i++) {
-            if (ws.id === conn.classroomWsID[i]) {
+            if (classroomWsID === conn.classroomWsID[i]) {
                 index = i;
                 break;
             }   
@@ -198,10 +204,21 @@ function CloseConnection(ws:WebSocket) {
             console.error("Classroom not in Connection Classroom list");
         } else {
             conn.classroomWsID.splice(index, 1);
+
+            // Send studio notification of Classroom disconnection
+            var studioWs:WebSocket = websockets[conn.wsID];
+            studioWs.send (
+                JSON.stringify({
+                    profile: Profile.TWOWAYCALL,
+                    type: Events.DISCONNECTION,
+                    wsID: classroomWsID,
+                    channel: conn.channel
+                }));
         }
 
-        delete classrooms[ws.id];
-        delete websockets[ws.id];
+        
+        delete classrooms[classroomWsID];
+        delete websockets[classroomWsID];
     }
 }
 
@@ -214,46 +231,54 @@ function HandleMessage(ws:WebSocket, json:JSON) {
                 AddStudio(ws, json);
             }
             else if (Message.CLASSROOMNAME in json) {
-                AddClassroom(ws,json);
+                AddClassroom(ws,json);                
             }
         }
         else if (json[Message.TYPE] == Events.MESSAGE) {
             assert(ws.id in studios, "Illegal Entity sending message. Do not send!");
+            console.log("Message: " + JSON.stringify(json));
             SendMessage(ws.id, json);
         }
     }   
 }
 
 function AddStudio (ws: WebSocket, json:JSON) {
-    console.log ("Adding new studio and connection " + ws.id);
-    var conn:Connection = new Connection (json[Message.CHANNEL], ws.id);
+    var studioWsID = ws.id;
+    console.log ("Adding new studio and connection " + studioWsID);
+
+    for (var conn of connections) {
+        assert(json[Message.CHANNEL] !== conn.channel, "Channel Already exists. Rejecting Studio Connection!");
+    }
+
+    var conn:Connection = new Connection (json[Message.CHANNEL], studioWsID);
     var numConnections:number = connections.push(conn); // Add to connections array
     console.log ("Number of Connections: " + numConnections);
 
-    var studio:Studio = new Studio (json[Message.STUDIOID], json[Message.STUDIONAME], ws.id, conn);
-    studios[ws.id] = studio; // Add to studios dict
+    var studio:Studio = new Studio (json[Message.STUDIOID], json[Message.STUDIONAME], studioWsID, conn);
+    studios[studioWsID] = studio; // Add to studios dict
 
-    websockets[ws.id] = ws; // Add to websockets dict
+    websockets[studioWsID] = ws; // Add to websockets dict
 }
 
 function AddClassroom (ws: WebSocket, json:JSON) {
-    var centerWsID = ws.id;
-    console.log ("Adding new classroom " + centerWsID);
+    var classroomWsID = ws.id;
+    console.log ("Adding new classroom " + classroomWsID + ". Number of classrooms " + (Object.keys(classrooms).length + 1));
     try {
         var channel = json[Message.CHANNEL];
         var connection: Connection = undefined;
         for (var conn of connections) {
             if (conn.channel == channel) {
                 connection = conn;
-                conn.classroomWsID.push(centerWsID); // Add to channel's classroom list
+                conn.classroomWsID.push(classroomWsID); // Add to channel's classroom list
+                console.log("Added classroom to connection list. " + conn.classroomWsID);
             }
         }
 
         assert(connection !== undefined, "Could not add Classroom. Connection channel non existent!");
-        var classroom:Classroom = new Classroom(json[Message.CLASSROOMID], json[Message.CLASSROOMNAME], ws.id, connection);
-        classrooms[centerWsID] = classroom // Add to classrooms dict
+        var classroom:Classroom = new Classroom(json[Message.CLASSROOMID], json[Message.CLASSROOMNAME], classroomWsID, connection);
+        classrooms[classroomWsID] = classroom // Add to classrooms dict
 
-        websockets[centerWsID] = ws // Add to websockets dict
+        websockets[classroomWsID] = ws // Add to websockets dict
 
         // Send Message to Studio to Add Classroom
         var studiows:WebSocket = websockets[connection.wsID];
@@ -262,7 +287,7 @@ function AddClassroom (ws: WebSocket, json:JSON) {
                 profile: Profile.TWOWAYCALL,
                 type: Events.CONNECTION,
                 ClassroomName: json[Message.CLASSROOMNAME],
-                wsID: centerWsID
+                wsID: classroomWsID
             }));
     }
     catch (e) {
@@ -273,17 +298,25 @@ function AddClassroom (ws: WebSocket, json:JSON) {
 function SendMessage (studioWsID: number, json:JSON) {
     var studio:Studio = studios[studioWsID];
     var conn:Connection = studio.conn;
- 
-    if (json[Message.WSID] in conn.classroomWsID) {
-        var centerWs = websockets[json[Message.WSID]];
-        centerWs.send(
-            JSON.stringify({
-                profile: Profile.TWOWAYCALL,
-                action: json[Message.ACTION],
-                channel: conn.channel
-            }));
+    
+    assert(containsObject(Number(json[Message.WSID]), conn.classroomWsID), "Classroom not in connection channel");
+
+    var centerWs = websockets[json[Message.WSID]];
+    centerWs.send(
+        JSON.stringify({
+            profile: Profile.TWOWAYCALL,
+            action: json[Message.ACTION],
+            channel: conn.channel
+        }));
+}
+
+function containsObject(obj, list) {
+    var i;
+    for (i = 0; i < list.length; i++) {
+        if (list[i] === obj) {
+            return true;
+        }
     }
-    else {
-        console.error ("Classroom not in connection channel");
-    }
+
+    return false;
 }

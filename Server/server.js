@@ -112,7 +112,12 @@ var idCounter = 0;
 var wss = new WebSocket.Server({ port: port });
 wss.on('connection', function connection(ws) {
     ws.on('close', function () {
-        CloseConnection(ws);
+        try {
+            CloseConnection(ws);
+        }
+        catch (e) {
+            console.error(e);
+        }
     });
     ws.on('message', function (message) {
         try {
@@ -162,12 +167,13 @@ function CloseConnection(ws) {
         delete studios[ws.id];
     }
     else if (ws.id in classrooms) {
-        console.log("Removing Classroom connection");
-        var classroom = classrooms[ws.id];
+        console.log("Removing Classroom connection. Number of Connections is " + (Object.keys(classrooms).length - 1));
+        var classroomWsID = ws.id;
+        var classroom = classrooms[classroomWsID];
         var conn = classroom.conn;
         var index = -1;
         for (var i_1 = 0; i_1 < conn.classroomWsID.length; i_1++) {
-            if (ws.id === conn.classroomWsID[i_1]) {
+            if (classroomWsID === conn.classroomWsID[i_1]) {
                 index = i_1;
                 break;
             }
@@ -177,9 +183,17 @@ function CloseConnection(ws) {
         }
         else {
             conn.classroomWsID.splice(index, 1);
+            // Send studio notification of Classroom disconnection
+            var studioWs = websockets[conn.wsID];
+            studioWs.send(JSON.stringify({
+                profile: Profile.TWOWAYCALL,
+                type: Events.DISCONNECTION,
+                wsID: classroomWsID,
+                channel: conn.channel
+            }));
         }
-        delete classrooms[ws.id];
-        delete websockets[ws.id];
+        delete classrooms[classroomWsID];
+        delete websockets[classroomWsID];
     }
 }
 function HandleMessage(ws, json) {
@@ -196,43 +210,50 @@ function HandleMessage(ws, json) {
         }
         else if (json[Message.TYPE] == Events.MESSAGE) {
             assert(ws.id in studios, "Illegal Entity sending message. Do not send!");
+            console.log("Message: " + JSON.stringify(json));
             SendMessage(ws.id, json);
         }
     }
 }
 function AddStudio(ws, json) {
-    console.log("Adding new studio and connection " + ws.id);
-    var conn = new Connection(json[Message.CHANNEL], ws.id);
+    var studioWsID = ws.id;
+    console.log("Adding new studio and connection " + studioWsID);
+    for (var _i = 0, connections_1 = connections; _i < connections_1.length; _i++) {
+        var conn = connections_1[_i];
+        assert(json[Message.CHANNEL] !== conn.channel, "Channel Already exists. Rejecting Studio Connection!");
+    }
+    var conn = new Connection(json[Message.CHANNEL], studioWsID);
     var numConnections = connections.push(conn); // Add to connections array
     console.log("Number of Connections: " + numConnections);
-    var studio = new Studio(json[Message.STUDIOID], json[Message.STUDIONAME], ws.id, conn);
-    studios[ws.id] = studio; // Add to studios dict
-    websockets[ws.id] = ws; // Add to websockets dict
+    var studio = new Studio(json[Message.STUDIOID], json[Message.STUDIONAME], studioWsID, conn);
+    studios[studioWsID] = studio; // Add to studios dict
+    websockets[studioWsID] = ws; // Add to websockets dict
 }
 function AddClassroom(ws, json) {
-    var centerWsID = ws.id;
-    console.log("Adding new classroom " + centerWsID);
+    var classroomWsID = ws.id;
+    console.log("Adding new classroom " + classroomWsID + ". Number of classrooms " + (Object.keys(classrooms).length + 1));
     try {
         var channel = json[Message.CHANNEL];
         var connection = undefined;
-        for (var _i = 0, connections_1 = connections; _i < connections_1.length; _i++) {
-            var conn = connections_1[_i];
+        for (var _i = 0, connections_2 = connections; _i < connections_2.length; _i++) {
+            var conn = connections_2[_i];
             if (conn.channel == channel) {
                 connection = conn;
-                conn.classroomWsID.push(centerWsID); // Add to channel's classroom list
+                conn.classroomWsID.push(classroomWsID); // Add to channel's classroom list
+                console.log("Added classroom to connection list. " + conn.classroomWsID);
             }
         }
         assert(connection !== undefined, "Could not add Classroom. Connection channel non existent!");
-        var classroom = new Classroom(json[Message.CLASSROOMID], json[Message.CLASSROOMNAME], ws.id, connection);
-        classrooms[centerWsID] = classroom; // Add to classrooms dict
-        websockets[centerWsID] = ws; // Add to websockets dict
+        var classroom = new Classroom(json[Message.CLASSROOMID], json[Message.CLASSROOMNAME], classroomWsID, connection);
+        classrooms[classroomWsID] = classroom; // Add to classrooms dict
+        websockets[classroomWsID] = ws; // Add to websockets dict
         // Send Message to Studio to Add Classroom
         var studiows = websockets[connection.wsID];
         studiows.send(JSON.stringify({
             profile: Profile.TWOWAYCALL,
             type: Events.CONNECTION,
             ClassroomName: json[Message.CLASSROOMNAME],
-            wsID: centerWsID
+            wsID: classroomWsID
         }));
     }
     catch (e) {
@@ -242,15 +263,20 @@ function AddClassroom(ws, json) {
 function SendMessage(studioWsID, json) {
     var studio = studios[studioWsID];
     var conn = studio.conn;
-    if (json[Message.WSID] in conn.classroomWsID) {
-        var centerWs = websockets[json[Message.WSID]];
-        centerWs.send(JSON.stringify({
-            profile: Profile.TWOWAYCALL,
-            action: json[Message.ACTION],
-            channel: conn.channel
-        }));
+    assert(containsObject(Number(json[Message.WSID]), conn.classroomWsID), "Classroom not in connection channel");
+    var centerWs = websockets[json[Message.WSID]];
+    centerWs.send(JSON.stringify({
+        profile: Profile.TWOWAYCALL,
+        action: json[Message.ACTION],
+        channel: conn.channel
+    }));
+}
+function containsObject(obj, list) {
+    var i;
+    for (i = 0; i < list.length; i++) {
+        if (list[i] === obj) {
+            return true;
+        }
     }
-    else {
-        console.error("Classroom not in connection channel");
-    }
+    return false;
 }
