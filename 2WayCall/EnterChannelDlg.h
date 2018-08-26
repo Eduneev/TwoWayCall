@@ -30,6 +30,7 @@ protected:
 	afx_msg void OnPaint();
 	afx_msg void OnBnClickedBtnjoinChannel();
 	afx_msg void OnBnClickedBtnsetChannel();
+	afx_msg void OnBnClickedBtngetChannel();
 	DECLARE_MESSAGE_MAP()
 
 protected:
@@ -40,6 +41,7 @@ private:
 	CAGEdit			m_ctrChannel;
     CAGButton		m_btnJoin;
 	CAGButton		m_btnSetup;
+	CAGButton		m_btnSetChannel;
 
 	CFont			m_ftChannel;
 	CFont			m_ftHead;

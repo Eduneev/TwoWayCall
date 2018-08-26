@@ -26,6 +26,7 @@ void CEnterChannelDlg::DoDataExchange(CDataExchange* pDX)
     DDX_Control(pDX, IDC_EDCHNAME_CHANNEL, m_ctrChannel);
     DDX_Control(pDX, IDC_BTNJOIN_CHANNEL, m_btnJoin);
     DDX_Control(pDX, IDC_BTNSET_CHANNEL, m_btnSetup);
+	DDX_Control(pDX, IDC_BTNGET_CHANNEL, m_btnSetChannel);
 }
 
 
@@ -34,6 +35,7 @@ BEGIN_MESSAGE_MAP(CEnterChannelDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_BN_CLICKED(IDC_BTNJOIN_CHANNEL, &CEnterChannelDlg::OnBnClickedBtnjoinChannel)
 	ON_BN_CLICKED(IDC_BTNSET_CHANNEL, &CEnterChannelDlg::OnBnClickedBtnsetChannel)
+	ON_BN_CLICKED(IDC_BTNGET_CHANNEL, &CEnterChannelDlg::OnBnClickedBtngetChannel)
 END_MESSAGE_MAP()
 
 
@@ -76,14 +78,14 @@ void CEnterChannelDlg::InitCtrls()
 
 	GetClientRect(&ClientRect);
 
-	m_ctrChannel.MoveWindow(10, 180, 300, 22, TRUE);
+	m_ctrChannel.MoveWindow(80, 180, 100, 22, TRUE);
     m_ctrChannel.SetFont(&m_ftDesc);
-	m_ctrChannel.SetCaretPos(CPoint(14, 148));
+	m_ctrChannel.SetCaretPos(CPoint(24, 148));
 	m_ctrChannel.ShowCaret();
 	m_ctrChannel.SetTip(LANG_STR("IDS_CHN_CHANNELNAME"));
     
 	m_btnJoin.MoveWindow(120, 310, 360, 36, TRUE);
-	m_btnSetup.MoveWindow(ClientRect.Width() / 2 - ClientRect.Width()/4, 355, 240, 36, TRUE);
+	m_btnSetup.MoveWindow(ClientRect.Width() / 2 - ClientRect.Width() / 5, 355, 240, 36, TRUE);
 
 	m_btnJoin.SetBackColor(RGB(0x00, 0xA0, 0xE9), RGB(0x05, 0x78, 0xAA), RGB(0x05, 0x78, 0xAA), RGB(0xE6, 0xE6, 0xE6));
 	m_btnJoin.SetFont(&m_ftBtn);
@@ -144,6 +146,10 @@ void CEnterChannelDlg::OnBnClickedBtnsetChannel()
 	GetParent()->SendMessage(WM_GONEXT, 0, 0);
 }
 
+void CEnterChannelDlg::OnBnClickedBtngetChannel()
+{
+	GetParent()->SendMessage(WM_STARTSOCKET, 0, 0);
+}
 
 CString CEnterChannelDlg::GetChannelName()
 {
