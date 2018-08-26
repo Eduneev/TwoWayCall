@@ -44,6 +44,7 @@ protected:
 	afx_msg LRESULT OnNextPage(WPARAM wParam, LPARAM lParam);
 	afx_msg LRESULT OnJoinChannel(WPARAM wParam, LPARAM lParam);
 	afx_msg LRESULT OnLeaveChannel(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT WebSocketHandler(WPARAM wParam, LPARAM lParam);
 
 	afx_msg LRESULT OnNetworkQuality(WPARAM wParam, LPARAM lParam);
 
@@ -75,6 +76,14 @@ private:
 	CAgoraObject	*m_lpAgoraObject;
 	IRtcEngine		*m_lpRtcEngine;
 	uWS::Hub h;
+
+	enum Events { CONNECTION, MESSAGE, DISCONNECTION };
+
+	enum Profile { TWOWAYCALL };
+
+	enum Action { JOIN, LEAVE };
+
+	enum Message { PROFILE, TYPE, WSID, CHANNEL, CLASSROOMNAME, CLASSROOMID, ACTION };
 	
 private:	// data
     int m_nVideoProfile;
@@ -87,4 +96,14 @@ public:
 	void StartWebSockets();
 	bool IsJson(std::string str);
 	void ErrorCheck(void* user);
+
+	static const char* EventsStrings[];
+	static const char* ProfileStrings[];
+	static const char* ActionStrings[];
+	static const char* MessageStrings[];
+	const char* GetTextForEvent(int enumVal);
+	const char* GetTextForProfile(int enumVal);
+	const char* GetTextForAction(int enumVal);
+	const char* GetTextForMessage(int enumVal);
+
 };

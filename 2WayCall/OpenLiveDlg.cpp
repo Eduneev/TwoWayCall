@@ -13,6 +13,13 @@
 #endif
 
 
+
+// static members
+const char* COpenLiveDlg::EventsStrings[] = { "Connection", "Message", "Disconnection" };
+const char* COpenLiveDlg::ProfileStrings[] = { "2WayCall" };
+const char* COpenLiveDlg::ActionStrings[] = { "join", "leave" };
+const char* COpenLiveDlg::MessageStrings[] = { "profile", "type", "wsID", "channel", "ClassroomName", "ClassroomID", "action" };
+
 // CAboutDlg dialog used for App About
 
 class CAboutDlg : public CDialogEx
@@ -43,9 +50,7 @@ void CAboutDlg::DoDataExchange(CDataExchange* pDX)
 BEGIN_MESSAGE_MAP(CAboutDlg, CDialogEx)
 END_MESSAGE_MAP()
 
-
 // COpenLiveDlg dialog
-
 
 
 COpenLiveDlg::COpenLiveDlg(CWnd* pParent /*=NULL*/)
@@ -78,6 +83,7 @@ BEGIN_MESSAGE_MAP(COpenLiveDlg, CDialogEx)
     ON_MESSAGE(WM_GONEXT, &COpenLiveDlg::OnNextPage)
     ON_MESSAGE(WM_JOINCHANNEL, &COpenLiveDlg::OnJoinChannel)
     ON_MESSAGE(WM_LEAVECHANNEL, &COpenLiveDlg::OnLeaveChannel)
+	ON_MESSAGE(WM_STARTSOCKET, &COpenLiveDlg::WebSocketHandler)
 	
     ON_BN_CLICKED(IDC_BTNMIN, &COpenLiveDlg::OnBnClickedBtnmin)
     ON_BN_CLICKED(IDC_BTNCLOSE, &COpenLiveDlg::OnBnClickedBtnclose)
@@ -157,11 +163,6 @@ BOOL COpenLiveDlg::OnInitDialog()
 	SetBackgroundImage(IDB_DLG_MAIN);
 	InitCtrls();
 	InitChildDialog();
-
-	auto t = concurrency::create_task([&]()
-	{
-		StartWebSockets();
-	});
 
 	atexit([]() {std::terminate();});
 	return TRUE;  // return TRUE  unless you set the focus to a control
@@ -403,10 +404,43 @@ void COpenLiveDlg::OnStnClickedLinkagora()
 	// TODO: Add your control notification handler code here
 }
 
+
 void COutputLogger(const char* txt)
 {
 	std::ofstream log("output.txt", std::ios_base::app | std::ios_base::out);
 	log << txt << std::endl;
+}
+
+LRESULT COpenLiveDlg::WebSocketHandler(WPARAM wParam, LPARAM lParam)
+{
+	COutputLogger("Inside Websocket Handler");
+	auto t = concurrency::create_task([&]()
+	{
+		StartWebSockets();
+	});
+
+	return 0;
+}
+
+
+const char* COpenLiveDlg::GetTextForEvent(int enumVal)
+{
+	return COpenLiveDlg::EventsStrings[enumVal];
+}
+
+const char* COpenLiveDlg::GetTextForMessage(int enumVal)
+{
+	return COpenLiveDlg::MessageStrings[enumVal];
+}
+
+const char* COpenLiveDlg::GetTextForProfile(int enumVal)
+{
+	return COpenLiveDlg::ProfileStrings[enumVal];
+}
+
+const char* COpenLiveDlg::GetTextForAction(int enumVal)
+{
+	return COpenLiveDlg::ActionStrings[enumVal];
 }
 
 void COpenLiveDlg::StartWebSockets()
@@ -414,12 +448,21 @@ void COpenLiveDlg::StartWebSockets()
 	using namespace std;
 	using json = nlohmann::json;
 
-	h.onConnection([](uWS::WebSocket<uWS::CLIENT> *ws, uWS::HttpRequest req) 
+	h.onConnection([&](uWS::WebSocket<uWS::CLIENT> *ws, uWS::HttpRequest req) 
 	{
 		COutputLogger("Connection to server successful");
+
+		auto channel = m_dlgEnterChannel.GetChannelName().GetBuffer();
+		char buffer[500];
+		wcstombs(buffer, channel, 500);		
+		
 		json jsConnectionConfirmation;
-		jsConnectionConfirmation["session"] = 5;
-		jsConnectionConfirmation["type"] = "center";
+		jsConnectionConfirmation[GetTextForMessage(Message::PROFILE)] = GetTextForProfile(Profile::TWOWAYCALL);
+		jsConnectionConfirmation[GetTextForMessage(Message::TYPE)] = GetTextForEvent(Events::CONNECTION);
+		jsConnectionConfirmation[GetTextForMessage(Message::CLASSROOMNAME)] = "Sanat";
+		jsConnectionConfirmation[GetTextForMessage(Message::CLASSROOMID)] = "1";
+		jsConnectionConfirmation[GetTextForMessage(Message::CHANNEL)] = buffer;
+
 		std::string server_conn = jsConnectionConfirmation.dump();
 		COutputLogger(server_conn.c_str());
 		ws->send(server_conn.c_str());
@@ -474,7 +517,7 @@ void COpenLiveDlg::StartWebSockets()
 		ErrorCheck(user);
 	});
 
-	h.connect("ws://127.0.0.1:3000"); // connect to server Change to prod server for release 
+	h.connect("ws://localhost:2000"); // connect to server Change to prod server for release 
 	h.run();
 	COutputLogger("Reaching the endd");
 	COutputLogger("reaching here2");
