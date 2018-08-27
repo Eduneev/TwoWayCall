@@ -633,7 +633,8 @@ void COpenLiveDlg::StartVlc()
 	}
 	else {
 		m_sLastUsedCommand = classroom[GetTextForWebApi(WebApi::LASTUSEDCOMMAND)].get<string>();
-		system(m_sLastUsedCommand.c_str());
+		string str = string("START \"\" ") + m_sLastUsedCommand;
+		system(str.c_str());
 	}
 }
 
