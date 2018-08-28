@@ -10,6 +10,9 @@
 #include "VideoDlg.h"
 #include <uWS/uWS.h>
 #include <nlohmann/json.hpp>
+#include <ppltasks.h>
+#include <cpprest/http_client.h>
+
 
 // COpenLiveDlg dialog
 class COpenLiveDlg : public CDialogEx
@@ -83,7 +86,9 @@ private:
 
 	enum Action { JOIN, LEAVE };
 
-	enum Message { PROFILE, TYPE, WSID, CHANNEL, CLASSROOMNAME, CLASSROOMID, ACTION };
+	enum Message { PROFILE, TYPE, WSID, CHANNEL, CLASSROOMNAME, CLASSROOMID, ACTION, FAILURE };
+
+	enum WebApi { CLASSROOMNAMES, CLASSROOMIDS, LASTUSEDCOMMAND };
 	
 private:	// data
     int m_nVideoProfile;
@@ -96,14 +101,27 @@ public:
 	void StartWebSockets();
 	bool IsJson(std::string str);
 	void ErrorCheck(void* user);
+	Concurrency::task<std::string> COpenLiveDlg::HTTPStreamingAsync(web::uri* url);
+	void SetClassroomDetails();
+	void StartVlc();
+	std::string COpenLiveDlg::ReadAuthPermissions();
+
 
 	static const char* EventsStrings[];
 	static const char* ProfileStrings[];
 	static const char* ActionStrings[];
 	static const char* MessageStrings[];
+	static const char* WebApiStrings[];
+	static std::string m_sBaseUrl;
+	static std::string m_sAuthPath;
+
 	const char* GetTextForEvent(int enumVal);
 	const char* GetTextForProfile(int enumVal);
 	const char* GetTextForAction(int enumVal);
 	const char* GetTextForMessage(int enumVal);
-
+	const char* GetTextForWebApi(int enumval);
+	int m_nClassroomID;
+	std::string m_sClassroomName;
+	std::string m_sLastUsedCommand;
+	std::string m_sAuthKey;
 };

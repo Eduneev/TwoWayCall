@@ -12,13 +12,14 @@
 #define new DEBUG_NEW
 #endif
 
-
-
 // static members
 const char* COpenLiveDlg::EventsStrings[] = { "Connection", "Message", "Disconnection" };
 const char* COpenLiveDlg::ProfileStrings[] = { "2WayCall" };
 const char* COpenLiveDlg::ActionStrings[] = { "join", "leave" };
-const char* COpenLiveDlg::MessageStrings[] = { "profile", "type", "wsID", "channel", "ClassroomName", "ClassroomID", "action" };
+const char* COpenLiveDlg::MessageStrings[] = { "profile", "type", "wsID", "channel", "ClassroomName", "ClassroomID", "action", "Failure" };
+const char* COpenLiveDlg::WebApiStrings[] = { "ClassRoomName", "ClassRoomId", "LastUsedCommand" };
+std::string COpenLiveDlg::m_sBaseUrl = std::string("http://localhost:55082/api/");
+std::string COpenLiveDlg::m_sAuthPath = std::string("auth.pem");
 
 // CAboutDlg dialog used for App About
 
@@ -164,7 +165,9 @@ BOOL COpenLiveDlg::OnInitDialog()
 	InitCtrls();
 	InitChildDialog();
 
-	atexit([]() {std::terminate();});
+	atexit([]() {
+		std::terminate();
+	});
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
@@ -192,6 +195,7 @@ void COpenLiveDlg::InitCtrls()
 	m_linkAgora.SetURL(_T("http://www.eduneev.in"));
 	m_linkAgora.SetWindowText(LANG_STR("IDS_LOGO_AGORAWEB"));
 	CMFCButton::EnableWindowsTheming(FALSE);
+	SetClassroomDetails();
 }
 
 void COpenLiveDlg::InitChildDialog()
@@ -411,6 +415,13 @@ void COutputLogger(const char* txt)
 	log << txt << std::endl;
 }
 
+std::wstring ConvertToWString(std::string str)
+{
+	std::wstring tempUrl;
+	tempUrl.assign(str.begin(), str.end());
+	return tempUrl;
+}
+
 LRESULT COpenLiveDlg::WebSocketHandler(WPARAM wParam, LPARAM lParam)
 {
 	COutputLogger("Inside Websocket Handler");
@@ -443,6 +454,11 @@ const char* COpenLiveDlg::GetTextForAction(int enumVal)
 	return COpenLiveDlg::ActionStrings[enumVal];
 }
 
+const char* COpenLiveDlg::GetTextForWebApi(int enumVal)
+{
+	return COpenLiveDlg::WebApiStrings[enumVal];
+}
+
 void COpenLiveDlg::StartWebSockets()
 {
 	using namespace std;
@@ -459,8 +475,8 @@ void COpenLiveDlg::StartWebSockets()
 		json jsConnectionConfirmation;
 		jsConnectionConfirmation[GetTextForMessage(Message::PROFILE)] = GetTextForProfile(Profile::TWOWAYCALL);
 		jsConnectionConfirmation[GetTextForMessage(Message::TYPE)] = GetTextForEvent(Events::CONNECTION);
-		jsConnectionConfirmation[GetTextForMessage(Message::CLASSROOMNAME)] = "Sanat";
-		jsConnectionConfirmation[GetTextForMessage(Message::CLASSROOMID)] = "1";
+		jsConnectionConfirmation[GetTextForMessage(Message::CLASSROOMNAME)] = COpenLiveDlg::m_sClassroomName;
+		jsConnectionConfirmation[GetTextForMessage(Message::CLASSROOMID)] = COpenLiveDlg::m_nClassroomID;
 		jsConnectionConfirmation[GetTextForMessage(Message::CHANNEL)] = buffer;
 
 		std::string server_conn = jsConnectionConfirmation.dump();
@@ -479,27 +495,30 @@ void COpenLiveDlg::StartWebSockets()
 		// add the string in the lanuage.dll and pick from there
 		if (IsJson(sDataMessage)) {
 			json jsParseData = json::parse(sDataMessage);
-			if (jsParseData.find("profile") != jsParseData.end()) {
-				auto profile = jsParseData["profile"].get<string>();
+			if (jsParseData.find(GetTextForMessage(Message::PROFILE)) != jsParseData.end()) {
+				auto profile = jsParseData[GetTextForMessage(Message::PROFILE)].get<string>();
 
-				if (profile.compare(string("2WayCall")) == 0) {
-					auto action = jsParseData["action"].get<string>();
+				if (profile.compare(string(GetTextForProfile(Profile::TWOWAYCALL))) == 0) {
+					auto action = jsParseData[GetTextForMessage(Message::ACTION)].get<string>();
 				
-					if (action.compare(string("join")) == 0) {
+					if (action.compare(string(GetTextForAction(Action::JOIN))) == 0) {
 						std::ofstream log("output.txt", std::ios_base::app | std::ios_base::out);
 						log << "Join call on channel " << m_dlgEnterChannel.GetChannelName() << endl;
 						COpenLiveDlg::OnJoinChannel(0, 0);
 						CVideoDlg::m_bInitialFullScreenCheck = TRUE;
+						
+						Sleep(1000);
 						system("stop.exe");
 					}
-
-					if (action.compare(string("leave")) == 0) {
+					else if (action.compare(string(GetTextForAction(Action::LEAVE))) == 0) {
 						// Leave video
 						COutputLogger("Leaving Call Channel");
 						lpAgoraObject->SetMsgHandlerWnd(m_dlgVideo.GetSafeHwnd());
 						m_dlgVideo.SendMessage(WM_LEAVEHANDLER, 0, 0);
 						m_dlgVideo.SetForegroundWindow();
-						system("start.exe");
+
+						// Get VLC Last Used Command
+						StartVlc();
 					}
 				}
 			}
@@ -519,8 +538,7 @@ void COpenLiveDlg::StartWebSockets()
 
 	h.connect("ws://localhost:2000"); // connect to server Change to prod server for release 
 	h.run();
-	COutputLogger("Reaching the endd");
-	COutputLogger("reaching here2");
+	COutputLogger("Exiting WebSocket thread");
 }
 
 bool COpenLiveDlg::IsJson(std::string str)
@@ -588,7 +606,129 @@ void COpenLiveDlg::ErrorCheck(void* user)
 	default:
 		COutputLogger("Could not connect to websocket\n");
 		std::cerr << "FAILURE: " << user << " could not connect to websocket server" << std::endl;
+		//MessageBox(_T("Unable to Reach Server"), _T("Notice"), MB_ICONINFORMATION);
 		getchar();
+	}
+}
+
+void COpenLiveDlg::StartVlc()
+{
+	using namespace std;
+	using web::uri;
+	using json = nlohmann::json;
+
+	string classroomUrl = COpenLiveDlg::m_sBaseUrl + std::string("GetClassroom/") + m_sAuthKey;
+	COutputLogger(classroomUrl.c_str());
+
+	uri *url = new uri(ConvertToWString(classroomUrl).c_str());
+	string result = HTTPStreamingAsync(url).get();
+	COutputLogger(result.c_str());
+
+	if (!IsJson(result))
+		MessageBox(_T("Unable to Reach Server"), _T("Notice"), MB_ICONINFORMATION);
+
+	nlohmann::json classroom = nlohmann::json::parse(result);
+
+	if (int(classroom[GetTextForWebApi(WebApi::CLASSROOMIDS)]) == -1) {
+		MessageBox(_T("Something went wrong!"), _T("Notice"), MB_ICONINFORMATION);
+	}
+	else {
+		m_sLastUsedCommand = classroom[GetTextForWebApi(WebApi::LASTUSEDCOMMAND)].get<string>();
+		string str = string("START \"\" ") + m_sLastUsedCommand;
+		system(str.c_str());
+	}
+}
+
+void COpenLiveDlg::SetClassroomDetails()
+{
+	using namespace std;
+	using web::uri;
+	
+	COutputLogger("Setting Classroom details");
+
+	m_sAuthKey = ReadAuthPermissions();
+
+	if (m_sAuthKey.empty()) {
+		MessageBox(_T("NO Permissions!"), _T("Notice"), MB_ICONINFORMATION);
+		//PostQuitMessage(0);
+		COutputLogger("Unable to read permissions");
+	}
+
+	string classroomUrl = COpenLiveDlg::m_sBaseUrl + std::string("GetClassroom/") + m_sAuthKey;
+	COutputLogger(classroomUrl.c_str());
+
+	uri *url = new uri(ConvertToWString(classroomUrl).c_str());
+	string result = HTTPStreamingAsync(url).get();
+	COutputLogger(result.c_str());
+	
+	if (!IsJson(result))
+		MessageBox(_T("Unable to Reach Server"), _T("Notice"), MB_ICONINFORMATION);
+
+	nlohmann::json classroom = nlohmann::json::parse(result);
+
+	if (int(classroom[GetTextForWebApi(WebApi::CLASSROOMIDS)]) == -1) {
+		MessageBox(_T("Something went wrong!"), _T("Notice"), MB_ICONINFORMATION);
+	}
+	else {
+		m_sClassroomName = classroom[GetTextForWebApi(WebApi::CLASSROOMNAMES)].get<string>();
+		m_nClassroomID = int(classroom[GetTextForWebApi(WebApi::CLASSROOMIDS)]);
+	}
+	COutputLogger(m_sClassroomName.c_str());
+}
+
+std::string COpenLiveDlg::ReadAuthPermissions()
+{
+	using namespace std;
+	ifstream fileStream(m_sAuthPath.c_str());
+	ASSERT(fileStream.good());
+	string line;	string result;
+	while (std::getline(fileStream, line)) {
+		result = line;
+	}
+
+	COutputLogger(result.c_str());
+	return result;
+}
+
+// Creates an HTTP request and returns the response body.
+pplx::task<std::string> COpenLiveDlg::HTTPStreamingAsync(web::uri* url)
+{
+	using namespace web::http;
+	using namespace web::http::client;
+
+	http_client client(*url);
+
+	// Make the request and asynchronously process the response.
+	try {
+		return client.request(methods::GET).then([&](http_response response) {
+			if (response.status_code() == status_codes::OK) {
+				try {
+					auto body = response.extract_utf8string();
+					return body;
+				}
+				catch (http_exception e) {
+					COutputLogger("Error extracting string. Return \" - 1 \" Error: ");
+					MessageBox(_T("Error Connecting to server!"), _T("Notice"), MB_ICONINFORMATION);
+					COutputLogger(e.what());
+					std::string a = std::string("-1");
+					return concurrency::create_task(
+						[a]()
+					{
+						return a;
+					});
+				}
+			}
+		});
+	}
+	catch (const std::exception e) {
+		COutputLogger("Error Connecting to server");
+		MessageBox(_T("Error Connecting to server!"), _T("Notice"), MB_ICONINFORMATION);
+		std::string a = std::string("-1");
+		return concurrency::create_task(
+			[a]()
+		{
+			return a;
+		});
 	}
 }
 
