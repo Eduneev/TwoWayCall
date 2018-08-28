@@ -506,7 +506,8 @@ void COpenLiveDlg::StartWebSockets()
 						log << "Join call on channel " << m_dlgEnterChannel.GetChannelName() << endl;
 						COpenLiveDlg::OnJoinChannel(0, 0);
 						CVideoDlg::m_bInitialFullScreenCheck = TRUE;
-
+						
+						Sleep(1000);
 						system("stop.exe");
 					}
 					else if (action.compare(string(GetTextForAction(Action::LEAVE))) == 0) {
@@ -678,19 +679,13 @@ void COpenLiveDlg::SetClassroomDetails()
 std::string COpenLiveDlg::ReadAuthPermissions()
 {
 	using namespace std;
-
-	COutputLogger("MARCO");
-
 	ifstream fileStream(m_sAuthPath.c_str());
 	ASSERT(fileStream.good());
-
-	string line;
-	string result;
+	string line;	string result;
 	while (std::getline(fileStream, line)) {
 		result = line;
 	}
 
-	COutputLogger("POLO");
 	COutputLogger(result.c_str());
 	return result;
 }
@@ -704,33 +699,36 @@ pplx::task<std::string> COpenLiveDlg::HTTPStreamingAsync(web::uri* url)
 	http_client client(*url);
 
 	// Make the request and asynchronously process the response.
-	return client.request(methods::GET).then([](http_response response) {
-		if (response.status_code() == status_codes::OK) {
-			try {
-				auto body = response.extract_utf8string();
-				return body;
+	try {
+		return client.request(methods::GET).then([&](http_response response) {
+			if (response.status_code() == status_codes::OK) {
+				try {
+					auto body = response.extract_utf8string();
+					return body;
+				}
+				catch (http_exception e) {
+					COutputLogger("Error extracting string. Return \" - 1 \" Error: ");
+					MessageBox(_T("Error Connecting to server!"), _T("Notice"), MB_ICONINFORMATION);
+					COutputLogger(e.what());
+					std::string a = std::string("-1");
+					return concurrency::create_task(
+						[a]()
+					{
+						return a;
+					});
+				}
 			}
-			catch (http_exception e) {
-				COutputLogger("Error extracting string. Return \" - 1 \" Error: ");
-				COutputLogger(e.what());
-				std::string a = std::string("-1");
-				return concurrency::create_task(
-					[a]()
-				{
-					return a;
-				});
-			}
-		}
-		else {
-			COutputLogger("Error Connecting to server");
-
-			std::string a = std::string("-1");
-			return concurrency::create_task(
-				[a]()
-			{
-				return a;
-			});
-		}
-	});
+		});
+	}
+	catch (const std::exception e) {
+		COutputLogger("Error Connecting to server");
+		MessageBox(_T("Error Connecting to server!"), _T("Notice"), MB_ICONINFORMATION);
+		std::string a = std::string("-1");
+		return concurrency::create_task(
+			[a]()
+		{
+			return a;
+		});
+	}
 }
 
