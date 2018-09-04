@@ -239,7 +239,7 @@ function HandleMessage(ws:WebSocket, json:JSON) {
             console.log("Message: " + JSON.stringify(json));
             SendMessage(ws.id, json);
         }
-    }   
+    }
 }
 
 function AddStudio (ws: WebSocket, json:JSON) {
@@ -263,36 +263,31 @@ function AddStudio (ws: WebSocket, json:JSON) {
 function AddClassroom (ws: WebSocket, json:JSON) {
     var classroomWsID = ws.id;
     console.log ("Adding new classroom " + classroomWsID + ". Number of classrooms " + (Object.keys(classrooms).length + 1));
-    try {
-        var channel = json[Message.CHANNEL];
-        var connection: Connection = undefined;
-        for (var conn of connections) {
-            if (conn.channel == channel) {
-                connection = conn;
-                conn.classroomWsID.push(classroomWsID); // Add to channel's classroom list
-                console.log("Added classroom to connection list. " + conn.classroomWsID);
-            }
+    var channel = json[Message.CHANNEL];
+    var connection: Connection = undefined;
+    for (var conn of connections) {
+        if (conn.channel == channel) {
+            connection = conn;
+            conn.classroomWsID.push(classroomWsID); // Add to channel's classroom list
+            console.log("Added classroom to connection list. " + conn.classroomWsID);
         }
-
-        assert(connection !== undefined, "Could not add Classroom. Connection channel non existent!");
-        var classroom:Classroom = new Classroom(json[Message.CLASSROOMID], json[Message.CLASSROOMNAME], classroomWsID, connection);
-        classrooms[classroomWsID] = classroom // Add to classrooms dict
-
-        websockets[classroomWsID] = ws // Add to websockets dict
-
-        // Send Message to Studio to Add Classroom
-        var studiows:WebSocket = websockets[connection.wsID];
-        studiows.send(
-            JSON.stringify ({
-                profile: Profile.TWOWAYCALL,
-                type: Events.CONNECTION,
-                ClassroomName: json[Message.CLASSROOMNAME],
-                wsID: classroomWsID
-            }));
     }
-    catch (e) {
-        console.error(e);
-    }
+
+    assert(connection !== undefined, "Could not add Classroom. Connection channel non existent!");
+    var classroom:Classroom = new Classroom(json[Message.CLASSROOMID], json[Message.CLASSROOMNAME], classroomWsID, connection);
+    classrooms[classroomWsID] = classroom // Add to classrooms dict
+
+    websockets[classroomWsID] = ws // Add to websockets dict
+
+    // Send Message to Studio to Add Classroom
+    var studiows:WebSocket = websockets[connection.wsID];
+    studiows.send(
+        JSON.stringify ({
+            profile: Profile.TWOWAYCALL,
+            type: Events.CONNECTION,
+            ClassroomName: json[Message.CLASSROOMNAME],
+            wsID: classroomWsID
+        }));
 }
 
 function SendMessage (studioWsID: number, json:JSON) {
