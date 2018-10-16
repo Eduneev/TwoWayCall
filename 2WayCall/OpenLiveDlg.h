@@ -73,12 +73,14 @@ private:
 	CFont		m_ftLink;
 	CFont		m_ftVer;
 	CImageList	m_imgNetQuality;
+	CWnd		m_statusConnect;
 
 private:
 	CVideoDlg		m_dlgVideo;
 	CAgoraObject	*m_lpAgoraObject;
 	IRtcEngine		*m_lpRtcEngine;
 	uWS::Hub h;
+
 
 	enum Events { CONNECTION, MESSAGE, DISCONNECTION };
 
