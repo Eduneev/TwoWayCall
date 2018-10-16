@@ -71,7 +71,7 @@ void COpenLiveDlg::DoDataExchange(CDataExchange* pDX)
 	CDialogEx::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_BTNMIN, m_btnMin);
 	DDX_Control(pDX, IDC_BTNCLOSE, m_btnClose);
-
+	DDX_Control(pDX, IDC_STATUSCONNECT, m_statusConnect);
 	DDX_Control(pDX, IDC_LINKAGORA, m_linkAgora);
 }
 
@@ -183,6 +183,8 @@ void COpenLiveDlg::InitCtrls()
 
 	m_imgNetQuality.Create(32, 32, ILC_COLOR24 | ILC_MASK, 6, 1);
 	m_imgNetQuality.Add(&bmpNetQuality, RGB(0xFF, 0, 0xFF));
+
+	m_statusConnect.SetWindowText(L"Disconnected");
 
 	m_btnMin.MoveWindow(ClientRect.Width() - 46, 1, 22, 22, TRUE);
 	m_btnClose.MoveWindow(ClientRect.Width() - 23, 1, 22, 22, TRUE);
@@ -468,6 +470,8 @@ void COpenLiveDlg::StartWebSockets()
 	{
 		COutputLogger("Connection to server successful");
 
+		m_statusConnect.SetWindowText(L"Connected");
+
 		auto channel = m_dlgEnterChannel.GetChannelName().GetBuffer();
 		char buffer[500];
 		wcstombs(buffer, channel, 500);		
@@ -528,8 +532,9 @@ void COpenLiveDlg::StartWebSockets()
 		}
 	});
 
-	h.onDisconnection([](uWS::WebSocket<uWS::CLIENT> *ws, int code, char *message, size_t length) {
+	h.onDisconnection([&](uWS::WebSocket<uWS::CLIENT> *ws, int code, char *message, size_t length) {
 		COutputLogger("CLIENT CLOSE: ");
+		m_statusConnect.SetWindowText(L"Disconnected");
 	});
 	
 	h.onError([&](void *user) {
