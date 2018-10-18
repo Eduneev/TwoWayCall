@@ -517,6 +517,7 @@ void COpenLiveDlg::StartWebSockets()
 					else if (action.compare(string(GetTextForAction(Action::LEAVE))) == 0) {
 						// Leave video
 						COutputLogger("Leaving Call Channel");
+						COutputLogger("Starting VLC");
 						lpAgoraObject->SetMsgHandlerWnd(m_dlgVideo.GetSafeHwnd());
 						m_dlgVideo.SendMessage(WM_LEAVEHANDLER, 0, 0);
 						m_dlgVideo.SetForegroundWindow();
@@ -570,7 +571,6 @@ void COpenLiveDlg::ErrorCheck(void* user)
 {
 	freopen("error.txt", "w", stderr);
 	COutputLogger("ERROR");
-	MessageBox(_T("Unable to Reach Server. Please contact administrator"), _T("Notice"), MB_ICONSTOP);
 
 	int protocolErrorCount = 0;
 	switch ((long)user) {
@@ -604,7 +604,8 @@ void COpenLiveDlg::ErrorCheck(void* user)
 		}
 		break;
 	default:
-		COutputLogger("Could not connect to websocket\n");
+		COutputLogger("Could not connect to websocket");
+		//MessageBox(_T("Unable to Reach Server. Please contact administrator"), _T("Notice"), MB_ICONSTOP);
 		break;
 	}
 }
@@ -615,7 +616,7 @@ void COpenLiveDlg::StartVlc()
 	using web::uri;
 	using json = nlohmann::json;
 
-	string classroomUrl = COpenLiveDlg::m_sBaseUrl + std::string("GetClassroom/") + m_sAuthKey;
+	string classroomUrl = COpenLiveDlg::m_sBaseUrl + std::string("GetLastUsedCommand/") + std::to_string(m_nClassroomID);
 	COutputLogger(classroomUrl.c_str());
 
 	uri *url = new uri(ConvertToWString(classroomUrl).c_str());
@@ -624,25 +625,19 @@ void COpenLiveDlg::StartVlc()
 	try
 	{
 		string result = HTTPStreamingAsync(url).get();
+		auto last_used = result;
+
+		// If result is Failure, do not update m_sLastUsedCommand
+		if (last_used.compare("Failure") != 0)
+			m_sLastUsedCommand = last_used.substr(1, last_used.length()-2);
+
+		COutputLogger("No errors retrieving VLC Command");
+		string str = string("START \"\" ") + m_sLastUsedCommand;
+		COutputLogger(str.c_str());
+		system(str.c_str());
 	}
 	catch (...)
 	{
-		COutputLogger("Unable to connect to 2WayLive Server.");
-		MessageBox(_T("Unable to connect to 2WayLive Server. Contact administrator!"), _T("Notice"), MB_ICONSTOP);
-	}
-
-	COutputLogger(result.c_str());
-
-	if (!IsJson(result))
-		MessageBox(_T("Unable to Reach Server"), _T("Notice"), MB_ICONINFORMATION);
-
-	nlohmann::json classroom = nlohmann::json::parse(result);
-
-	if (int(classroom[GetTextForWebApi(WebApi::CLASSROOMIDS)]) == -1) {
-		MessageBox(_T("Something went wrong!"), _T("Notice"), MB_ICONINFORMATION);
-	}
-	else {
-		m_sLastUsedCommand = classroom[GetTextForWebApi(WebApi::LASTUSEDCOMMAND)].get<string>();
 		string str = string("START \"\" ") + m_sLastUsedCommand;
 		system(str.c_str());
 	}
@@ -671,9 +666,6 @@ void COpenLiveDlg::SetClassroomDetails()
 	string result = HTTPStreamingAsync(url).get();
 	COutputLogger(result.c_str());
 	
-	if (!IsJson(result))
-		MessageBox(_T("Unable to Reach Server"), _T("Notice"), MB_ICONINFORMATION);
-
 	nlohmann::json classroom = nlohmann::json::parse(result);
 
 	if (int(classroom[GetTextForWebApi(WebApi::CLASSROOMIDS)]) == -1) {
@@ -682,6 +674,7 @@ void COpenLiveDlg::SetClassroomDetails()
 	else {
 		m_sClassroomName = classroom[GetTextForWebApi(WebApi::CLASSROOMNAMES)].get<string>();
 		m_nClassroomID = int(classroom[GetTextForWebApi(WebApi::CLASSROOMIDS)]);
+		m_sLastUsedCommand = classroom[GetTextForWebApi(WebApi::LASTUSEDCOMMAND)].get<string>();
 	}
 	COutputLogger(m_sClassroomName.c_str());
 }
