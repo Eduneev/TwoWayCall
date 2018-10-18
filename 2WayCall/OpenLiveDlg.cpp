@@ -570,35 +570,30 @@ void COpenLiveDlg::ErrorCheck(void* user)
 {
 	freopen("error.txt", "w", stderr);
 	COutputLogger("ERROR");
+	MessageBox(_T("Unable to Reach Server. Please contact administrator"), _T("Notice"), MB_ICONSTOP);
+
 	int protocolErrorCount = 0;
 	switch ((long)user) {
 	case 1:
-		std::cerr << "Client emitted error on invalid URI" << std::endl;
-		getchar();
+		COutputLogger("Client emitted error on invalid URI");
 		break;
 	case 2:
-		std::cerr << "Client emitted error on resolve failure" << std::endl;
-		getchar();
+		COutputLogger("Client emitted error on resolve failure");
 		break;
 	case 3:
-		std::cerr << "Client emitted error on connection timeout (non-SSL)" << std::endl;
-		getchar();
+		COutputLogger("Client emitted error on connection timeout (non-SSL)");
 		break;
 	case 5:
-		std::cerr << "Client emitted error on connection timeout (SSL)" << std::endl;
-		getchar();
+		COutputLogger("Client emitted error on connection timeout (SSL)");
 		break;
 	case 6:
-		std::cerr << "Client emitted error on HTTP response without upgrade (non-SSL)" << std::endl;
-		getchar();
+		COutputLogger("Client emitted error on HTTP response without upgrade (non-SSL)");
 		break;
 	case 7:
-		std::cerr << "Client emitted error on HTTP response without upgrade (SSL)" << std::endl;
-		getchar();
+		COutputLogger("Client emitted error on HTTP response without upgrade (SSL)");
 		break;
 	case 10:
-		std::cerr << "Client emitted error on poll error" << std::endl;
-		getchar();
+		COutputLogger("Client emitted error on poll error");
 		break;
 	case 11:
 		protocolErrorCount++;
@@ -610,9 +605,7 @@ void COpenLiveDlg::ErrorCheck(void* user)
 		break;
 	default:
 		COutputLogger("Could not connect to websocket\n");
-		std::cerr << "FAILURE: " << user << " could not connect to websocket server" << std::endl;
-		//MessageBox(_T("Unable to Reach Server"), _T("Notice"), MB_ICONINFORMATION);
-		getchar();
+		break;
 	}
 }
 
@@ -626,7 +619,18 @@ void COpenLiveDlg::StartVlc()
 	COutputLogger(classroomUrl.c_str());
 
 	uri *url = new uri(ConvertToWString(classroomUrl).c_str());
-	string result = HTTPStreamingAsync(url).get();
+	
+	string result = "";
+	try
+	{
+		string result = HTTPStreamingAsync(url).get();
+	}
+	catch (...)
+	{
+		COutputLogger("Unable to connect to 2WayLive Server.");
+		MessageBox(_T("Unable to connect to 2WayLive Server. Contact administrator!"), _T("Notice"), MB_ICONSTOP);
+	}
+
 	COutputLogger(result.c_str());
 
 	if (!IsJson(result))
@@ -651,6 +655,7 @@ void COpenLiveDlg::SetClassroomDetails()
 	
 	COutputLogger("Setting Classroom details");
 
+	// Read permissions
 	m_sAuthKey = ReadAuthPermissions();
 
 	if (m_sAuthKey.empty()) {
@@ -711,10 +716,9 @@ pplx::task<std::string> COpenLiveDlg::HTTPStreamingAsync(web::uri* url)
 					auto body = response.extract_utf8string();
 					return body;
 				}
-				catch (http_exception e) {
+				catch (...) {
 					COutputLogger("Error extracting string. Return \" - 1 \" Error: ");
-					MessageBox(_T("Error Connecting to server!"), _T("Notice"), MB_ICONINFORMATION);
-					COutputLogger(e.what());
+					MessageBox(_T("Unable to connect to 2WayLive Server. Contact administrator!"), _T("Notice"), MB_ICONSTOP);
 					std::string a = std::string("-1");
 					return concurrency::create_task(
 						[a]()
@@ -723,11 +727,15 @@ pplx::task<std::string> COpenLiveDlg::HTTPStreamingAsync(web::uri* url)
 					});
 				}
 			}
+			else {
+				COutputLogger("Unable to connect to 2WayLive Server.");
+				MessageBox(_T("Unable to connect to 2WayLive Server. Contact administrator!"), _T("Notice"), MB_ICONSTOP);
+			}
 		});
 	}
-	catch (const std::exception e) {
-		COutputLogger("Error Connecting to server");
-		MessageBox(_T("Error Connecting to server!"), _T("Notice"), MB_ICONINFORMATION);
+	catch (...) {
+		COutputLogger("Unable to connect to 2WayLive Server.");
+		MessageBox(_T("Unable to connect to 2WayLive Server. Contact administrator!"), _T("Notice"), MB_ICONSTOP);
 		std::string a = std::string("-1");
 		return concurrency::create_task(
 			[a]()
@@ -735,5 +743,7 @@ pplx::task<std::string> COpenLiveDlg::HTTPStreamingAsync(web::uri* url)
 			return a;
 		});
 	}
+
+	COutputLogger("Reaching end of the url function. Error");
 }
 
