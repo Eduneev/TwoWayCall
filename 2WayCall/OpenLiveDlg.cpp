@@ -616,7 +616,7 @@ void COpenLiveDlg::StartVlc()
 	using web::uri;
 	using json = nlohmann::json;
 
-	string classroomUrl = COpenLiveDlg::m_sBaseUrl + std::string("GetLastUsedCommand/") + std::to_string(m_nClassroomID);
+	string classroomUrl = COpenLiveDlg::m_sBaseUrl + std::string("GetClassroom/") + m_sAuthKey;
 	COutputLogger(classroomUrl.c_str());
 
 	uri *url = new uri(ConvertToWString(classroomUrl).c_str());
@@ -625,12 +625,13 @@ void COpenLiveDlg::StartVlc()
 	try
 	{
 		string result = HTTPStreamingAsync(url).get();
-		auto last_used = result;
 
-		// If result is Failure, do not update m_sLastUsedCommand
-		if (last_used.compare("Failure") != 0)
-			m_sLastUsedCommand = last_used.substr(1, last_used.length()-2);
+		nlohmann::json classroom = nlohmann::json::parse(result);
 
+		m_sLastUsedCommand = classroom[GetTextForWebApi(WebApi::LASTUSEDCOMMAND)].get<string>();
+
+		COutputLogger("Result of last used command");
+		
 		COutputLogger("No errors retrieving VLC Command");
 		string str = string("START \"\" ") + m_sLastUsedCommand;
 		COutputLogger(str.c_str());
@@ -675,6 +676,7 @@ void COpenLiveDlg::SetClassroomDetails()
 		m_sClassroomName = classroom[GetTextForWebApi(WebApi::CLASSROOMNAMES)].get<string>();
 		m_nClassroomID = int(classroom[GetTextForWebApi(WebApi::CLASSROOMIDS)]);
 		m_sLastUsedCommand = classroom[GetTextForWebApi(WebApi::LASTUSEDCOMMAND)].get<string>();
+		COutputLogger(m_sLastUsedCommand.c_str());
 	}
 	COutputLogger(m_sClassroomName.c_str());
 }
