@@ -73,7 +73,7 @@ private:
 	CFont		m_ftLink;
 	CFont		m_ftVer;
 	CImageList	m_imgNetQuality;
-	CWnd		m_statusConnect;
+	CWnd		*m_statusConnect;
 
 private:
 	CVideoDlg		m_dlgVideo;
@@ -100,7 +100,7 @@ public:
 	afx_msg void OnStnClickedLinkagora();
 
 	//place in different file maybe
-	void StartWebSockets();
+	void StartWebSockets(CWnd *m_statusConnect);
 	bool IsJson(std::string str);
 	void ErrorCheck(void* user);
 	Concurrency::task<std::string> COpenLiveDlg::HTTPStreamingAsync(web::uri* url);

@@ -71,7 +71,7 @@ void COpenLiveDlg::DoDataExchange(CDataExchange* pDX)
 	CDialogEx::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_BTNMIN, m_btnMin);
 	DDX_Control(pDX, IDC_BTNCLOSE, m_btnClose);
-	DDX_Control(pDX, IDC_STATUSCONNECT, m_statusConnect);
+	DDX_Control(pDX, IDC_STATUSCONNECT, *m_statusConnect);
 	DDX_Control(pDX, IDC_LINKAGORA, m_linkAgora);
 }
 
@@ -184,7 +184,7 @@ void COpenLiveDlg::InitCtrls()
 	m_imgNetQuality.Create(32, 32, ILC_COLOR24 | ILC_MASK, 6, 1);
 	m_imgNetQuality.Add(&bmpNetQuality, RGB(0xFF, 0, 0xFF));
 
-	m_statusConnect.SetWindowText(L"Disconnected");
+	m_statusConnect->SetWindowText(L"Disconnected");
 
 	m_btnMin.MoveWindow(ClientRect.Width() - 46, 1, 22, 22, TRUE);
 	m_btnClose.MoveWindow(ClientRect.Width() - 23, 1, 22, 22, TRUE);
@@ -429,7 +429,7 @@ LRESULT COpenLiveDlg::WebSocketHandler(WPARAM wParam, LPARAM lParam)
 	COutputLogger("Inside Websocket Handler");
 	auto t = concurrency::create_task([&]()
 	{
-		StartWebSockets();
+		StartWebSockets(m_statusConnect);
 	});
 
 	return 0;
@@ -461,7 +461,7 @@ const char* COpenLiveDlg::GetTextForWebApi(int enumVal)
 	return COpenLiveDlg::WebApiStrings[enumVal];
 }
 
-void COpenLiveDlg::StartWebSockets()
+void COpenLiveDlg::StartWebSockets(CWnd *m_statusConnect)
 {
 	using namespace std;
 	using json = nlohmann::json;
@@ -470,7 +470,7 @@ void COpenLiveDlg::StartWebSockets()
 	{
 		COutputLogger("Connection to server successful");
 
-		m_statusConnect.SetWindowText(L"Connected");
+		m_statusConnect->SetWindowText(L"Connected");
 
 		auto channel = m_dlgEnterChannel.GetChannelName().GetBuffer();
 		char buffer[500];
@@ -535,7 +535,7 @@ void COpenLiveDlg::StartWebSockets()
 
 	h.onDisconnection([&](uWS::WebSocket<uWS::CLIENT> *ws, int code, char *message, size_t length) {
 		COutputLogger("CLIENT CLOSE: ");
-		m_statusConnect.SetWindowText(L"Disconnected");
+		m_statusConnect->SetWindowText(L"Disconnected");
 	});
 	
 	h.onError([&](void *user) {
