@@ -20,7 +20,15 @@ exports.__esModule = true;
             ClassroomName: <ClassroomName>,
             wsID: <websocket id>
         }
-        
+
+        {
+            profile: twowaycall,
+            type: connection,
+            ClassroomName: Piteampura 1,
+            wsID: 123
+        }
+
+
         Upon receiving message:
             1) Add div to add classroom connection. Create attributes wsid,
             2) Make an icon for call and make an onclick button that sends a join/leave message depending on the state
@@ -34,6 +42,13 @@ exports.__esModule = true;
         }
 
         Close Connection:
+
+            {
+              profile: Profile.TWOWAYCALL,
+              type: Event.CLOSE,
+              channel: <channel name>
+            }
+
             Upon closing, we wish to delete channel and close all corresponding classroom connections
         
         {
@@ -103,6 +118,15 @@ var Message;
     Message["CLASSROOMID"] = "ClassroomID";
     Message["ACTION"] = "action";
 })(Message || (Message = {}));
+var fs = require("fs");
+var util = require("util");
+var log_file = fs.createWriteStream(__dirname + '/debug.log', { flags: 'w' });
+var log_stdout = process.stdout;
+console.log = function (d) {
+    d = new Date().toString() + " | " + d;
+    log_file.write(util.format(d) + '\n');
+    log_stdout.write(util.format(d) + '\n');
+};
 var WebSocket = require("ws");
 var connections = {};
 var websockets = {}; // websocket mapping

@@ -19,7 +19,15 @@
             ClassroomName: <ClassroomName>,
             wsID: <websocket id>
         }
-        
+
+        {
+            profile: twowaycall,
+            type: connection,
+            ClassroomName: Piteampura 1,
+            wsID: 123
+        }
+
+
         Upon receiving message:
             1) Add div to add classroom connection. Create attributes wsid, 
             2) Make an icon for call and make an onclick button that sends a join/leave message depending on the state
@@ -124,6 +132,17 @@ enum Message {
     CLASSROOMID = 'ClassroomID',
     ACTION = 'action'
 }
+
+import * as fs from 'fs';
+import * as util from 'util';
+var log_file = fs.createWriteStream(__dirname + '/debug.log', {flags : 'w'});
+var log_stdout = process.stdout;
+
+console.log = function(d) { //
+    d = new Date().toString() + " | " +  d;
+  log_file.write(util.format(d) + '\n');
+  log_stdout.write(util.format(d) + '\n');
+};
 
 import * as WebSocket from 'ws';
 let connections: {[channel: string]:Connection} = {};
