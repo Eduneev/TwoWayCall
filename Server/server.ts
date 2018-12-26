@@ -315,7 +315,7 @@ function AddClassroom (ws: WebSocket, json:JSON) {
 
     // Send Message to Studio to Add Classroom
     var studiows:WebSocket = websockets[conn.wsID];
-    console.log("Sending classroom connection to Studio " + studios[studiows].StudioName);
+    console.log("Sending classroom connection to Studio " + studios[conn.wsID].StudioName);
     studiows.send(
         JSON.stringify ({
             profile: Profile.TWOWAYCALL,
