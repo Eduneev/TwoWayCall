@@ -258,6 +258,16 @@ function AddStudio(ws, json) {
     var studio = new Studio(json[Message.STUDIOID], json[Message.STUDIONAME], studioWsID, conn);
     studios[studioWsID] = studio; // Add to studios dict
     websockets[studioWsID] = ws; // Add to websockets dict
+    // Send notice about all connected classrooms to studio
+    for (var _i = 0, _a = conn.classroomWsID; _i < _a.length; _i++) {
+        var wsID = _a[_i];
+        ws.send(JSON.stringify({
+            profile: Profile.TWOWAYCALL,
+            type: Events.CONNECTION,
+            ClassroomName: classrooms[wsID].ClassroomName,
+            wsID: wsID
+        }));
+    }
 }
 function AddClassroom(ws, json) {
     var classroomWsID = ws.id;

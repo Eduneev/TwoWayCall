@@ -295,6 +295,16 @@ function AddStudio (ws: WebSocket, json:JSON) {
     studios[studioWsID] = studio; // Add to studios dict
 
     websockets[studioWsID] = ws; // Add to websockets dict
+
+    // Send notice about all connected classrooms to studio
+    for (let wsID of conn.classroomWsID){
+        ws.send(JSON.stringify({
+            profile: Profile.TWOWAYCALL,
+            type: Events.CONNECTION,
+            ClassroomName: classrooms[wsID].ClassroomName,
+            wsID: wsID
+        }));
+    }
 }
 
 function AddClassroom (ws: WebSocket, json:JSON) {
