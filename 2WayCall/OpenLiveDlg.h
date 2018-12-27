@@ -48,6 +48,8 @@ protected:
 	afx_msg LRESULT OnJoinChannel(WPARAM wParam, LPARAM lParam);
 	afx_msg LRESULT OnLeaveChannel(WPARAM wParam, LPARAM lParam);
 	afx_msg LRESULT WebSocketHandler(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT SetConnected(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT SetDisconnected(WPARAM wParam, LPARAM lParam);
 
 	afx_msg LRESULT OnNetworkQuality(WPARAM wParam, LPARAM lParam);
 
@@ -73,7 +75,8 @@ private:
 	CFont		m_ftLink;
 	CFont		m_ftVer;
 	CImageList	m_imgNetQuality;
-	CWnd		*m_statusConnect;
+	//CWnd		*m_statusConnect;
+	CStatic		m_statusConnect;
 
 private:
 	CVideoDlg		m_dlgVideo;

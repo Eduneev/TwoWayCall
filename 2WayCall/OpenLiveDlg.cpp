@@ -20,6 +20,8 @@ const char* COpenLiveDlg::MessageStrings[] = { "profile", "type", "wsID", "chann
 const char* COpenLiveDlg::WebApiStrings[] = { "ClassRoomName", "ClassRoomId", "LastUsedCommand" };
 std::string COpenLiveDlg::m_sBaseUrl = std::string("http://localhost:55082/api/");
 std::string COpenLiveDlg::m_sAuthPath = std::string("auth.pem");
+std::string TESTING_URI = "ws://localhost:2000";
+std::string PROD_URI = "ws://52.15.186.193:2000";
 
 // CAboutDlg dialog used for App About
 
@@ -71,10 +73,9 @@ void COpenLiveDlg::DoDataExchange(CDataExchange* pDX)
 	CDialogEx::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_BTNMIN, m_btnMin);
 	DDX_Control(pDX, IDC_BTNCLOSE, m_btnClose);
-	DDX_Control(pDX, IDC_STATUSCONNECT, *m_statusConnect);
+	DDX_Control(pDX, IDC_STATUSCONNECT, m_statusConnect);
 	DDX_Control(pDX, IDC_LINKAGORA, m_linkAgora);
 }
-
 BEGIN_MESSAGE_MAP(COpenLiveDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
@@ -85,7 +86,9 @@ BEGIN_MESSAGE_MAP(COpenLiveDlg, CDialogEx)
     ON_MESSAGE(WM_JOINCHANNEL, &COpenLiveDlg::OnJoinChannel)
     ON_MESSAGE(WM_LEAVECHANNEL, &COpenLiveDlg::OnLeaveChannel)
 	ON_MESSAGE(WM_STARTSOCKET, &COpenLiveDlg::WebSocketHandler)
-	
+	ON_MESSAGE(WM_SETCONNECTED, &COpenLiveDlg::SetConnected)
+	ON_MESSAGE(WM_SETDISCONNECTED, &COpenLiveDlg::SetDisconnected)
+
     ON_BN_CLICKED(IDC_BTNMIN, &COpenLiveDlg::OnBnClickedBtnmin)
     ON_BN_CLICKED(IDC_BTNCLOSE, &COpenLiveDlg::OnBnClickedBtnclose)
 
@@ -165,6 +168,8 @@ BOOL COpenLiveDlg::OnInitDialog()
 	InitCtrls();
 	InitChildDialog();
 
+	m_statusConnect.SetWindowTextW(L"Disconnected");
+
 	atexit([]() {
 		std::terminate();
 	});
@@ -184,7 +189,7 @@ void COpenLiveDlg::InitCtrls()
 	m_imgNetQuality.Create(32, 32, ILC_COLOR24 | ILC_MASK, 6, 1);
 	m_imgNetQuality.Add(&bmpNetQuality, RGB(0xFF, 0, 0xFF));
 
-	m_statusConnect->SetWindowText(L"Disconnected");
+	//m_statusConnect->SetWindowText(_T("Disconnected"));
 
 	m_btnMin.MoveWindow(ClientRect.Width() - 46, 1, 22, 22, TRUE);
 	m_btnClose.MoveWindow(ClientRect.Width() - 23, 1, 22, 22, TRUE);
@@ -424,12 +429,35 @@ std::wstring ConvertToWString(std::string str)
 	return tempUrl;
 }
 
+LRESULT COpenLiveDlg::SetConnected(WPARAM wParam, LPARAM lParam)
+{
+	COutputLogger("SETTING CONNECTED");
+	m_statusConnect.SetWindowTextW(L"Connected");
+
+	CString s;
+	m_statusConnect.GetWindowTextW(s);
+	std::wstring st(s);
+	std::string str(st.begin(), st.end());
+	COutputLogger(str.c_str());
+
+	return 0;
+}
+
+LRESULT COpenLiveDlg::SetDisconnected(WPARAM wParam, LPARAM lParam)
+{
+	COutputLogger("SETTING DISCONNECTED");
+	m_statusConnect.SetWindowTextW(L"Disconnected");
+	return 0;
+}
+
 LRESULT COpenLiveDlg::WebSocketHandler(WPARAM wParam, LPARAM lParam)
 {
 	COutputLogger("Inside Websocket Handler");
+	MessageBox(L"Send");
 	auto t = concurrency::create_task([&]()
 	{
-		StartWebSockets(m_statusConnect);
+		COutputLogger("GETTING HERE");
+		StartWebSockets(this);
 	});
 
 	return 0;
@@ -466,11 +494,13 @@ void COpenLiveDlg::StartWebSockets(CWnd *m_statusConnect)
 	using namespace std;
 	using json = nlohmann::json;
 
+	h.connect(PROD_URI);
+
 	h.onConnection([&](uWS::WebSocket<uWS::CLIENT> *ws, uWS::HttpRequest req) 
 	{
 		COutputLogger("Connection to server successful");
 
-		m_statusConnect->SetWindowText(L"Connected");
+		m_statusConnect->SendMessage(WM_SETCONNECTED, 0, 0);
 
 		auto channel = m_dlgEnterChannel.GetChannelName().GetBuffer();
 		char buffer[500];
@@ -535,14 +565,16 @@ void COpenLiveDlg::StartWebSockets(CWnd *m_statusConnect)
 
 	h.onDisconnection([&](uWS::WebSocket<uWS::CLIENT> *ws, int code, char *message, size_t length) {
 		COutputLogger("CLIENT CLOSE: ");
-		m_statusConnect->SetWindowText(L"Disconnected");
+		m_statusConnect->SendMessage(WM_SETDISCONNECTED, 0, 0);
 	});
 	
 	h.onError([&](void *user) {
 		ErrorCheck(user);
+		h.connect(PROD_URI);
 	});
 
-	h.connect("ws://localhost:2000"); // connect to server Change to prod server for release 
+	//h.connect(TESTING_URI); // connect to server Change to prod server for release
+	
 	h.run();
 	COutputLogger("Exiting WebSocket thread");
 }
