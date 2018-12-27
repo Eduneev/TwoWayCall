@@ -433,6 +433,11 @@ LRESULT COpenLiveDlg::SetConnected(WPARAM wParam, LPARAM lParam)
 {
 	COutputLogger("SETTING CONNECTED");
 	m_statusConnect.SetWindowTextW(L"Connected");
+	CRect rect;
+	m_statusConnect.GetWindowRect(&rect);
+	ScreenToClient(&rect);
+	InvalidateRect(&rect);
+	UpdateWindow();
 
 	CString s;
 	m_statusConnect.GetWindowTextW(s);
@@ -447,13 +452,18 @@ LRESULT COpenLiveDlg::SetDisconnected(WPARAM wParam, LPARAM lParam)
 {
 	COutputLogger("SETTING DISCONNECTED");
 	m_statusConnect.SetWindowTextW(L"Disconnected");
+	CRect rect;
+	m_statusConnect.GetWindowRect(&rect);
+	ScreenToClient(&rect);
+	InvalidateRect(&rect);
+	UpdateWindow();
+
 	return 0;
 }
 
 LRESULT COpenLiveDlg::WebSocketHandler(WPARAM wParam, LPARAM lParam)
 {
 	COutputLogger("Inside Websocket Handler");
-	MessageBox(L"Send");
 	auto t = concurrency::create_task([&]()
 	{
 		COutputLogger("GETTING HERE");
