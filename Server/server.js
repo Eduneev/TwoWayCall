@@ -154,7 +154,6 @@ wss.on('connection', function connection(ws) {
         }
     });
     ws.on('pong', function () {
-        console.log("Pong Received " + ws.id);
         this.isAlive = true;
     });
 });
@@ -322,4 +321,4 @@ var interval = setInterval(function ping() {
         ws.isAlive = false;
         ws.ping(noop);
     });
-}, 30000);
+}, 120000);
