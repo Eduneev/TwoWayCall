@@ -7,7 +7,6 @@
 #include "OpenLiveDlg.h"
 #include "afxdialogex.h"
 
-
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -18,7 +17,7 @@ const char* COpenLiveDlg::ProfileStrings[] = { "2WayCall" };
 const char* COpenLiveDlg::ActionStrings[] = { "join", "leave" };
 const char* COpenLiveDlg::MessageStrings[] = { "profile", "type", "wsID", "channel", "ClassroomName", "ClassroomID", "action", "Failure" };
 const char* COpenLiveDlg::WebApiStrings[] = { "ClassRoomName", "ClassRoomId", "LastUsedCommand" };
-std::string COpenLiveDlg::m_sBaseUrl = std::string("http://localhost:55082/api/");
+std::string COpenLiveDlg::m_sBaseUrl = std::string("http://twowaylive.us-east-2.elasticbeanstalk.com/api/");
 std::string COpenLiveDlg::m_sAuthPath = std::string("auth.pem");
 std::string TESTING_URI = "ws://localhost:2000";
 std::string PROD_URI = "ws://52.15.186.193:2000";
@@ -544,13 +543,13 @@ void COpenLiveDlg::StartWebSockets(CWnd *m_statusConnect)
 
 				if (profile.compare(string(GetTextForProfile(Profile::TWOWAYCALL))) == 0) {
 					auto action = jsParseData[GetTextForMessage(Message::ACTION)].get<string>();
-				
+
 					if (action.compare(string(GetTextForAction(Action::JOIN))) == 0) {
 						std::ofstream log("output.txt", std::ios_base::app | std::ios_base::out);
 						log << "Join call on channel " << m_dlgEnterChannel.GetChannelName() << endl;
 						COpenLiveDlg::OnJoinChannel(0, 0);
 						CVideoDlg::m_bInitialFullScreenCheck = TRUE;
-						
+
 						Sleep(1000);
 						system("stop.exe");
 					}
@@ -576,6 +575,7 @@ void COpenLiveDlg::StartWebSockets(CWnd *m_statusConnect)
 	h.onDisconnection([&](uWS::WebSocket<uWS::CLIENT> *ws, int code, char *message, size_t length) {
 		COutputLogger("CLIENT CLOSE: ");
 		m_statusConnect->SendMessage(WM_SETDISCONNECTED, 0, 0);
+		MessageBox(_T("Disconnected. Enter channel again."));
 	});
 	
 	h.onError([&](void *user) {
@@ -586,6 +586,7 @@ void COpenLiveDlg::StartWebSockets(CWnd *m_statusConnect)
 	//h.connect(TESTING_URI); // connect to server Change to prod server for release
 	
 	h.run();
+
 	COutputLogger("Exiting WebSocket thread");
 }
 
