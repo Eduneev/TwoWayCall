@@ -82,14 +82,16 @@ class Studio {
 class Classroom {
     ClassroomID: number;    
     ClassroomName: string;
+    CenterName: string;
     wsID: number; // websocket id
     conn: Connection;
 
-    constructor (ClassroomID:number, ClassroomName:string, wsID:number, conn:Connection) {
+    constructor (ClassroomID:number, ClassroomName:string, CenterName:string, wsID:number, conn:Connection) {
         this.ClassroomID = ClassroomID;
         this.ClassroomName = ClassroomName;
         this.wsID = wsID;
         this.conn = conn;
+        this.CenterName = CenterName;
     }
 }
 
@@ -307,6 +309,7 @@ function AddStudio (ws: WebSocket, json:JSON) {
             profile: Profile.TWOWAYCALL,
             type: Events.CONNECTION,
             ClassroomName: classrooms[wsID].ClassroomName,
+            CenterName: classrooms[wsID].CenterName,
             wsID: wsID
         }));
     }
@@ -323,7 +326,7 @@ function AddClassroom (ws: WebSocket, json:JSON) {
     conn.classroomWsID.push(classroomWsID);
     console.log("Added classroom to connection list.");
 
-    var classroom:Classroom = new Classroom(json[Message.CLASSROOMID], json[Message.CLASSROOMNAME], classroomWsID, conn);
+    var classroom:Classroom = new Classroom(json[Message.CLASSROOMID], json[Message.CLASSROOMNAME], json[Message.CENTERNAME], classroomWsID, conn );
     classrooms[classroomWsID] = classroom // Add to classrooms dict
 
     websockets[classroomWsID] = ws // Add to websockets dict

@@ -74,11 +74,12 @@ var Studio = /** @class */ (function () {
     return Studio;
 }());
 var Classroom = /** @class */ (function () {
-    function Classroom(ClassroomID, ClassroomName, wsID, conn) {
+    function Classroom(ClassroomID, ClassroomName, CenterName, wsID, conn) {
         this.ClassroomID = ClassroomID;
         this.ClassroomName = ClassroomName;
         this.wsID = wsID;
         this.conn = conn;
+        this.CenterName = CenterName;
     }
     return Classroom;
 }());
@@ -269,6 +270,7 @@ function AddStudio(ws, json) {
             profile: Profile.TWOWAYCALL,
             type: Events.CONNECTION,
             ClassroomName: classrooms[wsID].ClassroomName,
+            CenterName: classrooms[wsID].CenterName,
             wsID: wsID
         }));
     }
@@ -281,7 +283,7 @@ function AddClassroom(ws, json) {
     var conn = connections[channel];
     conn.classroomWsID.push(classroomWsID);
     console.log("Added classroom to connection list.");
-    var classroom = new Classroom(json[Message.CLASSROOMID], json[Message.CLASSROOMNAME], classroomWsID, conn);
+    var classroom = new Classroom(json[Message.CLASSROOMID], json[Message.CLASSROOMNAME], json[Message.CENTERNAME], classroomWsID, conn);
     classrooms[classroomWsID] = classroom; // Add to classrooms dict
     websockets[classroomWsID] = ws; // Add to websockets dict
     // Send Message to Studio to Add Classroom
