@@ -15,8 +15,8 @@
 const char* COpenLiveDlg::EventsStrings[] = { "Connection", "Message", "Disconnection" };
 const char* COpenLiveDlg::ProfileStrings[] = { "2WayCall" };
 const char* COpenLiveDlg::ActionStrings[] = { "join", "leave" };
-const char* COpenLiveDlg::MessageStrings[] = { "profile", "type", "wsID", "channel", "ClassroomName", "ClassroomID", "action", "Failure" };
-const char* COpenLiveDlg::WebApiStrings[] = { "ClassRoomName", "ClassRoomId", "LastUsedCommand" };
+const char* COpenLiveDlg::MessageStrings[] = { "profile", "type", "wsID", "channel", "ClassroomName", "ClassroomID", "action", "Failure", "CenterName" };
+const char* COpenLiveDlg::WebApiStrings[] = { "ClassRoomName", "ClassRoomId", "LastUsedCommand", "CenterName" };
 std::string COpenLiveDlg::m_sBaseUrl = std::string("http://twowaylive.us-east-2.elasticbeanstalk.com/api/");
 std::string COpenLiveDlg::m_sAuthPath = std::string("auth.pem");
 std::string TESTING_URI = "ws://localhost:2000";
@@ -519,6 +519,8 @@ void COpenLiveDlg::StartWebSockets(CWnd *m_statusConnect)
 		jsConnectionConfirmation[GetTextForMessage(Message::PROFILE)] = GetTextForProfile(Profile::TWOWAYCALL);
 		jsConnectionConfirmation[GetTextForMessage(Message::TYPE)] = GetTextForEvent(Events::CONNECTION);
 		jsConnectionConfirmation[GetTextForMessage(Message::CLASSROOMNAME)] = COpenLiveDlg::m_sClassroomName;
+		COutputLogger(m_sCenterName.c_str());
+		jsConnectionConfirmation[GetTextForMessage(Message::CENTERNAME)] = COpenLiveDlg::m_sCenterName;
 		jsConnectionConfirmation[GetTextForMessage(Message::CLASSROOMID)] = COpenLiveDlg::m_nClassroomID;
 		jsConnectionConfirmation[GetTextForMessage(Message::CHANNEL)] = buffer;
 
@@ -717,11 +719,13 @@ void COpenLiveDlg::SetClassroomDetails()
 	}
 	else {
 		m_sClassroomName = classroom[GetTextForWebApi(WebApi::CLASSROOMNAMES)].get<string>();
+		m_sCenterName = classroom[GetTextForWebApi(WebApi::CENTERNAMES)].get<string>();
 		m_nClassroomID = int(classroom[GetTextForWebApi(WebApi::CLASSROOMIDS)]);
 		m_sLastUsedCommand = classroom[GetTextForWebApi(WebApi::LASTUSEDCOMMAND)].get<string>();
 		COutputLogger(m_sLastUsedCommand.c_str());
 	}
 	COutputLogger(m_sClassroomName.c_str());
+	COutputLogger(m_sCenterName.c_str());
 }
 
 std::string COpenLiveDlg::ReadAuthPermissions()

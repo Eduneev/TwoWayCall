@@ -91,9 +91,9 @@ private:
 
 	enum Action { JOIN, LEAVE };
 
-	enum Message { PROFILE, TYPE, WSID, CHANNEL, CLASSROOMNAME, CLASSROOMID, ACTION, FAILURE };
+	enum Message { PROFILE, TYPE, WSID, CHANNEL, CLASSROOMNAME, CLASSROOMID, ACTION, FAILURE, CENTERNAME };
 
-	enum WebApi { CLASSROOMNAMES, CLASSROOMIDS, LASTUSEDCOMMAND };
+	enum WebApi { CLASSROOMNAMES, CLASSROOMIDS, LASTUSEDCOMMAND, CENTERNAMES };
 	
 private:	// data
     int m_nVideoProfile;
@@ -127,6 +127,7 @@ public:
 	const char* GetTextForWebApi(int enumval);
 	int m_nClassroomID;
 	std::string m_sClassroomName;
+	std::string m_sCenterName;
 	std::string m_sLastUsedCommand;
 	std::string m_sAuthKey;
 };
