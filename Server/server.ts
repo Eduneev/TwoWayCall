@@ -130,7 +130,8 @@ enum Message {
     STUDIOID = 'StudioID',
     CLASSROOMNAME = 'ClassroomName',
     CLASSROOMID = 'ClassroomID',
-    ACTION = 'action'
+    ACTION = 'action',
+    CENTERNAME = 'CenterName'
 }
 
 import * as fs from 'fs';
@@ -335,6 +336,7 @@ function AddClassroom (ws: WebSocket, json:JSON) {
             profile: Profile.TWOWAYCALL,
             type: Events.CONNECTION,
             ClassroomName: json[Message.CLASSROOMNAME],
+            CenterName:json[Message.CENTERNAME],
             wsID: classroomWsID
         }));
 }

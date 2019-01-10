@@ -117,6 +117,7 @@ var Message;
     Message["CLASSROOMNAME"] = "ClassroomName";
     Message["CLASSROOMID"] = "ClassroomID";
     Message["ACTION"] = "action";
+    Message["CENTERNAME"] = "CenterName";
 })(Message || (Message = {}));
 var fs = require("fs");
 var util = require("util");
@@ -290,6 +291,7 @@ function AddClassroom(ws, json) {
         profile: Profile.TWOWAYCALL,
         type: Events.CONNECTION,
         ClassroomName: json[Message.CLASSROOMNAME],
+        CenterName: json[Message.CENTERNAME],
         wsID: classroomWsID
     }));
 }
