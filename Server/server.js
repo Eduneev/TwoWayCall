@@ -153,6 +153,10 @@ wss.on('connection', function connection(ws) {
             console.error("Exception: " + e);
         }
     });
+    ws.on('pong', function () {
+        console.log("Pong Received " + ws.id);
+        this.isAlive = true;
+    });
 });
 function assert(condition, message) {
     if (!condition) {
@@ -310,3 +314,12 @@ function containsObject(obj, list) {
     }
     return false;
 }
+function noop() { }
+var interval = setInterval(function ping() {
+    wss.clients.forEach(function each(ws) {
+        if (ws.isAlive === false)
+            return ws.terminate();
+        ws.isAlive = false;
+        ws.ping(noop);
+    });
+}, 30000);
