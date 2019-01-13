@@ -271,6 +271,7 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="IDB_TIP_VIDEO.BMP" />
+    <Image Include="res\bitmap3.bmp" />
     <Image Include="res\OpenLive.ico" />
     <Image Include="res\IDB_BACKGROUND_VIDEO.bmp" />
     <Image Include="res\IDB_BTNAUDIO_VIDEO.bmp" />

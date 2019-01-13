@@ -356,6 +356,7 @@
     <Image Include="res\OpenLive.ico">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="res\bitmap3.bmp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="AgoraObject">
