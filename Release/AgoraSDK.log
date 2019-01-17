@@ -1,0 +1,1521 @@
+Local Date: Jan 10 2019 Local Time: 15:03:44
+Build info: May 28 2018 19:06:54 r
+
+INFO    15:03:44:276   9500; [rp] {"rtc.channel_profile":0}
+INFO    15:03:44:276   9500; [rp] {"rtc.video.enabled":true}
+INFO    15:03:44:276   9500; API call to enable video
+INFO    15:03:44:276   9500; [rp] {"rtc.client_role":1}
+Local Date: Jan 10 2019 Local Time: 20:21:21
+Build info: May 28 2018 19:06:54 r
+
+INFO    20:21:21:880  10228; [rp] {"rtc.channel_profile":0}
+INFO    20:21:21:880  10228; [rp] {"rtc.video.enabled":true}
+INFO    20:21:21:880  10228; API call to enable video
+INFO    20:21:21:880  10228; [rp] {"rtc.client_role":1}
+INFO    20:21:21:880  10228; [dns] parsed ip 13.127.149.196
+INFO    20:21:21:880  10228; [dns] parsed ip 52.68.71.190
+INFO    20:21:21:880  10228; [dns] parsed ip 47.74.211.17
+INFO    20:21:21:880  10228; [dns] parsed ip 128.1.87.155
+INFO    20:21:21:880  10228; [dns] parsed ip 3.0.163.78
+INFO    20:21:21:881  10228; [ap] onParsedDns with err 0, 13.127.149.196, 52.68.71.190, 47.74.211.17, 128.1.87.155, 3.0.163.78, 
+Local Date: Jan 10 2019 Local Time: 20:24:02
+Build info: May 28 2018 19:06:54 r
+
+INFO    20:24:02:604  14744; [rp] {"rtc.channel_profile":0}
+INFO    20:24:02:604  14744; [rp] {"rtc.video.enabled":true}
+INFO    20:24:02:604  14744; API call to enable video
+INFO    20:24:02:604  14744; [rp] {"rtc.client_role":1}
+INFO    20:24:02:605  14744; [dns] parsed ip 47.74.211.17
+INFO    20:24:02:605  14744; [dns] parsed ip 128.1.87.155
+INFO    20:24:02:605  14744; [dns] parsed ip 13.127.149.196
+INFO    20:24:02:605  14744; [dns] parsed ip 52.68.71.190
+INFO    20:24:02:605  14744; [dns] parsed ip 3.0.163.78
+INFO    20:24:02:605  14744; [ap] onParsedDns with err 0, 47.74.211.17, 128.1.87.155, 13.127.149.196, 52.68.71.190, 3.0.163.78, 
+Local Date: Jan 10 2019 Local Time: 20:34:52
+Build info: May 28 2018 19:06:54 r
+
+INFO    20:34:52:668  22928; [rp] {"rtc.channel_profile":0}
+INFO    20:34:52:668  22928; [rp] {"rtc.video.enabled":true}
+INFO    20:34:52:668  22928; API call to enable video
+INFO    20:34:52:668  22928; [rp] {"rtc.client_role":1}
+INFO    20:34:52:668  22928; [dns] parsed ip 128.1.87.155
+INFO    20:34:52:668  22928; [dns] parsed ip 47.74.211.17
+INFO    20:34:52:668  22928; [dns] parsed ip 13.127.149.196
+INFO    20:34:52:668  22928; [dns] parsed ip 3.0.163.78
+INFO    20:34:52:668  22928; [dns] parsed ip 52.68.71.190
+INFO    20:34:52:669  22928; [ap] onParsedDns with err 0, 128.1.87.155, 47.74.211.17, 13.127.149.196, 3.0.163.78, 52.68.71.190, 
+Local Date: Jan 10 2019 Local Time: 20:50:22
+Build info: May 28 2018 19:06:54 r
+
+INFO    20:50:22:768   9956; [rp] {"rtc.channel_profile":0}
+INFO    20:50:22:768   9956; [rp] {"rtc.video.enabled":true}
+INFO    20:50:22:768   9956; API call to enable video
+INFO    20:50:22:768   9956; [rp] {"rtc.client_role":1}
+INFO    20:50:22:772   9956; [dns] parsed ip 47.74.211.17
+INFO    20:50:22:772   9956; [dns] parsed ip 52.68.71.190
+INFO    20:50:22:772   9956; [dns] parsed ip 128.1.87.155
+INFO    20:50:22:772   9956; [dns] parsed ip 3.0.163.78
+INFO    20:50:22:772   9956; [dns] parsed ip 13.127.149.196
+INFO    20:50:22:772   9956; [ap] onParsedDns with err 0, 47.74.211.17, 52.68.71.190, 128.1.87.155, 3.0.163.78, 13.127.149.196, 
+Local Date: Jan 10 2019 Local Time: 20:51:26
+Build info: May 28 2018 19:06:54 r
+
+INFO    20:51:26:544   3336; [rp] {"rtc.channel_profile":0}
+INFO    20:51:26:544   3336; [rp] {"rtc.video.enabled":true}
+INFO    20:51:26:544   3336; API call to enable video
+INFO    20:51:26:544   3336; [rp] {"rtc.client_role":1}
+INFO    20:51:26:544   3336; [dns] parsed ip 13.127.149.196
+INFO    20:51:26:544   3336; [dns] parsed ip 3.0.163.78
+INFO    20:51:26:544   3336; [dns] parsed ip 128.1.87.155
+INFO    20:51:26:545   3336; [dns] parsed ip 52.68.71.190
+INFO    20:51:26:545   3336; [dns] parsed ip 47.74.211.17
+INFO    20:51:26:545   3336; [ap] onParsedDns with err 0, 13.127.149.196, 3.0.163.78, 128.1.87.155, 52.68.71.190, 47.74.211.17, 
+Local Date: Jan 10 2019 Local Time: 20:55:58
+Build info: May 28 2018 19:06:54 r
+
+INFO    20:55:58:539   4780; [rp] {"rtc.channel_profile":0}
+INFO    20:55:58:539   4780; [rp] {"rtc.video.enabled":true}
+INFO    20:55:58:539   4780; API call to enable video
+INFO    20:55:58:539   4780; [rp] {"rtc.client_role":1}
+INFO    20:55:58:574   4780; [dns] parsed ip 128.1.87.155
+INFO    20:55:58:574   4780; [dns] parsed ip 3.0.163.78
+INFO    20:55:58:574   4780; [dns] parsed ip 13.127.149.196
+INFO    20:55:58:574   4780; [dns] parsed ip 47.74.211.17
+INFO    20:55:58:574   4780; [dns] parsed ip 52.68.71.190
+INFO    20:55:58:574   4780; [ap] onParsedDns with err 0, 128.1.87.155, 3.0.163.78, 13.127.149.196, 47.74.211.17, 52.68.71.190, 
+Local Date: Jan 10 2019 Local Time: 22:50:40
+Build info: May 28 2018 19:06:54 r
+
+INFO    22:50:40:657   7296; [rp] {"rtc.channel_profile":0}
+INFO    22:50:40:657   7296; [rp] {"rtc.video.enabled":true}
+INFO    22:50:40:657   7296; API call to enable video
+INFO    22:50:40:658   7296; [rp] {"rtc.client_role":1}
+INFO    22:50:40:667   7296; [dns] parsed ip 128.1.87.155
+INFO    22:50:40:667   7296; [dns] parsed ip 3.0.163.78
+INFO    22:50:40:667   7296; [dns] parsed ip 52.68.71.190
+INFO    22:50:40:667   7296; [dns] parsed ip 47.74.211.17
+INFO    22:50:40:667   7296; [dns] parsed ip 13.127.149.196
+INFO    22:50:40:668   7296; [ap] onParsedDns with err 0, 128.1.87.155, 3.0.163.78, 52.68.71.190, 47.74.211.17, 13.127.149.196, 
+Local Date: Jan 10 2019 Local Time: 22:50:54
+Build info: May 28 2018 19:06:54 r
+
+INFO    22:50:54:605   8564; [rp] {"rtc.channel_profile":0}
+INFO    22:50:54:605   8564; [rp] {"rtc.video.enabled":true}
+INFO    22:50:54:605   8564; API call to enable video
+INFO    22:50:54:605   8564; [rp] {"rtc.client_role":1}
+INFO    22:50:54:608   8564; [dns] parsed ip 13.127.149.196
+INFO    22:50:54:608   8564; [dns] parsed ip 47.74.211.17
+INFO    22:50:54:608   8564; [dns] parsed ip 52.68.71.190
+INFO    22:50:54:608   8564; [dns] parsed ip 3.0.163.78
+INFO    22:50:54:608   8564; [dns] parsed ip 128.1.87.155
+INFO    22:50:54:608   8564; [ap] onParsedDns with err 0, 13.127.149.196, 47.74.211.17, 52.68.71.190, 3.0.163.78, 128.1.87.155, 
+INFO    22:51:38:725  15488; API call to setVideoProfile 40 swap false
+INFO    22:51:38:725   8564; [rp] {"rtc.video.profile":[40,false]}
+INFO    22:51:38:725   8564; video profile is set to 40 swap false
+INFO    22:51:38:726  15488; API call to setupLocalVideo 000106F8
+INFO    22:51:38:731  15488; [API] userManagerPendingView: user 0 window 67320
+INFO    22:51:38:731   8564; [API] userManagerBindUserView: user 0 mode 1 window 67320
+INFO    22:51:38:731  15488; API call to start preview
+INFO    22:51:38:731  15488; API call to join channel '1000' uid 0, SDK ver 2.2.1 build 221, device info 'Microsoft Corporation/Surface Pro 3/x64-based PC/Windows 6.2.9200'
+INFO    22:51:38:731   8564; Create participant 0
+INFO    22:51:38:731   8564; [rp] {"rtc.video.preview":true}
+INFO    22:51:38:731   8564; API call to start video preview
+INFO    22:51:38:731   8564; addRef of media engine, ref=1
+INFO    22:51:38:733   8564; [che] create chat engine, ctx:00000000
+INFO    22:51:38:733   8564; [MYDEBUG] large group call false
+INFO    22:51:38:733   8564; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    22:51:38:734   8564; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    22:51:38:736   8564; engine git commit version:6f8bee51 and branch:(HEAD
+INFO    22:51:38:787   8564; output: kPlatformDefaultAudio
+INFO    22:51:38:795   8564; [WIN_CORE] +++++++Code block begins for checking CoreAudio properties++++++
+INFO    22:51:38:797   8564; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    22:51:38:841   8564; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    22:51:38:841   8564; [WIN_CORE] #rendering endpoint devices (counting all): 4
+INFO    22:51:38:841   8564; [WIN_CORE] ++Endpoint  0:
+INFO    22:51:38:842   8564; [WIN_CORE] ID string    : {0.0.0.00000000}.{953f31be-5fd7-45da-b09a-8fb731c81e90}
+INFO    22:51:38:842   8564; [WIN_CORE] friendly name: "Headset (NC-75 Hands-Free)"
+INFO    22:51:38:842   8564; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    22:51:38:869   8564; [WIN_CORE] #channels    : 1
+INFO    22:51:38:870   8564; [WIN_CORE] ++Endpoint  1:
+INFO    22:51:38:870   8564; [WIN_CORE] ID string    : {0.0.0.00000000}.{a254cfb5-9e3f-4cba-a23d-5624ca39df65}
+INFO    22:51:38:870   8564; [WIN_CORE] friendly name: "Speakers (Realtek High Definition Audio)"
+INFO    22:51:38:871   8564; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    22:51:38:872   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:38:872   8564; [WIN_CORE] ++Endpoint  2:
+INFO    22:51:38:872   8564; [WIN_CORE] ID string    : {0.0.0.00000000}.{ac23f56f-75cb-4fc0-9735-78db56108780}
+INFO    22:51:38:873   8564; [WIN_CORE] friendly name: "Headphones (Realtek High Definition Audio)"
+INFO    22:51:38:873   8564; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    22:51:38:897   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:38:897   8564; [WIN_CORE] ++Endpoint  3:
+INFO    22:51:38:897   8564; [WIN_CORE] ID string    : {0.0.0.00000000}.{c56fa652-f510-430b-ad5e-c3e0e985f3e2}
+INFO    22:51:38:898   8564; [WIN_CORE] friendly name: "Headphones (NC-75 Stereo)"
+INFO    22:51:38:898   8564; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    22:51:38:916   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:38:916   8564; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    22:51:38:919   8564; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    22:51:38:919   8564; [WIN_CORE] #capturing endpoint devices (counting all): 4
+INFO    22:51:38:919   8564; [WIN_CORE] ++Endpoint  0:
+INFO    22:51:38:919   8564; [WIN_CORE] ID string    : {0.0.1.00000000}.{52dfee4f-17d8-4e54-bff9-390b1716dcb8}
+INFO    22:51:38:920   8564; [WIN_CORE] friendly name: "Microphone Array (Realtek High Definition Audio)"
+INFO    22:51:38:920   8564; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    22:51:38:921   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:38:922   8564; [WIN_CORE] ++Endpoint  1:
+INFO    22:51:38:922   8564; [WIN_CORE] ID string    : {0.0.1.00000000}.{56e7b5a9-8b61-4191-af3b-b07072be659b}
+INFO    22:51:38:922   8564; [WIN_CORE] friendly name: "Stereo Mix (Realtek High Definition Audio)"
+INFO    22:51:38:923   8564; [WIN_CORE] state (0x2)  : DISABLED
+INFO    22:51:38:944   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:38:944   8564; [WIN_CORE] ++Endpoint  2:
+INFO    22:51:38:944   8564; [WIN_CORE] ID string    : {0.0.1.00000000}.{5ab9778c-f66a-49e3-8607-fba96f106b9d}
+INFO    22:51:38:945   8564; [WIN_CORE] friendly name: "Headset Microphone (Realtek High Definition Audio)"
+INFO    22:51:38:945   8564; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    22:51:38:947   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:38:947   8564; [WIN_CORE] ++Endpoint  3:
+INFO    22:51:38:947   8564; [WIN_CORE] ID string    : {0.0.1.00000000}.{eccc0cb1-5836-4291-92db-96c0b2221980}
+INFO    22:51:38:947   8564; [WIN_CORE] friendly name: "Headset (NC-75 Hands-Free)"
+INFO    22:51:38:947   8564; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    22:51:38:968   8564; [WIN_CORE] #channels    : 1
+INFO    22:51:38:969   8564; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    22:51:38:980   8564; [WIN_CORE] =====================Recording Device Test======================
+INFO    22:51:38:980   8564; [WIN_CORE] Test recording device on Windows by index (0): friendly name: "Microphone Array (Realtek High Definition Audio)"
+INFO    22:51:38:994   8564; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    22:51:38:994   8564; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    22:51:38:994   8564; [WIN_CORE] nChannels      : 2
+INFO    22:51:38:994   8564; [WIN_CORE] nSamplesPerSec : 48000
+INFO    22:51:38:994   8564; [WIN_CORE] wBitsPerSample : 32
+INFO    22:51:38:995   8564; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    22:51:38:995   8564; [WIN_CORE] VoE selected this capturing format:
+INFO    22:51:38:995   8564; [WIN_CORE] wFormatTag        : 0xFFFE (65534)
+INFO    22:51:38:995   8564; [WIN_CORE] nChannels         : 2
+INFO    22:51:38:995   8564; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    22:51:38:995   8564; [WIN_CORE] wBitsPerSample    : 16
+INFO    22:51:39:139   8564; [WIN_CORE] AudioDeviceBuffer must be attached before streaming can start
+INFO    22:51:39:139   8564; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    22:51:39:139   8564; [WIN_CORE] capture side is now initialized
+INFO    22:51:39:139   8564; [WIN_CORE] no capturing stream is active => close down WASAPI only
+INFO    22:51:39:139   8564; [WIN_CORE] closing down the agora_core_audio_capture_thread...
+INFO    22:51:39:182   8564; [WIN_CORE] =====================Recording Device Test======================
+INFO    22:51:39:182   8564; [WIN_CORE] Test recording device on Windows by index (1): friendly name: "Headset Microphone (Realtek High Definition Audio)"
+INFO    22:51:39:195   8564; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    22:51:39:195   8564; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    22:51:39:195   8564; [WIN_CORE] nChannels      : 2
+INFO    22:51:39:195   8564; [WIN_CORE] nSamplesPerSec : 48000
+INFO    22:51:39:195   8564; [WIN_CORE] wBitsPerSample : 32
+INFO    22:51:39:196   8564; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    22:51:39:196   8564; [WIN_CORE] VoE selected this capturing format:
+INFO    22:51:39:196   8564; [WIN_CORE] wFormatTag        : 0xFFFE (65534)
+INFO    22:51:39:196   8564; [WIN_CORE] nChannels         : 2
+INFO    22:51:39:196   8564; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    22:51:39:196   8564; [WIN_CORE] wBitsPerSample    : 16
+INFO    22:51:39:256   8564; [WIN_CORE] AudioDeviceBuffer must be attached before streaming can start
+INFO    22:51:39:256   8564; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    22:51:39:257   8564; [WIN_CORE] capture side is now initialized
+INFO    22:51:39:257   8564; [WIN_CORE] no capturing stream is active => close down WASAPI only
+INFO    22:51:39:257   8564; [WIN_CORE] closing down the agora_core_audio_capture_thread...
+INFO    22:51:39:275   8564; [WIN_CORE] ======================Playout Device Test=======================
+INFO    22:51:39:275   8564; [WIN_CORE] Test playout device on Windows by index (0): friendly name: "Speakers (Realtek High Definition Audio)"
+INFO    22:51:39:286   8564; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    22:51:39:286   8564; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    22:51:39:286   8564; [WIN_CORE] nChannels      : 2
+INFO    22:51:39:286   8564; [WIN_CORE] nSamplesPerSec : 48000
+INFO    22:51:39:286   8564; [WIN_CORE] wBitsPerSample : 32
+INFO    22:51:39:305   8564; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    22:51:39:307   8564; [WIN_CORE] VoE selected this rendering format:
+INFO    22:51:39:307   8564; [WIN_CORE] wFormatTag         : 0xFFFE (65534)
+INFO    22:51:39:307   8564; [WIN_CORE] nChannels          : 2
+INFO    22:51:39:307   8564; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    22:51:39:307   8564; [WIN_CORE] wBitsPerSample     : 16
+INFO    22:51:39:404   8564; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    22:51:39:405   8564; [WIN_CORE] render side is now initialized
+INFO    22:51:39:405   8564; [WIN_CORE] no rendering stream is active => close down WASAPI only
+INFO    22:51:39:405   8564; [WIN_CORE] closing down the agora_core_audio_render_thread...
+INFO    22:51:39:405   8564; [WIN_CORE] agora_core_audio_render_thread is now closed
+INFO    22:51:39:413   8564; AgoraRTC::AudioDeviceNotificationWindows::~AudioDeviceNotificationWindows destroyed
+INFO    22:51:39:413   8564; [WIN_CORE] *** Windows Core Audio is supported ***
+INFO    22:51:39:413   8564; [WIN_CORE] ++++++++Code block ends for checking CoreAudio properties++++++++
+INFO    22:51:39:413   8564; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    22:51:39:440   8564;   OS info: Microsoft  (build 9200), 64-bit
+INFO    22:51:39:441   8564; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    22:51:39:441   8564; [WIN_CORE] #rendering endpoint devices (counting all): 4
+INFO    22:51:39:441   8564; [WIN_CORE] ++Endpoint  0:
+INFO    22:51:39:441   8564; [WIN_CORE] ID string    : {0.0.0.00000000}.{953f31be-5fd7-45da-b09a-8fb731c81e90}
+INFO    22:51:39:441   8564; [WIN_CORE] friendly name: "Headset (NC-75 Hands-Free)"
+INFO    22:51:39:441   8564; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    22:51:39:442   8564; [WIN_CORE] #channels    : 1
+INFO    22:51:39:442   8564; [WIN_CORE] ++Endpoint  1:
+INFO    22:51:39:442   8564; [WIN_CORE] ID string    : {0.0.0.00000000}.{a254cfb5-9e3f-4cba-a23d-5624ca39df65}
+INFO    22:51:39:442   8564; [WIN_CORE] friendly name: "Speakers (Realtek High Definition Audio)"
+INFO    22:51:39:442   8564; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    22:51:39:442   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:39:443   8564; [WIN_CORE] ++Endpoint  2:
+INFO    22:51:39:443   8564; [WIN_CORE] ID string    : {0.0.0.00000000}.{ac23f56f-75cb-4fc0-9735-78db56108780}
+INFO    22:51:39:443   8564; [WIN_CORE] friendly name: "Headphones (Realtek High Definition Audio)"
+INFO    22:51:39:443   8564; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    22:51:39:443   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:39:443   8564; [WIN_CORE] ++Endpoint  3:
+INFO    22:51:39:443   8564; [WIN_CORE] ID string    : {0.0.0.00000000}.{c56fa652-f510-430b-ad5e-c3e0e985f3e2}
+INFO    22:51:39:444   8564; [WIN_CORE] friendly name: "Headphones (NC-75 Stereo)"
+INFO    22:51:39:444   8564; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    22:51:39:444   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:39:444   8564; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    22:51:39:445   8564; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    22:51:39:445   8564; [WIN_CORE] #capturing endpoint devices (counting all): 4
+INFO    22:51:39:445   8564; [WIN_CORE] ++Endpoint  0:
+INFO    22:51:39:445   8564; [WIN_CORE] ID string    : {0.0.1.00000000}.{52dfee4f-17d8-4e54-bff9-390b1716dcb8}
+INFO    22:51:39:445   8564; [WIN_CORE] friendly name: "Microphone Array (Realtek High Definition Audio)"
+INFO    22:51:39:445   8564; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    22:51:39:446   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:39:446   8564; [WIN_CORE] ++Endpoint  1:
+INFO    22:51:39:446   8564; [WIN_CORE] ID string    : {0.0.1.00000000}.{56e7b5a9-8b61-4191-af3b-b07072be659b}
+INFO    22:51:39:446   8564; [WIN_CORE] friendly name: "Stereo Mix (Realtek High Definition Audio)"
+INFO    22:51:39:446   8564; [WIN_CORE] state (0x2)  : DISABLED
+INFO    22:51:39:446   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:39:446   8564; [WIN_CORE] ++Endpoint  2:
+INFO    22:51:39:446   8564; [WIN_CORE] ID string    : {0.0.1.00000000}.{5ab9778c-f66a-49e3-8607-fba96f106b9d}
+INFO    22:51:39:447   8564; [WIN_CORE] friendly name: "Headset Microphone (Realtek High Definition Audio)"
+INFO    22:51:39:447   8564; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    22:51:39:447   8564; [WIN_CORE] #channels    : 2
+INFO    22:51:39:447   8564; [WIN_CORE] ++Endpoint  3:
+INFO    22:51:39:447   8564; [WIN_CORE] ID string    : {0.0.1.00000000}.{eccc0cb1-5836-4291-92db-96c0b2221980}
+INFO    22:51:39:447   8564; [WIN_CORE] friendly name: "Headset (NC-75 Hands-Free)"
+INFO    22:51:39:447   8564; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    22:51:39:448   8564; [WIN_CORE] #channels    : 1
+INFO    22:51:39:448   8564; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    22:51:39:451   8564; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "Speakers (Realtek High Definition Audio)"
+INFO    22:51:39:454   8564; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "Headset Microphone (Realtek High Definition Audio)"
+INFO    22:51:39:456   8564; StereoPlayoutIsAvailable(), output: available=1
+INFO    22:51:39:456   8564; StereoRecordingIsAvailable(), output: available=1
+INFO    22:51:39:457   2500; Thread with name:EngineMonitorThread started 
+INFO    22:51:39:457   8564; RegisterVolumeNotify
+INFO    22:51:39:457   8564; setMuteStatus, muted: Off
+INFO    22:51:39:457   8564; setMuteOutput, muted: false
+INFO    22:51:39:458   8564; Audio Engine Init success
+INFO    22:51:39:459   8564; Available number of cores:4
+INFO    22:51:39:469   8564; agora::media::VideoEngine::CreateVideoSendTrack
+INFO    22:51:39:470   8564; agora::media::VideoEngine::init: feature prerotation disabled
+INFO    22:51:39:481   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:481   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:481   8564; Agora Engine video codec set to custom mode role mode 0
+INFO    22:51:39:481   8564; Agora Engine video codec index 1
+INFO    22:51:39:481   8564; Agora Engine video stream type = 0
+INFO    22:51:39:484  15144; Thread with name:VideoEncodeThread started 
+INFO    22:51:39:484   8564; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+INFO    22:51:39:485   7648; Thread with name:VideoProcessThread started 
+INFO    22:51:39:485   8564; agora::media::VideoEngine::setCodec: index=1 width=640 height=360 framerate=15
+INFO    22:51:39:485   8564; agora::media::VideoEngine::EnableLowBitRateStream: dual streams enabled 1
+INFO    22:51:39:485   8564; agora::media::VideoEngine::h264WebInteropEnable: enable 0
+INFO    22:51:39:485   8564; agora::media::VideoEngine::setCaptureDevice: index=0
+INFO    22:51:39:491   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:491   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:492   8564; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=0
+INFO    22:51:39:492   8564; more fec enable 0 curr fec method 0
+INFO    22:51:39:492   8564; video fec method 0
+ERROR   22:51:39:492   8564; videoEngine created and initialize here
+INFO    22:51:39:492   8564; agora::media::VideoEngine::CreateVideoSendTrack
+INFO    22:51:39:492   8564; [MIO] updateCapturer: (00000000), type:(1)
+INFO    22:51:39:492   8564; agora::media::VideoEngine::CreateAgoraDefaultCapture: type=0
+INFO    22:51:39:492   8564; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=073DEA88
+INFO    22:51:39:492   8564; agora::media::VideoEngine::CreateVideoCapturer: interface=073DEA88
+INFO    22:51:39:492   8564; [MIO] updateLocalRender: (00000000), type:(1)
+INFO    22:51:39:492   8564; agora::media::VideoEngine::CreateAgoraDefaultRender
+INFO    22:51:39:492   8564; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateRenderer, renderer=0744DAA8
+INFO    22:51:39:492   8564; agora::media::VideoEngine::CreateVideoRenderer: interface=0744DAA8
+INFO    22:51:39:492   8564; [MIO] video send track prepared !!
+INFO    22:51:39:492   8564; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    22:51:39:492   8564; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    22:51:39:503   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:503   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:504   8564; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=500000
+INFO    22:51:39:504   8564; agora::media::VideoEngine::setCodecRates: set frame rate to 15
+INFO    22:51:39:504   8564; agora::media::VideoEngine::setCodec: index=1 width=640 height=360 framerate=15
+INFO    22:51:39:504   8564; agora::media::VideoEngine::setCodecResolution: set to 640 x 480
+INFO    22:51:39:504   8564; agora::media::VideoEngine::setCodec: index=1 width=640 height=480 framerate=15
+INFO    22:51:39:507  15144; Thread with name:VideoEncodeThread stopped
+INFO    22:51:39:507   8388; Thread with name:VideoEncodeThread started 
+INFO    22:51:39:507   8564; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+INFO    22:51:39:508   8564; [che] chat engine initialized
+INFO    22:51:39:508   8564; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    22:51:39:508   8564; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    22:51:39:520   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:520   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:521   8564; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=500000
+INFO    22:51:39:521   8564; agora::media::VideoEngine::setCodecRates: set frame rate to 15
+INFO    22:51:39:521   8564; agora::media::VideoEngine::setCodec: index=1 width=640 height=480 framerate=15
+INFO    22:51:39:521   8564; agora::media::VideoEngine::setCodecResolution: set to 640 x 480
+INFO    22:51:39:531   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:531   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:532   8564; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=073DEA88
+WARN    22:51:39:532   8564; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+INFO    22:51:39:542   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:542   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:543   8564; agora::media::VideoEngine::startCapture: device? 0 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    22:51:39:554   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:554   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:560   8564; Camera Name:Microsoft LifeCam Front
+INFO    22:51:39:560   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07be&mi_00#6&20d80b47&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:565   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:565   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:581   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:581   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:587   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:587   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:598   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:39:598   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:604   8564; Camera Name:Microsoft LifeCam Front
+INFO    22:51:39:604   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07be&mi_00#6&20d80b47&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:604   8564; AgoraVideoInput::agora::AgoraVideoInput::Init thread=1, type=100, device=\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:39:604  10780; Thread with name:AgoraInputThread started 
+INFO    22:51:39:604   8564; AgoraCameraCapture::agora::AgoraCameraCapture::Initialize, device=\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:40:291   8564; Capture device '\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global' initialized.
+INFO    22:51:40:291   8564; capture type:ds capture nRet =0,dscaptrue=89384792
+INFO    22:51:40:291   8564; AgoraRTC::videocapturemodule::VideoCaptureImpl::Create,capture deviceStatus:0
+INFO    22:51:40:291   8564; RegisterCameraCallback called -3276051459557665048
+INFO    22:51:40:291   8564; agora::media::VideoEngine::setCodec: index=1 width=640 height=480 framerate=15
+INFO    22:51:40:291   8564; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=500000
+INFO    22:51:40:291   8564; AgoraVideoInput::agora::AgoraVideoInput::Start width=640, height=480, fps=15
+INFO    22:51:40:291   8564; AgoraCameraCapture::agora::AgoraCameraCapture::Start width=640, height=480, fps=15, rotation=0
+INFO    22:51:40:368   8564; agora::media::VideoEngine::startCapture: startCapture success
+INFO    22:51:40:368   8564; agora::media::VideoEngine::EnableLowBitRateStream: dual streams enabled 1
+INFO    22:51:40:368   8564; agora::media::VideoEngine::RequestEncodeKeyFrame
+INFO    22:51:40:368   8564; agora::media::VideoEngine::doStartLocalRender: init? 1 capture id -1 device 0 capturing? 1 rendering? 0
+INFO    22:51:40:368   8564; agora::media::VideoEngine::doStartLocalRender: local render windows 000106F8
+INFO    22:51:40:368   8564; AgoraVideoOutput::agora::AgoraVideoOutput::Init thread=0, type=100, view=000106F8
+INFO    22:51:40:368   8564; AgoraRTC::ModuleVideoRenderImpl::ModuleVideoRenderImpl: prefer renderer 1
+INFO    22:51:40:413  16408; Thread without name started
+INFO    22:51:40:413   8564; AgoraRTC::VideoRenderWindowsImpl::Init,Render Type:D2D Render,iRet:0
+INFO    22:51:40:413   8564; AgoraVideoOutput::agora::AgoraVideoOutput::Start uid=0, stream_id=0, render_mode=1
+INFO    22:51:40:414   8564; AgoraRTC::IncomingVideoStream::SetStreamListener running for stream 0
+INFO    22:51:40:414   8564; [che] onVideoFrameFrozen: uid 0, frozen false
+INFO    22:51:40:415  16428; Thread with name:IncomingVideoStreamThread started 
+INFO    22:51:40:457   8564; Camera Name:Microsoft LifeCam Rear
+INFO    22:51:40:457   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:40:471   8564; Camera Name:Microsoft LifeCam Front
+INFO    22:51:40:471   8564; Camera uniqueID:\\?\usb#vid_045e&pid_07be&mi_00#6&20d80b47&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    22:51:40:471   8564; agora::media::VideoEngine::doStartLocalRender success
+WARN    22:51:40:471   8564; agora::media::VideoEngine::doStartLocalRender: Local renderer is rendering
+INFO    22:51:40:471   8564; video agora::media::VideoEngine::setPeerVideoMuteStatus: uid 0 muted 0
+INFO    22:51:40:472   8564; [rs] updateServers 199.190.44.36:8000, priority 1
+INFO    22:51:40:472   8564; [rs] updateServers 199.190.44.37:8000, priority 1
+INFO    22:51:40:486   8564; [rlbs] selected: 221.228.78.123:9700
+INFO    22:51:40:486   8564; [rlbs] request rs list from 221.228.78.123:9700.......
+INFO    22:51:40:499   8564; ***CALL BEGIN: appid:'53****************************e7' cname:'1000' info:'{"owner":true,"width":640,"height":480,"bitrate":500}' sid:'B5582F7CE8974266B6142EB02F647DA4'
+INFO    22:51:40:499   8564; addRef of media engine, ref=2
+INFO    22:51:40:507   8564; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    22:51:40:507   8564; [tactics] parse config for beckon error for tactics size:15
+INFO    22:51:40:526   8564; [vocs] vocs initialized
+INFO    22:51:40:536   8564; CacheManager: save cache to storage elapsed 2
+INFO    22:51:40:546   8564; [cm] emit join channel signal, size=3
+INFO    22:51:40:547   8564; CacheManager: save cache to storage elapsed 1
+INFO    22:51:40:554   8564; [vocs] lookup channel...
+INFO    22:51:40:555   8564; [vocs] selected: 69.28.51.138:8000
+INFO    22:51:40:556   8564; connecting to 69.28.51.138:8000 handle 6590aa8, 2664
+INFO    22:51:40:556   8564; [vocs] creating channel with 69.28.51.138:8000, ts 1547140900556.......
+INFO    22:51:40:556   8564; [vocs] selected: 183.236.26.162:8000
+INFO    22:51:40:556   8564; [vocs] creating channel with 183.236.26.162:8000, ts 1547140900556.......
+INFO    22:51:40:556   8564; [vocs] selected: 123.155.153.69:8000
+INFO    22:51:40:556   8564; [vocs] creating channel with 123.155.153.69:8000, ts 1547140900556.......
+INFO    22:51:40:556   8564; [ap] selected: 128.1.87.155:8000
+INFO    22:51:40:556   8564; [ap] creating channel with 128.1.87.155:8000, ts 1547140900556, flag: 2
+INFO    22:51:40:556   8564; [ap] selected: 52.68.71.190:8000
+INFO    22:51:40:556   8564; [ap] creating channel with 52.68.71.190:8000, ts 1547140900556, flag: 2
+INFO    22:51:40:556   8564; [ap] selected: 13.127.149.196:8000
+INFO    22:51:40:556   8564; [ap] creating channel with 13.127.149.196:8000, ts 1547140900556, flag: 2
+INFO    22:51:40:557   8564; [dns] parsed ip 3.0.163.78
+INFO    22:51:40:557   8564; [dns] parsed ip 52.68.71.190
+INFO    22:51:40:557   8564; [dns] parsed ip 47.74.211.17
+INFO    22:51:40:557   8564; [dns] parsed ip 13.127.149.196
+INFO    22:51:40:557   8564; [dns] parsed ip 128.1.87.155
+INFO    22:51:40:558   8564; [dns] parsed ip 199.190.44.37
+INFO    22:51:40:558   8564; [dns] parsed ip 128.1.33.166
+INFO    22:51:40:558   8564; [rs] dns parse result code: 0, servers size: 2
+INFO    22:51:40:558   8564; [rs] updateServers 199.190.44.37:8000, priority from 1 to 2
+INFO    22:51:40:558   8564; [rs] updateServers 128.1.33.166:8000, priority 2
+INFO    22:51:40:558   8564; [dns] parsed ip 52.68.71.190
+INFO    22:51:40:558   8564; [dns] parsed ip 47.74.211.17
+INFO    22:51:40:558   8564; [dns] parsed ip 13.127.149.196
+INFO    22:51:40:558   8564; [dns] parsed ip 128.1.87.155
+INFO    22:51:40:558   8564; [dns] parsed ip 3.0.163.78
+INFO    22:51:40:675   8564; [ap/u] **responsed from 128.1.87.155:8000, 3 STUN, server ts 1547140900157
+INFO    22:51:40:678   8564; [stun] added server: 159.117.159.2:7000
+INFO    22:51:40:678   8564; [stun] added server: 128.1.87.90:7000
+INFO    22:51:40:678   8564; [stun] added server: 159.117.159.4:7000
+INFO    22:51:40:678   8564; [stun] selected: 159.117.159.4:7000
+INFO    22:51:40:679   8564; [stun10] login strategy=2
+INFO    22:51:40:679   8564; [stun10] localip is 192.168.31.43, address: 0.0.0.0:65218, port: 65218, combined: 192.168.31.43:65218, ip: 723495104, port: 49918
+INFO    22:51:40:679   8564; [stun] selected: 128.1.87.90:7000
+INFO    22:51:40:679   8564; [stun11] login strategy=2
+INFO    22:51:40:679   8564; [stun11] localip is 192.168.31.43, address: 0.0.0.0:65218, port: 65218, combined: 192.168.31.43:65218, ip: 723495104, port: 49918
+INFO    22:51:40:695  10780; [che] onVideoSizeChanged: uid 0 640x480 rotate 0
+INFO    22:51:40:697   8388; Encoder rc method 3
+INFO    22:51:40:697   8564; [ap/u] **responsed from 13.127.149.196:8000, 3 STUN, server ts 1547140900167
+INFO    22:51:40:697   8564; [stun] added server: 128.1.87.154:7000
+INFO    22:51:40:697   8564; [stun] added server: 159.117.159.3:7000
+INFO    22:51:40:706  16428; Local stream (0) first rendered with resolution 640 * 480
+INFO    22:51:40:707   8564; onFirstVideoFrame local 0 resolution 640 * 480, elapsed 1198
+INFO    22:51:40:733   8564; [vocs] selected: 47.74.211.17:8000
+INFO    22:51:40:733   8564; [vocs] creating channel with 47.74.211.17:8000, ts 1547140900733.......
+INFO    22:51:40:734   8564; [vocs] selected: 13.127.149.196:8000
+INFO    22:51:40:734   8564; [vocs] creating channel with 13.127.149.196:8000, ts 1547140900734.......
+INFO    22:51:40:734   8564; [vocs] selected: 3.0.163.78:8000
+INFO    22:51:40:734   8564; [vocs] creating channel with 3.0.163.78:8000, ts 1547140900734.......
+INFO    22:51:40:772   8564; [ap/u] **responsed from 52.68.71.190:8000, 3 STUN, server ts 1547140900200
+INFO    22:51:40:792   8388; Encoder rc method 3
+INFO    22:51:40:814   8564; [vocs/u] **responsed from 69.28.51.138:8000, 3 vos, elapsed 2083, server ts 1547140900207, wan ip 112.196.158.240
+INFO    22:51:40:816   8564; [vos] added server: 45.40.48.15:4002
+INFO    22:51:40:816   8564; [vos] added server: 128.1.33.163:4005
+INFO    22:51:40:816   8564; [vos] added server: 45.40.48.8:4003
+INFO    22:51:40:823   8564; [ch0] vos initialized
+INFO    22:51:40:823   8564; [vos] selected: 45.40.48.8:4003
+ERROR   22:51:40:826   8564; [ch0] login strategy=2
+INFO    22:51:40:826   8564; [ds]: ver 1 ds '{"streamType":5}'
+INFO    22:51:40:826   8564; [ch0] Login VOS (proto:10, cid:88008137, uid:1691416368, ts:1547140900826, ticket size:76 ds:1 stream:+A+VH) 2: 45.40.48.8:4003
+INFO    22:51:40:833  10780; User 0's view size is changed to 938 * 602
+INFO    22:51:40:839   8564; [vocs/u] **responsed from 3.0.163.78:8000, 3 vos, elapsed 2108, server ts 1547140900310, wan ip 112.196.158.240
+INFO    22:51:40:839   8564; [vocs/u] **responsed from 47.74.211.17:8000, 3 vos, elapsed 2108, server ts 1547140900311, wan ip 112.196.158.240
+INFO    22:51:40:863   8564; [vocs/u] **responsed from 13.127.149.196:8000, 3 vos, elapsed 2132, server ts 1547140900322, wan ip 112.196.158.240
+INFO    22:51:40:875   8564; [stun11] login strategy=2
+INFO    22:51:40:875   8564; [stun11] localip is 192.168.31.43, address: 0.0.0.0:65218, port: 65218, combined: 192.168.31.43:65218, ip: 723495104, port: 49918
+INFO    22:51:40:875   8564; [stun10] login strategy=2
+INFO    22:51:40:875   8564; [stun10] localip is 192.168.31.43, address: 0.0.0.0:65218, port: 65218, combined: 192.168.31.43:65218, ip: 723495104, port: 49918
+INFO    22:51:41:001   8564; [ch0] **VOS response to login request (res 0 elapsed 2270, server ts 1547140900413, s-c:-588) from 45.40.48.8:4003, and current dest server 45.40.48.8:4003
+INFO    22:51:41:002   8564; updateActiveVosList: ["45.40.48.8:4003"]
+INFO    22:51:41:002   8564; [che] start call begins
+INFO    22:51:41:002   8564; Set Application Mode in RTC Engine to No. 0
+ERROR   22:51:41:002   8564; GetCodec() invalid index (error=8004)
+INFO    22:51:41:002   8564; SetCodec by type : No. 83
+INFO    22:51:41:010   8564; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "Headset Microphone (Realtek High Definition Audio)"
+INFO    22:51:41:017   8564; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "Speakers (Realtek High Definition Audio)"
+INFO    22:51:41:041   8564; setLoopbackRecording, enabled: false, delay 0, aec 1 
+INFO    22:51:41:049   8564; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    22:51:41:050   8564; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    22:51:41:050   8564; [WIN_CORE] nChannels      : 2
+INFO    22:51:41:050   8564; [WIN_CORE] nSamplesPerSec : 48000
+INFO    22:51:41:050   8564; [WIN_CORE] wBitsPerSample : 32
+INFO    22:51:41:065   8564; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    22:51:41:065   8564; [WIN_CORE] VoE selected this rendering format:
+INFO    22:51:41:065   8564; [WIN_CORE] wFormatTag         : 0xFFFE (65534)
+INFO    22:51:41:065   8564; [WIN_CORE] nChannels          : 2
+INFO    22:51:41:065   8564; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    22:51:41:065   8564; [WIN_CORE] wBitsPerSample     : 16
+INFO    22:51:41:147   8564; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    22:51:41:147   8564; [WIN_CORE] render side is now initialized
+INFO    22:51:41:150   4308; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=47)
+INFO    22:51:41:150   4308; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    22:51:41:150   4308; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    22:51:41:152   4308; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    22:51:41:152   4308; [WIN_CORE] [REND] initial delay        : 30
+INFO    22:51:41:152   4308; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    22:51:41:166   8564; [WIN_CORE] rendering audio stream has now started...
+INFO    22:51:41:169   8564; output: enabled=0
+INFO    22:51:41:169   8564; output: volume=81
+INFO    22:51:41:169   8564; => OnWindowsCurrentDeviceChange() : kPlayoutDevice
+INFO    22:51:41:169   8564; StartPlayout complete
+INFO    22:51:41:170   8564; output: kWindowsCoreAudio
+INFO    22:51:41:187   8564; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    22:51:41:187   8564; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    22:51:41:187   8564; [WIN_CORE] nChannels      : 2
+INFO    22:51:41:187   8564; [WIN_CORE] nSamplesPerSec : 48000
+INFO    22:51:41:187   8564; [WIN_CORE] wBitsPerSample : 32
+INFO    22:51:41:188   8564; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    22:51:41:188   8564; [WIN_CORE] VoE selected this capturing format:
+INFO    22:51:41:188   8564; [WIN_CORE] wFormatTag        : 0xFFFE (65534)
+INFO    22:51:41:188   8564; [WIN_CORE] nChannels         : 2
+INFO    22:51:41:188   8564; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    22:51:41:188   8564; [WIN_CORE] wBitsPerSample    : 16
+INFO    22:51:41:237   8564; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    22:51:41:237   8564; [WIN_CORE] capture side is now initialized
+INFO    22:51:41:240  14560; [WIN_CORE] [CAPT] size of buffer       : 1056
+INFO    22:51:41:240  14560; [WIN_CORE] [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    22:51:41:240  14560; [WIN_CORE] [CAPT] max stream latency   : 0 (0.00 ms)
+INFO    22:51:41:241  14560; [WIN_CORE] [CAPT] device period        : 100000 (10.00 ms)
+INFO    22:51:41:242  14560; [WIN_CORE] [CAPT] extraDelayMS         : 10.00
+INFO    22:51:41:242  14560; [WIN_CORE] [CAPT] endpointBufferSizeMS : 22.00
+INFO    22:51:41:250   8564; [WIN_CORE] capture audio stream has now started...
+INFO    22:51:41:251   8564; output: enabled=0
+INFO    22:51:41:251   8564; => OnWindowsCurrentDeviceChange() : kRecordingDevice
+INFO    22:51:41:251   8564; StartRecording complete
+INFO    22:51:41:253   8564; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC on
+INFO    22:51:41:253   8564; MID = 3003, Routing = 0
+INFO    22:51:41:254   8564; [che] start call returns 0, elapsed 252
+INFO    22:51:41:254   8564; Setting dtx mode to 2
+INFO    22:51:41:254   8564; setNetEQMinimumPlayoutDelay delay(100)
+INFO    22:51:41:254   8564; join channel success: cname '1000' uid 1691416368 elapsed 2523
+INFO    22:51:41:257   8564; CacheManager: save cache to storage elapsed 3
+INFO    22:51:41:268  10464; AgoraRTC::AudioDeviceNotificationWindows::OnSimpleVolumeChanged: capture session volume is changed to: 94
+INFO    22:51:41:274   8564; [vocs/u] **responsed from 123.155.153.69:8000, 3 vos, elapsed 2543, server ts 1547140900225, wan ip 112.196.158.240
+INFO    22:51:41:275   8564; [stun10] onLoggedIn with code: 0
+INFO    22:51:41:275   8564; TRACER: onFirstLocalVideoFrame codec 4 elapsed 2544
+INFO    22:51:41:276   8564; [rlbs/u] responsed from 221.228.78.123:9700 with servers 103.193.127.74:8913
+INFO    22:51:41:276   8564; [rs] updateServers 103.193.127.74:8913, priority 3
+INFO    22:51:41:276   8564; [rs] updateServers 199.190.44.135:8913, priority 3
+INFO    22:51:41:276   8564; [rs] updateServers 128.1.33.168:8913, priority 3
+INFO    22:51:41:276   8564; [stun11] login strategy=2
+INFO    22:51:41:276   8564; [stun11] localip is 192.168.31.43, address: 0.0.0.0:65218, port: 65218, combined: 192.168.31.43:65218, ip: 723495104, port: 49918
+INFO    22:51:41:276   8564; [stun11] onLoggedIn with code: 0
+INFO    22:51:41:278   8564; onFirstLocalAudioFrame codec 83 elapsed 2547
+INFO    22:51:41:278   8564; TRACER: onFirstLocalAudioFrame codec 83 elapsed 2547
+INFO    22:51:41:363   8564; [ch0] rtt: 90
+INFO    22:51:41:364   8564; [stun11] onLoggedIn with code: 0
+INFO    22:51:43:000   8564; agora::media::VideoEngine::notifyPeerCount: cnt 0
+INFO    22:51:43:732   8564; [rs] **report stats: seq: 21, report list size 14, tx/rx: 3805/336, cache size: 0
+INFO    22:51:47:173   4308; Audio statistics - play count: playout count = 200  signal level: far_in = 0
+INFO    22:51:47:250  14560; Audio statistics - rec count: record count = 200 signal level: near_in = 65, near_out = 44 encode_in = -1
+INFO    22:51:47:363  16420; AgoraRTC::videocapturemodule::VideoCaptureImpl::printFrameLog :width 640, height 480,ystride:0,frame type:2
+INFO    22:51:50:768  13544; API call to stop preview
+INFO    22:51:50:768  13544; API call to leave channel
+INFO    22:51:50:768   8564; [rp] {"rtc.video.preview":false}
+ERROR   22:51:50:768   8564; API call failed to stop video preview due to not in idle mode
+INFO    22:51:50:768   8564; [cm] emit leave channel signal
+INFO    22:51:51:091   8564; agora::media::VideoEngine::stopLocalRender
+INFO    22:51:51:091   8564; AgoraVideoOutput::agora::AgoraVideoOutput::Stop
+INFO    22:51:51:097  16428; Thread with name:IncomingVideoStreamThread stopped
+WARN    22:51:51:097   8564; AgoraRTC::IncomingVideoStream::Stop: Not running
+INFO    22:51:51:098   8564; AgoraVideoOutput::agora::AgoraVideoOutput::Destroy
+INFO    22:51:51:098  16408; Thread without name stopped
+INFO    22:51:51:099   8564; agora::media::VideoEngine::stopLocalRender success
+INFO    22:51:51:099   8564; AgoraVideoInput::agora::AgoraVideoInput::Stop
+INFO    22:51:51:099   8564; AgoraCameraCapture::agora::AgoraCameraCapture::Stop
+INFO    22:51:51:347   8564; AgoraVideoInput::agora::AgoraVideoInput::Destroy
+INFO    22:51:51:347   8564; AgoraCameraCapture::agora::AgoraCameraCapture::Dispose
+INFO    22:51:51:493  10780; Thread with name:AgoraInputThread stopped
+INFO    22:51:51:493   8564; agora::media::VideoEngine::stopCapture: stopCapture success
+INFO    22:51:51:493   8564; agora::media::VideoEngine::stopRemoteRender
+INFO    22:51:51:493   8564; [che] stopCall begins
+INFO    22:51:51:493   8564; [WIN_CORE] closing down the agora_core_audio_capture_thread...
+INFO    22:51:51:494  14560; [WIN_CORE] _Capturing thread is now terminated properly
+INFO    22:51:51:496   8564; [WIN_CORE] agora_core_audio_capture_thread is now closed
+INFO    22:51:51:496   8564; StopRecording complete
+INFO    22:51:51:496   8564; [WIN_CORE] closing down the agora_core_audio_render_thread...
+INFO    22:51:51:519   4308; [WIN_CORE] _Rendering thread is now terminated properly
+INFO    22:51:51:520   8564; [WIN_CORE] agora_core_audio_render_thread is now closed
+INFO    22:51:51:523   8564; StopPlayout complete
+INFO    22:51:51:525   8564; [che] stop call returns 0, elapsed 32
+INFO    22:51:51:525   8564; [rs] **report stats: seq: 29, report list size 2, tx/rx: 8006/1296, cache size: 0
+INFO    22:51:51:525   8564; **CALL STATS: duration 10s, tx 273.928K bytes, rx 6.487K bytes, total 280.391K bytes
+INFO    22:51:51:526   8564; CacheManager: save cache to storage elapsed 1
+INFO    22:51:51:531   8564; [ch0] vos destroyed
+INFO    22:51:51:531   8564; delRef of media engine, ref=1
+INFO    22:51:51:531   8564; ***CALL END
+INFO    22:51:51:531   8564; setMuteStatus, muted: Off
+INFO    22:51:51:531   8564; agora::media::VideoEngine::enableLocalVideoSend: enable=1
+INFO    22:51:51:531   8564; onAudioStatusChanged enable audio
+INFO    22:51:51:531   8564; [rp] {"rtc.video.mute_me":false,"che.video.local.send":true}
+INFO    22:51:51:531   8564; agora::media::VideoEngine::enableLocalVideoSend: enable=1
+INFO    22:51:51:531   8564; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    22:51:51:531   8564; setMuteStatus, muted: Off
+INFO    22:51:51:531   8564; [rp] {"che.video.stop_screen_capture":true}
+INFO    22:51:51:531   8564; [MIO] updateCapturer: (00000000), type:(1)
+INFO    22:51:51:531   8564; agora::media::VideoEngine::CreateAgoraDefaultCapture: type=0
+INFO    22:51:51:531   8564; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=073DEA88
+WARN    22:51:51:531   8564; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+INFO    22:51:55:768   8564; [rs] All - total: 29/43, valid: 29/29
+INFO    22:51:55:768   8564; [rs] Counter - total: 8/8, valid: 8/8
+INFO    22:51:55:768   8564; [rs] Event - total: 21/35, valid: 21/21
+Local Date: Jan 10 2019 Local Time: 23:54:40
+Build info: May 28 2018 19:06:54 r
+
+INFO    23:54:40:578   2384; [rp] {"rtc.channel_profile":0}
+INFO    23:54:40:578   2384; [rp] {"rtc.video.enabled":true}
+INFO    23:54:40:578   2384; API call to enable video
+INFO    23:54:40:578   2384; [rp] {"rtc.client_role":1}
+INFO    23:54:40:579   2384; [dns] parsed ip 128.1.87.155
+INFO    23:54:40:579   2384; [dns] parsed ip 3.0.163.78
+INFO    23:54:40:579   2384; [dns] parsed ip 47.74.211.17
+INFO    23:54:40:579   2384; [dns] parsed ip 13.127.149.196
+INFO    23:54:40:579   2384; [dns] parsed ip 52.68.71.190
+INFO    23:54:40:580   2384; [ap] onParsedDns with err 0, 128.1.87.155, 3.0.163.78, 47.74.211.17, 13.127.149.196, 52.68.71.190, 
+Local Date: Jan 10 2019 Local Time: 23:54:58
+Build info: May 28 2018 19:06:54 r
+
+INFO    23:54:58:304  13444; [rp] {"rtc.channel_profile":0}
+INFO    23:54:58:304  13444; [rp] {"rtc.video.enabled":true}
+INFO    23:54:58:304  13444; API call to enable video
+INFO    23:54:58:304  13444; [rp] {"rtc.client_role":1}
+INFO    23:54:58:307  13444; [dns] parsed ip 47.74.211.17
+INFO    23:54:58:307  13444; [dns] parsed ip 13.127.149.196
+INFO    23:54:58:307  13444; [dns] parsed ip 52.68.71.190
+INFO    23:54:58:307  13444; [dns] parsed ip 128.1.87.155
+INFO    23:54:58:307  13444; [dns] parsed ip 3.0.163.78
+INFO    23:54:58:307  13444; [ap] onParsedDns with err 0, 47.74.211.17, 13.127.149.196, 52.68.71.190, 128.1.87.155, 3.0.163.78, 
+Local Date: Jan 13 2019 Local Time: 16:37:02
+Build info: May 28 2018 19:06:54 r
+
+INFO    16:37:02:828    204; [rp] {"rtc.channel_profile":0}
+INFO    16:37:02:828    204; [rp] {"rtc.video.enabled":true}
+INFO    16:37:02:828    204; API call to enable video
+INFO    16:37:02:828    204; [rp] {"rtc.client_role":1}
+INFO    16:37:03:017    204; [dns] parsed ip 128.1.87.155
+INFO    16:37:03:017    204; [dns] parsed ip 13.127.149.196
+INFO    16:37:03:017    204; [dns] parsed ip 3.0.163.78
+INFO    16:37:03:017    204; [dns] parsed ip 52.68.71.190
+INFO    16:37:03:017    204; [dns] parsed ip 47.74.211.17
+INFO    16:37:03:019    204; [ap] onParsedDns with err 0, 128.1.87.155, 13.127.149.196, 3.0.163.78, 52.68.71.190, 47.74.211.17, 
+Local Date: Jan 13 2019 Local Time: 16:38:11
+Build info: May 28 2018 19:06:54 r
+
+INFO    16:38:11:728   7416; [rp] {"rtc.channel_profile":0}
+INFO    16:38:11:728   7416; [rp] {"rtc.video.enabled":true}
+INFO    16:38:11:728   7416; API call to enable video
+INFO    16:38:11:728   7416; [rp] {"rtc.client_role":1}
+INFO    16:38:11:903   7416; [dns] parsed ip 13.127.149.196
+INFO    16:38:11:903   7416; [dns] parsed ip 3.0.163.78
+INFO    16:38:11:903   7416; [dns] parsed ip 47.74.211.17
+INFO    16:38:11:903   7416; [dns] parsed ip 128.1.87.155
+INFO    16:38:11:903   7416; [dns] parsed ip 52.68.71.190
+INFO    16:38:11:905   7416; [ap] onParsedDns with err 0, 13.127.149.196, 3.0.163.78, 47.74.211.17, 128.1.87.155, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 16:40:03
+Build info: May 28 2018 19:06:54 r
+
+INFO    16:40:03:562  12948; [rp] {"rtc.channel_profile":0}
+INFO    16:40:03:562  12948; [rp] {"rtc.video.enabled":true}
+INFO    16:40:03:562  12948; API call to enable video
+INFO    16:40:03:562  12948; [rp] {"rtc.client_role":1}
+INFO    16:40:03:760  12948; [dns] parsed ip 13.127.149.196
+INFO    16:40:03:760  12948; [dns] parsed ip 47.74.211.17
+INFO    16:40:03:760  12948; [dns] parsed ip 3.0.163.78
+INFO    16:40:03:760  12948; [dns] parsed ip 52.68.71.190
+INFO    16:40:03:760  12948; [dns] parsed ip 128.1.87.155
+INFO    16:40:03:761  12948; [ap] onParsedDns with err 0, 13.127.149.196, 47.74.211.17, 3.0.163.78, 52.68.71.190, 128.1.87.155, 
+Local Date: Jan 13 2019 Local Time: 16:43:31
+Build info: May 28 2018 19:06:54 r
+
+INFO    16:43:31:398  14928; [rp] {"rtc.channel_profile":0}
+INFO    16:43:31:398  14928; [rp] {"rtc.video.enabled":true}
+INFO    16:43:31:398  14928; API call to enable video
+INFO    16:43:31:398  14928; [rp] {"rtc.client_role":1}
+INFO    16:43:31:587  14928; [dns] parsed ip 13.127.149.196
+INFO    16:43:31:588  14928; [dns] parsed ip 47.74.211.17
+INFO    16:43:31:588  14928; [dns] parsed ip 3.0.163.78
+INFO    16:43:31:588  14928; [dns] parsed ip 52.68.71.190
+INFO    16:43:31:588  14928; [dns] parsed ip 128.1.87.155
+INFO    16:43:31:588  14928; [ap] onParsedDns with err 0, 13.127.149.196, 47.74.211.17, 3.0.163.78, 52.68.71.190, 128.1.87.155, 
+Local Date: Jan 13 2019 Local Time: 16:52:46
+Build info: May 28 2018 19:06:54 r
+
+INFO    16:52:46:924  15648; [rp] {"rtc.channel_profile":0}
+INFO    16:52:46:924  15648; [rp] {"rtc.video.enabled":true}
+INFO    16:52:46:924  15648; API call to enable video
+INFO    16:52:46:924  15648; [rp] {"rtc.client_role":1}
+INFO    16:52:47:369  15648; [dns] parsed ip 47.74.211.17
+INFO    16:52:47:369  15648; [dns] parsed ip 128.1.87.155
+INFO    16:52:47:369  15648; [dns] parsed ip 52.68.71.190
+INFO    16:52:47:369  15648; [dns] parsed ip 3.0.163.78
+INFO    16:52:47:369  15648; [dns] parsed ip 13.127.149.196
+INFO    16:52:47:371  15648; [ap] onParsedDns with err 0, 47.74.211.17, 128.1.87.155, 52.68.71.190, 3.0.163.78, 13.127.149.196, 
+Local Date: Jan 13 2019 Local Time: 16:52:56
+Build info: May 28 2018 19:06:54 r
+
+INFO    16:52:56:345   8668; [rp] {"rtc.channel_profile":0}
+INFO    16:52:56:345   8668; [rp] {"rtc.video.enabled":true}
+INFO    16:52:56:345   8668; API call to enable video
+INFO    16:52:56:345   8668; [rp] {"rtc.client_role":1}
+INFO    16:52:56:882   8668; [dns] parsed ip 13.127.149.196
+INFO    16:52:56:882   8668; [dns] parsed ip 52.68.71.190
+INFO    16:52:56:882   8668; [dns] parsed ip 3.0.163.78
+INFO    16:52:56:882   8668; [dns] parsed ip 47.74.211.17
+INFO    16:52:56:882   8668; [dns] parsed ip 128.1.87.155
+INFO    16:52:56:883   8668; [ap] onParsedDns with err 0, 13.127.149.196, 52.68.71.190, 3.0.163.78, 47.74.211.17, 128.1.87.155, 
+Local Date: Jan 13 2019 Local Time: 16:58:50
+Build info: May 28 2018 19:06:54 r
+
+INFO    16:58:50:512  13904; [rp] {"rtc.channel_profile":0}
+INFO    16:58:50:512  13904; [rp] {"rtc.video.enabled":true}
+INFO    16:58:50:512  13904; API call to enable video
+INFO    16:58:50:512  13904; [rp] {"rtc.client_role":1}
+INFO    16:58:50:638  13904; [dns] parsed ip 13.127.149.196
+INFO    16:58:50:638  13904; [dns] parsed ip 52.68.71.190
+INFO    16:58:50:638  13904; [dns] parsed ip 3.0.163.78
+INFO    16:58:50:638  13904; [dns] parsed ip 47.74.211.17
+INFO    16:58:50:638  13904; [dns] parsed ip 128.1.87.155
+INFO    16:58:50:640  13904; [ap] onParsedDns with err 0, 13.127.149.196, 52.68.71.190, 3.0.163.78, 47.74.211.17, 128.1.87.155, 
+Local Date: Jan 13 2019 Local Time: 16:58:58
+Build info: May 28 2018 19:06:54 r
+
+INFO    16:58:58:819  13028; [rp] {"rtc.channel_profile":0}
+INFO    16:58:58:819  13028; [rp] {"rtc.video.enabled":true}
+INFO    16:58:58:819  13028; API call to enable video
+INFO    16:58:58:819  13028; [rp] {"rtc.client_role":1}
+INFO    16:58:59:110  13028; [dns] parsed ip 128.1.87.155
+INFO    16:58:59:110  13028; [dns] parsed ip 13.127.149.196
+INFO    16:58:59:110  13028; [dns] parsed ip 3.0.163.78
+INFO    16:58:59:110  13028; [dns] parsed ip 52.68.71.190
+INFO    16:58:59:110  13028; [dns] parsed ip 47.74.211.17
+INFO    16:58:59:110  13028; [ap] onParsedDns with err 0, 128.1.87.155, 13.127.149.196, 3.0.163.78, 52.68.71.190, 47.74.211.17, 
+Local Date: Jan 13 2019 Local Time: 17:03:24
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:03:24:018   8460; [rp] {"rtc.channel_profile":0}
+INFO    17:03:24:018   8460; [rp] {"rtc.video.enabled":true}
+INFO    17:03:24:018   8460; API call to enable video
+INFO    17:03:24:018   8460; [rp] {"rtc.client_role":1}
+INFO    17:03:24:324   8460; [dns] parsed ip 128.1.87.155
+INFO    17:03:24:324   8460; [dns] parsed ip 52.68.71.190
+INFO    17:03:24:324   8460; [dns] parsed ip 3.0.163.78
+INFO    17:03:24:324   8460; [dns] parsed ip 47.74.211.17
+INFO    17:03:24:325   8460; [dns] parsed ip 13.127.149.196
+INFO    17:03:24:325   8460; [ap] onParsedDns with err 0, 128.1.87.155, 52.68.71.190, 3.0.163.78, 47.74.211.17, 13.127.149.196, 
+Local Date: Jan 13 2019 Local Time: 17:10:01
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:10:01:385  16380; [rp] {"rtc.channel_profile":0}
+INFO    17:10:01:385  16380; [rp] {"rtc.video.enabled":true}
+INFO    17:10:01:385  16380; API call to enable video
+INFO    17:10:01:385  16380; [rp] {"rtc.client_role":1}
+INFO    17:10:01:535  16380; [dns] parsed ip 3.0.163.78
+INFO    17:10:01:535  16380; [dns] parsed ip 13.127.149.196
+INFO    17:10:01:535  16380; [dns] parsed ip 52.68.71.190
+INFO    17:10:01:535  16380; [dns] parsed ip 47.74.211.17
+INFO    17:10:01:535  16380; [dns] parsed ip 128.1.87.155
+INFO    17:10:01:536  16380; [ap] onParsedDns with err 0, 3.0.163.78, 13.127.149.196, 52.68.71.190, 47.74.211.17, 128.1.87.155, 
+Local Date: Jan 13 2019 Local Time: 17:28:42
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:28:42:294   6192; [rp] {"rtc.channel_profile":0}
+INFO    17:28:42:294   6192; [rp] {"rtc.video.enabled":true}
+INFO    17:28:42:294   6192; API call to enable video
+INFO    17:28:42:294   6192; [rp] {"rtc.client_role":1}
+INFO    17:28:42:484   6192; [dns] parsed ip 13.127.149.196
+INFO    17:28:42:484   6192; [dns] parsed ip 47.74.211.17
+INFO    17:28:42:484   6192; [dns] parsed ip 128.1.87.155
+INFO    17:28:42:484   6192; [dns] parsed ip 52.68.71.190
+INFO    17:28:42:484   6192; [dns] parsed ip 3.0.163.78
+INFO    17:28:42:484   6192; [ap] onParsedDns with err 0, 13.127.149.196, 47.74.211.17, 128.1.87.155, 52.68.71.190, 3.0.163.78, 
+Local Date: Jan 13 2019 Local Time: 17:28:49
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:28:49:817   8116; [rp] {"rtc.channel_profile":0}
+INFO    17:28:49:817   8116; [rp] {"rtc.video.enabled":true}
+INFO    17:28:49:817   8116; API call to enable video
+INFO    17:28:49:817   8116; [rp] {"rtc.client_role":1}
+INFO    17:28:50:099   8116; [dns] parsed ip 128.1.87.155
+INFO    17:28:50:099   8116; [dns] parsed ip 52.68.71.190
+INFO    17:28:50:099   8116; [dns] parsed ip 47.74.211.17
+INFO    17:28:50:099   8116; [dns] parsed ip 3.0.163.78
+INFO    17:28:50:099   8116; [dns] parsed ip 13.127.149.196
+INFO    17:28:50:100   8116; [ap] onParsedDns with err 0, 128.1.87.155, 52.68.71.190, 47.74.211.17, 3.0.163.78, 13.127.149.196, 
+Local Date: Jan 13 2019 Local Time: 17:45:00
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:45:00:094   5496; [rp] {"rtc.channel_profile":0}
+INFO    17:45:00:094   5496; [rp] {"rtc.video.enabled":true}
+INFO    17:45:00:094   5496; API call to enable video
+INFO    17:45:00:094   5496; [rp] {"rtc.client_role":1}
+INFO    17:45:00:896   5496; [dns] parsed ip 13.127.149.196
+INFO    17:45:00:896   5496; [dns] parsed ip 128.1.87.155
+INFO    17:45:00:896   5496; [dns] parsed ip 3.0.163.78
+INFO    17:45:00:896   5496; [dns] parsed ip 47.74.211.17
+INFO    17:45:00:896   5496; [dns] parsed ip 52.68.71.190
+INFO    17:45:00:898   5496; [ap] onParsedDns with err 0, 13.127.149.196, 128.1.87.155, 3.0.163.78, 47.74.211.17, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:45:16
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:45:16:680  15416; [rp] {"rtc.channel_profile":0}
+INFO    17:45:16:680  15416; [rp] {"rtc.video.enabled":true}
+INFO    17:45:16:680  15416; API call to enable video
+INFO    17:45:16:680  15416; [rp] {"rtc.client_role":1}
+INFO    17:45:16:999  15416; [dns] parsed ip 13.127.149.196
+INFO    17:45:16:999  15416; [dns] parsed ip 47.74.211.17
+INFO    17:45:16:999  15416; [dns] parsed ip 3.0.163.78
+INFO    17:45:16:999  15416; [dns] parsed ip 52.68.71.190
+INFO    17:45:16:999  15416; [dns] parsed ip 128.1.87.155
+INFO    17:45:16:999  15416; [ap] onParsedDns with err 0, 13.127.149.196, 47.74.211.17, 3.0.163.78, 52.68.71.190, 128.1.87.155, 
+Local Date: Jan 13 2019 Local Time: 17:45:22
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:45:22:673   1368; [rp] {"rtc.channel_profile":0}
+INFO    17:45:22:673   1368; [rp] {"rtc.video.enabled":true}
+INFO    17:45:22:673   1368; API call to enable video
+INFO    17:45:22:673   1368; [rp] {"rtc.client_role":1}
+INFO    17:45:23:176   1368; [dns] parsed ip 128.1.87.155
+INFO    17:45:23:176   1368; [dns] parsed ip 13.127.149.196
+INFO    17:45:23:176   1368; [dns] parsed ip 3.0.163.78
+INFO    17:45:23:176   1368; [dns] parsed ip 52.68.71.190
+INFO    17:45:23:176   1368; [dns] parsed ip 47.74.211.17
+INFO    17:45:23:177   1368; [ap] onParsedDns with err 0, 128.1.87.155, 13.127.149.196, 3.0.163.78, 52.68.71.190, 47.74.211.17, 
+Local Date: Jan 13 2019 Local Time: 17:45:31
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:45:31:260   3200; [rp] {"rtc.channel_profile":0}
+INFO    17:45:31:261   3200; [rp] {"rtc.video.enabled":true}
+INFO    17:45:31:261   3200; API call to enable video
+INFO    17:45:31:261   3200; [rp] {"rtc.client_role":1}
+INFO    17:45:31:632   3200; [dns] parsed ip 13.127.149.196
+INFO    17:45:31:632   3200; [dns] parsed ip 128.1.87.155
+INFO    17:45:31:632   3200; [dns] parsed ip 47.74.211.17
+INFO    17:45:31:632   3200; [dns] parsed ip 3.0.163.78
+INFO    17:45:31:632   3200; [dns] parsed ip 52.68.71.190
+INFO    17:45:31:633   3200; [ap] onParsedDns with err 0, 13.127.149.196, 128.1.87.155, 47.74.211.17, 3.0.163.78, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:45:54
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:45:54:806   9712; [rp] {"rtc.channel_profile":0}
+INFO    17:45:54:806   9712; [rp] {"rtc.video.enabled":true}
+INFO    17:45:54:806   9712; API call to enable video
+INFO    17:45:54:806   9712; [rp] {"rtc.client_role":1}
+INFO    17:45:55:336   9712; [dns] parsed ip 13.127.149.196
+INFO    17:45:55:336   9712; [dns] parsed ip 128.1.87.155
+INFO    17:45:55:336   9712; [dns] parsed ip 3.0.163.78
+INFO    17:45:55:336   9712; [dns] parsed ip 47.74.211.17
+INFO    17:45:55:336   9712; [dns] parsed ip 52.68.71.190
+INFO    17:45:55:337   9712; [ap] onParsedDns with err 0, 13.127.149.196, 128.1.87.155, 3.0.163.78, 47.74.211.17, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:46:34
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:46:34:856   9164; [rp] {"rtc.channel_profile":0}
+INFO    17:46:34:856   9164; [rp] {"rtc.video.enabled":true}
+INFO    17:46:34:856   9164; API call to enable video
+INFO    17:46:34:856   9164; [rp] {"rtc.client_role":1}
+INFO    17:46:34:949   9164; [dns] parsed ip 13.127.149.196
+INFO    17:46:34:949   9164; [dns] parsed ip 47.74.211.17
+INFO    17:46:34:949   9164; [dns] parsed ip 3.0.163.78
+INFO    17:46:34:949   9164; [dns] parsed ip 52.68.71.190
+INFO    17:46:34:949   9164; [dns] parsed ip 128.1.87.155
+INFO    17:46:34:949   9164; [ap] onParsedDns with err 0, 13.127.149.196, 47.74.211.17, 3.0.163.78, 52.68.71.190, 128.1.87.155, 
+Local Date: Jan 13 2019 Local Time: 17:46:46
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:46:46:087   2956; [rp] {"rtc.channel_profile":0}
+INFO    17:46:46:087   2956; [rp] {"rtc.video.enabled":true}
+INFO    17:46:46:087   2956; API call to enable video
+INFO    17:46:46:087   2956; [rp] {"rtc.client_role":1}
+INFO    17:46:46:332   2956; [dns] parsed ip 128.1.87.155
+INFO    17:46:46:332   2956; [dns] parsed ip 13.127.149.196
+INFO    17:46:46:332   2956; [dns] parsed ip 3.0.163.78
+INFO    17:46:46:332   2956; [dns] parsed ip 47.74.211.17
+INFO    17:46:46:332   2956; [dns] parsed ip 52.68.71.190
+INFO    17:46:46:332   2956; [ap] onParsedDns with err 0, 128.1.87.155, 13.127.149.196, 3.0.163.78, 47.74.211.17, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:47:26
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:47:26:700  15664; [rp] {"rtc.channel_profile":0}
+INFO    17:47:26:700  15664; [rp] {"rtc.video.enabled":true}
+INFO    17:47:26:700  15664; API call to enable video
+INFO    17:47:26:700  15664; [rp] {"rtc.client_role":1}
+INFO    17:47:26:987  15664; [dns] parsed ip 47.74.211.17
+INFO    17:47:26:987  15664; [dns] parsed ip 128.1.87.155
+INFO    17:47:26:987  15664; [dns] parsed ip 3.0.163.78
+INFO    17:47:26:987  15664; [dns] parsed ip 13.127.149.196
+INFO    17:47:26:987  15664; [dns] parsed ip 52.68.71.190
+INFO    17:47:26:988  15664; [ap] onParsedDns with err 0, 47.74.211.17, 128.1.87.155, 3.0.163.78, 13.127.149.196, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:48:40
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:48:40:350  13028; [rp] {"rtc.channel_profile":0}
+INFO    17:48:40:350  13028; [rp] {"rtc.video.enabled":true}
+INFO    17:48:40:350  13028; API call to enable video
+INFO    17:48:40:350  13028; [rp] {"rtc.client_role":1}
+INFO    17:48:40:548  13028; [dns] parsed ip 13.127.149.196
+INFO    17:48:40:548  13028; [dns] parsed ip 47.74.211.17
+INFO    17:48:40:548  13028; [dns] parsed ip 52.68.71.190
+INFO    17:48:40:548  13028; [dns] parsed ip 128.1.87.155
+INFO    17:48:40:548  13028; [dns] parsed ip 3.0.163.78
+INFO    17:48:40:548  13028; [ap] onParsedDns with err 0, 13.127.149.196, 47.74.211.17, 52.68.71.190, 128.1.87.155, 3.0.163.78, 
+Local Date: Jan 13 2019 Local Time: 17:48:46
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:48:46:740   4380; [rp] {"rtc.channel_profile":0}
+INFO    17:48:46:740   4380; [rp] {"rtc.video.enabled":true}
+INFO    17:48:46:740   4380; API call to enable video
+INFO    17:48:46:740   4380; [rp] {"rtc.client_role":1}
+INFO    17:48:46:846   4380; [dns] parsed ip 13.127.149.196
+INFO    17:48:46:846   4380; [dns] parsed ip 47.74.211.17
+INFO    17:48:46:846   4380; [dns] parsed ip 3.0.163.78
+INFO    17:48:46:846   4380; [dns] parsed ip 52.68.71.190
+INFO    17:48:46:846   4380; [dns] parsed ip 128.1.87.155
+INFO    17:48:46:846   4380; [ap] onParsedDns with err 0, 13.127.149.196, 47.74.211.17, 3.0.163.78, 52.68.71.190, 128.1.87.155, 
+Local Date: Jan 13 2019 Local Time: 17:50:37
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:50:37:500  12224; [rp] {"rtc.channel_profile":0}
+INFO    17:50:37:500  12224; [rp] {"rtc.video.enabled":true}
+INFO    17:50:37:500  12224; API call to enable video
+INFO    17:50:37:500  12224; [rp] {"rtc.client_role":1}
+INFO    17:50:37:583  12224; [dns] parsed ip 13.127.149.196
+INFO    17:50:37:583  12224; [dns] parsed ip 128.1.87.155
+INFO    17:50:37:583  12224; [dns] parsed ip 3.0.163.78
+INFO    17:50:37:583  12224; [dns] parsed ip 47.74.211.17
+INFO    17:50:37:583  12224; [dns] parsed ip 52.68.71.190
+INFO    17:50:37:583  12224; [ap] onParsedDns with err 0, 13.127.149.196, 128.1.87.155, 3.0.163.78, 47.74.211.17, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:52:04
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:52:04:367   3620; [rp] {"rtc.channel_profile":0}
+INFO    17:52:04:367   3620; [rp] {"rtc.video.enabled":true}
+INFO    17:52:04:367   3620; API call to enable video
+INFO    17:52:04:367   3620; [rp] {"rtc.client_role":1}
+INFO    17:52:04:502   3620; [dns] parsed ip 128.1.87.155
+INFO    17:52:04:502   3620; [dns] parsed ip 13.127.149.196
+INFO    17:52:04:503   3620; [dns] parsed ip 3.0.163.78
+INFO    17:52:04:503   3620; [dns] parsed ip 47.74.211.17
+INFO    17:52:04:503   3620; [dns] parsed ip 52.68.71.190
+INFO    17:52:04:503   3620; [ap] onParsedDns with err 0, 128.1.87.155, 13.127.149.196, 3.0.163.78, 47.74.211.17, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:52:26
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:52:26:932   1592; [rp] {"rtc.channel_profile":0}
+INFO    17:52:26:932   1592; [rp] {"rtc.video.enabled":true}
+INFO    17:52:26:932   1592; API call to enable video
+INFO    17:52:26:933   1592; [rp] {"rtc.client_role":1}
+INFO    17:52:27:156   1592; [dns] parsed ip 47.74.211.17
+INFO    17:52:27:156   1592; [dns] parsed ip 128.1.87.155
+INFO    17:52:27:156   1592; [dns] parsed ip 3.0.163.78
+INFO    17:52:27:156   1592; [dns] parsed ip 13.127.149.196
+INFO    17:52:27:156   1592; [dns] parsed ip 52.68.71.190
+INFO    17:52:27:157   1592; [ap] onParsedDns with err 0, 47.74.211.17, 128.1.87.155, 3.0.163.78, 13.127.149.196, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:52:49
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:52:49:238   2604; [rp] {"rtc.channel_profile":0}
+INFO    17:52:49:238   2604; [rp] {"rtc.video.enabled":true}
+INFO    17:52:49:238   2604; API call to enable video
+INFO    17:52:49:238   2604; [rp] {"rtc.client_role":1}
+INFO    17:52:49:355   2604; [dns] parsed ip 13.127.149.196
+INFO    17:52:49:355   2604; [dns] parsed ip 128.1.87.155
+INFO    17:52:49:355   2604; [dns] parsed ip 3.0.163.78
+INFO    17:52:49:355   2604; [dns] parsed ip 47.74.211.17
+INFO    17:52:49:355   2604; [dns] parsed ip 52.68.71.190
+INFO    17:52:49:356   2604; [ap] onParsedDns with err 0, 13.127.149.196, 128.1.87.155, 3.0.163.78, 47.74.211.17, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:54:45
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:54:45:192  11896; [rp] {"rtc.channel_profile":0}
+INFO    17:54:45:192  11896; [rp] {"rtc.video.enabled":true}
+INFO    17:54:45:192  11896; API call to enable video
+INFO    17:54:45:192  11896; [rp] {"rtc.client_role":1}
+INFO    17:54:45:384  11896; [dns] parsed ip 52.68.71.190
+INFO    17:54:45:384  11896; [dns] parsed ip 3.0.163.78
+INFO    17:54:45:384  11896; [dns] parsed ip 13.127.149.196
+INFO    17:54:45:384  11896; [dns] parsed ip 47.74.211.17
+INFO    17:54:45:384  11896; [dns] parsed ip 128.1.87.155
+INFO    17:54:45:384  11896; [ap] onParsedDns with err 0, 52.68.71.190, 3.0.163.78, 13.127.149.196, 47.74.211.17, 128.1.87.155, 
+Local Date: Jan 13 2019 Local Time: 17:56:35
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:56:35:158   4704; [rp] {"rtc.channel_profile":0}
+INFO    17:56:35:158   4704; [rp] {"rtc.video.enabled":true}
+INFO    17:56:35:158   4704; API call to enable video
+INFO    17:56:35:158   4704; [rp] {"rtc.client_role":1}
+INFO    17:56:35:277   4704; [dns] parsed ip 128.1.87.155
+INFO    17:56:35:277   4704; [dns] parsed ip 13.127.149.196
+INFO    17:56:35:277   4704; [dns] parsed ip 3.0.163.78
+INFO    17:56:35:277   4704; [dns] parsed ip 47.74.211.17
+INFO    17:56:35:277   4704; [dns] parsed ip 52.68.71.190
+INFO    17:56:35:278   4704; [ap] onParsedDns with err 0, 128.1.87.155, 13.127.149.196, 3.0.163.78, 47.74.211.17, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:57:42
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:57:42:648  11600; [rp] {"rtc.channel_profile":0}
+INFO    17:57:42:648  11600; [rp] {"rtc.video.enabled":true}
+INFO    17:57:42:648  11600; API call to enable video
+INFO    17:57:42:648  11600; [rp] {"rtc.client_role":1}
+INFO    17:57:42:811  11600; [dns] parsed ip 13.127.149.196
+INFO    17:57:42:812  11600; [dns] parsed ip 47.74.211.17
+INFO    17:57:42:812  11600; [dns] parsed ip 3.0.163.78
+INFO    17:57:42:812  11600; [dns] parsed ip 128.1.87.155
+INFO    17:57:42:812  11600; [dns] parsed ip 52.68.71.190
+INFO    17:57:42:812  11600; [ap] onParsedDns with err 0, 13.127.149.196, 47.74.211.17, 3.0.163.78, 128.1.87.155, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:57:57
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:57:57:847  15696; [rp] {"rtc.channel_profile":0}
+INFO    17:57:57:847  15696; [rp] {"rtc.video.enabled":true}
+INFO    17:57:57:847  15696; API call to enable video
+INFO    17:57:57:847  15696; [rp] {"rtc.client_role":1}
+INFO    17:57:57:970  15696; [dns] parsed ip 47.74.211.17
+INFO    17:57:57:970  15696; [dns] parsed ip 128.1.87.155
+INFO    17:57:57:970  15696; [dns] parsed ip 3.0.163.78
+INFO    17:57:57:970  15696; [dns] parsed ip 13.127.149.196
+INFO    17:57:57:970  15696; [dns] parsed ip 52.68.71.190
+INFO    17:57:57:970  15696; [ap] onParsedDns with err 0, 47.74.211.17, 128.1.87.155, 3.0.163.78, 13.127.149.196, 52.68.71.190, 
+Local Date: Jan 13 2019 Local Time: 17:58:04
+Build info: May 28 2018 19:06:54 r
+
+INFO    17:58:04:360  15396; [rp] {"rtc.channel_profile":0}
+INFO    17:58:04:360  15396; [rp] {"rtc.video.enabled":true}
+INFO    17:58:04:360  15396; API call to enable video
+INFO    17:58:04:360  15396; [rp] {"rtc.client_role":1}
+INFO    17:58:04:561  15396; [dns] parsed ip 13.127.149.196
+INFO    17:58:04:561  15396; [dns] parsed ip 128.1.87.155
+INFO    17:58:04:561  15396; [dns] parsed ip 3.0.163.78
+INFO    17:58:04:561  15396; [dns] parsed ip 47.74.211.17
+INFO    17:58:04:561  15396; [dns] parsed ip 52.68.71.190
+INFO    17:58:04:562  15396; [ap] onParsedDns with err 0, 13.127.149.196, 128.1.87.155, 3.0.163.78, 47.74.211.17, 52.68.71.190, 
+Local Date: Jan 17 2019 Local Time: 15:21:10
+Build info: May 28 2018 19:06:54 r
+
+INFO    15:21:10:054   6392; [rp] {"rtc.channel_profile":0}
+INFO    15:21:10:054   6392; [rp] {"rtc.video.enabled":true}
+INFO    15:21:10:054   6392; API call to enable video
+INFO    15:21:10:054   6392; [rp] {"rtc.client_role":1}
+INFO    15:21:10:070   6392; [dns] parsed ip 3.0.163.78
+INFO    15:21:10:070   6392; [dns] parsed ip 128.1.87.155
+INFO    15:21:10:070   6392; [dns] parsed ip 52.68.71.190
+INFO    15:21:10:070   6392; [dns] parsed ip 13.127.149.196
+INFO    15:21:10:070   6392; [dns] parsed ip 47.74.211.17
+INFO    15:21:10:070   6392; [ap] onParsedDns with err 0, 3.0.163.78, 128.1.87.155, 52.68.71.190, 13.127.149.196, 47.74.211.17, 
+INFO    15:21:22:667   5900; API call to setVideoProfile 40 swap false
+INFO    15:21:22:667   5900; API call to setupLocalVideo 0003096E
+INFO    15:21:22:667   6392; [rp] {"rtc.video.profile":[40,false]}
+INFO    15:21:22:667   6392; video profile is set to 40 swap false
+INFO    15:21:22:667   5900; [API] userManagerPendingView: user 0 window 199022
+INFO    15:21:22:667   5900; API call to start preview
+INFO    15:21:22:667   6392; [API] userManagerBindUserView: user 0 mode 1 window 199022
+INFO    15:21:22:667   5900; API call to join channel '1000' uid 0, SDK ver 2.2.1 build 221, device info 'Microsoft Corporation/Surface Pro 3/x64-based PC/Windows 6.2.9200'
+INFO    15:21:22:667   6392; Create participant 0
+INFO    15:21:22:667   6392; [rp] {"rtc.video.preview":true}
+INFO    15:21:22:667   6392; API call to start video preview
+INFO    15:21:22:667   6392; addRef of media engine, ref=1
+INFO    15:21:22:667   6392; [che] create chat engine, ctx:00000000
+INFO    15:21:22:667   6392; [MYDEBUG] large group call false
+INFO    15:21:22:667   6392; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    15:21:22:667   6392; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    15:21:22:668   6392; engine git commit version:6f8bee51 and branch:(HEAD
+INFO    15:21:22:676   6392; output: kPlatformDefaultAudio
+INFO    15:21:22:680   6392; [WIN_CORE] +++++++Code block begins for checking CoreAudio properties++++++
+INFO    15:21:22:681   6392; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    15:21:22:693   6392; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    15:21:22:693   6392; [WIN_CORE] #rendering endpoint devices (counting all): 4
+INFO    15:21:22:693   6392; [WIN_CORE] ++Endpoint  0:
+INFO    15:21:22:693   6392; [WIN_CORE] ID string    : {0.0.0.00000000}.{953f31be-5fd7-45da-b09a-8fb731c81e90}
+INFO    15:21:22:694   6392; [WIN_CORE] friendly name: "Headset (NC-75 Hands-Free)"
+INFO    15:21:22:694   6392; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    15:21:22:706   6392; [WIN_CORE] #channels    : 1
+INFO    15:21:22:706   6392; [WIN_CORE] ++Endpoint  1:
+INFO    15:21:22:706   6392; [WIN_CORE] ID string    : {0.0.0.00000000}.{a254cfb5-9e3f-4cba-a23d-5624ca39df65}
+INFO    15:21:22:707   6392; [WIN_CORE] friendly name: "Speakers (Realtek High Definition Audio)"
+INFO    15:21:22:707   6392; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    15:21:22:707   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:707   6392; [WIN_CORE] ++Endpoint  2:
+INFO    15:21:22:707   6392; [WIN_CORE] ID string    : {0.0.0.00000000}.{ac23f56f-75cb-4fc0-9735-78db56108780}
+INFO    15:21:22:708   6392; [WIN_CORE] friendly name: "Headphones (Realtek High Definition Audio)"
+INFO    15:21:22:708   6392; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    15:21:22:708   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:708   6392; [WIN_CORE] ++Endpoint  3:
+INFO    15:21:22:708   6392; [WIN_CORE] ID string    : {0.0.0.00000000}.{c56fa652-f510-430b-ad5e-c3e0e985f3e2}
+INFO    15:21:22:709   6392; [WIN_CORE] friendly name: "Headphones (NC-75 Stereo)"
+INFO    15:21:22:709   6392; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    15:21:22:715   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:715   6392; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    15:21:22:716   6392; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    15:21:22:716   6392; [WIN_CORE] #capturing endpoint devices (counting all): 4
+INFO    15:21:22:716   6392; [WIN_CORE] ++Endpoint  0:
+INFO    15:21:22:716   6392; [WIN_CORE] ID string    : {0.0.1.00000000}.{52dfee4f-17d8-4e54-bff9-390b1716dcb8}
+INFO    15:21:22:716   6392; [WIN_CORE] friendly name: "Microphone Array (Realtek High Definition Audio)"
+INFO    15:21:22:716   6392; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    15:21:22:717   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:717   6392; [WIN_CORE] ++Endpoint  1:
+INFO    15:21:22:717   6392; [WIN_CORE] ID string    : {0.0.1.00000000}.{56e7b5a9-8b61-4191-af3b-b07072be659b}
+INFO    15:21:22:717   6392; [WIN_CORE] friendly name: "Stereo Mix (Realtek High Definition Audio)"
+INFO    15:21:22:717   6392; [WIN_CORE] state (0x2)  : DISABLED
+INFO    15:21:22:724   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:724   6392; [WIN_CORE] ++Endpoint  2:
+INFO    15:21:22:724   6392; [WIN_CORE] ID string    : {0.0.1.00000000}.{5ab9778c-f66a-49e3-8607-fba96f106b9d}
+INFO    15:21:22:724   6392; [WIN_CORE] friendly name: "Headset Microphone (Realtek High Definition Audio)"
+INFO    15:21:22:725   6392; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    15:21:22:725   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:725   6392; [WIN_CORE] ++Endpoint  3:
+INFO    15:21:22:725   6392; [WIN_CORE] ID string    : {0.0.1.00000000}.{eccc0cb1-5836-4291-92db-96c0b2221980}
+INFO    15:21:22:725   6392; [WIN_CORE] friendly name: "Headset (NC-75 Hands-Free)"
+INFO    15:21:22:725   6392; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    15:21:22:730   6392; [WIN_CORE] #channels    : 1
+INFO    15:21:22:730   6392; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    15:21:22:733   6392; [WIN_CORE] =====================Recording Device Test======================
+INFO    15:21:22:733   6392; [WIN_CORE] Test recording device on Windows by index (0): friendly name: "Microphone Array (Realtek High Definition Audio)"
+INFO    15:21:22:737   6392; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    15:21:22:737   6392; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    15:21:22:737   6392; [WIN_CORE] nChannels      : 2
+INFO    15:21:22:737   6392; [WIN_CORE] nSamplesPerSec : 48000
+INFO    15:21:22:737   6392; [WIN_CORE] wBitsPerSample : 32
+INFO    15:21:22:737   6392; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    15:21:22:737   6392; [WIN_CORE] VoE selected this capturing format:
+INFO    15:21:22:737   6392; [WIN_CORE] wFormatTag        : 0xFFFE (65534)
+INFO    15:21:22:737   6392; [WIN_CORE] nChannels         : 2
+INFO    15:21:22:737   6392; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    15:21:22:737   6392; [WIN_CORE] wBitsPerSample    : 16
+INFO    15:21:22:766   6392; [WIN_CORE] AudioDeviceBuffer must be attached before streaming can start
+INFO    15:21:22:766   6392; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    15:21:22:766   6392; [WIN_CORE] capture side is now initialized
+INFO    15:21:22:766   6392; [WIN_CORE] no capturing stream is active => close down WASAPI only
+INFO    15:21:22:766   6392; [WIN_CORE] closing down the agora_core_audio_capture_thread...
+INFO    15:21:22:771   6392; [WIN_CORE] ======================Playout Device Test=======================
+INFO    15:21:22:771   6392; [WIN_CORE] Test playout device on Windows by index (0): friendly name: "Speakers (Realtek High Definition Audio)"
+INFO    15:21:22:774   6392; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    15:21:22:774   6392; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    15:21:22:774   6392; [WIN_CORE] nChannels      : 2
+INFO    15:21:22:774   6392; [WIN_CORE] nSamplesPerSec : 48000
+INFO    15:21:22:774   6392; [WIN_CORE] wBitsPerSample : 32
+INFO    15:21:22:781   6392; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    15:21:22:781   6392; [WIN_CORE] VoE selected this rendering format:
+INFO    15:21:22:781   6392; [WIN_CORE] wFormatTag         : 0xFFFE (65534)
+INFO    15:21:22:781   6392; [WIN_CORE] nChannels          : 2
+INFO    15:21:22:781   6392; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    15:21:22:781   6392; [WIN_CORE] wBitsPerSample     : 16
+INFO    15:21:22:827   6392; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    15:21:22:827   6392; [WIN_CORE] render side is now initialized
+INFO    15:21:22:827   6392; [WIN_CORE] no rendering stream is active => close down WASAPI only
+INFO    15:21:22:827   6392; [WIN_CORE] closing down the agora_core_audio_render_thread...
+INFO    15:21:22:827   6392; [WIN_CORE] agora_core_audio_render_thread is now closed
+INFO    15:21:22:833   6392; AgoraRTC::AudioDeviceNotificationWindows::~AudioDeviceNotificationWindows destroyed
+INFO    15:21:22:833   6392; [WIN_CORE] *** Windows Core Audio is supported ***
+INFO    15:21:22:833   6392; [WIN_CORE] ++++++++Code block ends for checking CoreAudio properties++++++++
+INFO    15:21:22:833   6392; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    15:21:22:850   6392;   OS info: Microsoft  (build 9200), 64-bit
+INFO    15:21:22:851   6392; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    15:21:22:851   6392; [WIN_CORE] #rendering endpoint devices (counting all): 4
+INFO    15:21:22:851   6392; [WIN_CORE] ++Endpoint  0:
+INFO    15:21:22:851   6392; [WIN_CORE] ID string    : {0.0.0.00000000}.{953f31be-5fd7-45da-b09a-8fb731c81e90}
+INFO    15:21:22:851   6392; [WIN_CORE] friendly name: "Headset (NC-75 Hands-Free)"
+INFO    15:21:22:851   6392; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    15:21:22:853   6392; [WIN_CORE] #channels    : 1
+INFO    15:21:22:853   6392; [WIN_CORE] ++Endpoint  1:
+INFO    15:21:22:853   6392; [WIN_CORE] ID string    : {0.0.0.00000000}.{a254cfb5-9e3f-4cba-a23d-5624ca39df65}
+INFO    15:21:22:853   6392; [WIN_CORE] friendly name: "Speakers (Realtek High Definition Audio)"
+INFO    15:21:22:853   6392; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    15:21:22:854   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:854   6392; [WIN_CORE] ++Endpoint  2:
+INFO    15:21:22:854   6392; [WIN_CORE] ID string    : {0.0.0.00000000}.{ac23f56f-75cb-4fc0-9735-78db56108780}
+INFO    15:21:22:854   6392; [WIN_CORE] friendly name: "Headphones (Realtek High Definition Audio)"
+INFO    15:21:22:854   6392; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    15:21:22:855   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:855   6392; [WIN_CORE] ++Endpoint  3:
+INFO    15:21:22:855   6392; [WIN_CORE] ID string    : {0.0.0.00000000}.{c56fa652-f510-430b-ad5e-c3e0e985f3e2}
+INFO    15:21:22:855   6392; [WIN_CORE] friendly name: "Headphones (NC-75 Stereo)"
+INFO    15:21:22:855   6392; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    15:21:22:856   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:856   6392; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    15:21:22:857   6392; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    15:21:22:857   6392; [WIN_CORE] #capturing endpoint devices (counting all): 4
+INFO    15:21:22:857   6392; [WIN_CORE] ++Endpoint  0:
+INFO    15:21:22:857   6392; [WIN_CORE] ID string    : {0.0.1.00000000}.{52dfee4f-17d8-4e54-bff9-390b1716dcb8}
+INFO    15:21:22:857   6392; [WIN_CORE] friendly name: "Microphone Array (Realtek High Definition Audio)"
+INFO    15:21:22:857   6392; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    15:21:22:857   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:858   6392; [WIN_CORE] ++Endpoint  1:
+INFO    15:21:22:858   6392; [WIN_CORE] ID string    : {0.0.1.00000000}.{56e7b5a9-8b61-4191-af3b-b07072be659b}
+INFO    15:21:22:858   6392; [WIN_CORE] friendly name: "Stereo Mix (Realtek High Definition Audio)"
+INFO    15:21:22:858   6392; [WIN_CORE] state (0x2)  : DISABLED
+INFO    15:21:22:858   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:858   6392; [WIN_CORE] ++Endpoint  2:
+INFO    15:21:22:858   6392; [WIN_CORE] ID string    : {0.0.1.00000000}.{5ab9778c-f66a-49e3-8607-fba96f106b9d}
+INFO    15:21:22:859   6392; [WIN_CORE] friendly name: "Headset Microphone (Realtek High Definition Audio)"
+INFO    15:21:22:859   6392; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    15:21:22:859   6392; [WIN_CORE] #channels    : 2
+INFO    15:21:22:859   6392; [WIN_CORE] ++Endpoint  3:
+INFO    15:21:22:859   6392; [WIN_CORE] ID string    : {0.0.1.00000000}.{eccc0cb1-5836-4291-92db-96c0b2221980}
+INFO    15:21:22:859   6392; [WIN_CORE] friendly name: "Headset (NC-75 Hands-Free)"
+INFO    15:21:22:860   6392; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    15:21:22:860   6392; [WIN_CORE] #channels    : 1
+INFO    15:21:22:860   6392; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    15:21:22:866   6392; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "Speakers (Realtek High Definition Audio)"
+INFO    15:21:22:870   6392; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "Microphone Array (Realtek High Definition Audio)"
+INFO    15:21:22:871   6392; StereoPlayoutIsAvailable(), output: available=1
+INFO    15:21:22:871   6392; StereoRecordingIsAvailable(), output: available=1
+INFO    15:21:22:872   9328; Thread with name:EngineMonitorThread started 
+INFO    15:21:22:872   6392; RegisterVolumeNotify
+INFO    15:21:22:872   6392; setMuteStatus, muted: Off
+INFO    15:21:22:872   6392; setMuteOutput, muted: false
+INFO    15:21:22:873   6392; Audio Engine Init success
+INFO    15:21:22:874   6392; Available number of cores:4
+INFO    15:21:22:875   6392; agora::media::VideoEngine::CreateVideoSendTrack
+INFO    15:21:22:875   6392; agora::media::VideoEngine::init: feature prerotation disabled
+INFO    15:21:22:892   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:22:892   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:22:892   6392; Agora Engine video codec set to custom mode role mode 0
+INFO    15:21:22:892   6392; Agora Engine video codec index 1
+INFO    15:21:22:892   6392; Agora Engine video stream type = 0
+INFO    15:21:22:893  14456; Thread with name:VideoEncodeThread started 
+INFO    15:21:22:893   6392; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+INFO    15:21:22:894  11792; Thread with name:VideoProcessThread started 
+INFO    15:21:22:894   6392; agora::media::VideoEngine::setCodec: index=1 width=640 height=360 framerate=15
+INFO    15:21:22:894   6392; agora::media::VideoEngine::EnableLowBitRateStream: dual streams enabled 1
+INFO    15:21:22:894   6392; agora::media::VideoEngine::h264WebInteropEnable: enable 0
+INFO    15:21:22:894   6392; agora::media::VideoEngine::setCaptureDevice: index=0
+INFO    15:21:22:903   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:22:903   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:22:904   6392; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=0
+INFO    15:21:22:904   6392; more fec enable 0 curr fec method 0
+INFO    15:21:22:904   6392; video fec method 0
+ERROR   15:21:22:904   6392; videoEngine created and initialize here
+INFO    15:21:22:904   6392; agora::media::VideoEngine::CreateVideoSendTrack
+INFO    15:21:22:904   6392; [MIO] updateCapturer: (00000000), type:(1)
+INFO    15:21:22:904   6392; agora::media::VideoEngine::CreateAgoraDefaultCapture: type=0
+INFO    15:21:22:904   6392; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=08B340E8
+INFO    15:21:22:904   6392; agora::media::VideoEngine::CreateVideoCapturer: interface=08B340E8
+INFO    15:21:22:904   6392; [MIO] updateLocalRender: (00000000), type:(1)
+INFO    15:21:22:904   6392; agora::media::VideoEngine::CreateAgoraDefaultRender
+INFO    15:21:22:904   6392; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateRenderer, renderer=083988D0
+INFO    15:21:22:904   6392; agora::media::VideoEngine::CreateVideoRenderer: interface=083988D0
+INFO    15:21:22:904   6392; [MIO] video send track prepared !!
+INFO    15:21:22:904   6392; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    15:21:22:904   6392; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    15:21:22:919   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:22:919   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:22:919   6392; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=500000
+INFO    15:21:22:919   6392; agora::media::VideoEngine::setCodecRates: set frame rate to 15
+INFO    15:21:22:919   6392; agora::media::VideoEngine::setCodec: index=1 width=640 height=360 framerate=15
+INFO    15:21:22:919   6392; agora::media::VideoEngine::setCodecResolution: set to 640 x 480
+INFO    15:21:22:919   6392; agora::media::VideoEngine::setCodec: index=1 width=640 height=480 framerate=15
+INFO    15:21:22:923  14456; Thread with name:VideoEncodeThread stopped
+INFO    15:21:22:923  23464; Thread with name:VideoEncodeThread started 
+INFO    15:21:22:923   6392; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+INFO    15:21:22:924   6392; [che] chat engine initialized
+INFO    15:21:22:924   6392; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    15:21:22:924   6392; agora::media::VideoEngine::validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    15:21:22:937   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:22:937   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:22:937   6392; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=500000
+INFO    15:21:22:937   6392; agora::media::VideoEngine::setCodecRates: set frame rate to 15
+INFO    15:21:22:937   6392; agora::media::VideoEngine::setCodec: index=1 width=640 height=480 framerate=15
+INFO    15:21:22:937   6392; agora::media::VideoEngine::setCodecResolution: set to 640 x 480
+INFO    15:21:22:950   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:22:950   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:22:950   6392; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=08B340E8
+WARN    15:21:22:950   6392; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+INFO    15:21:22:962   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:22:962   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:22:962   6392; agora::media::VideoEngine::startCapture: device? 0 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    15:21:22:974   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:22:974   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:22:981   6392; Camera Name:Microsoft LifeCam Front
+INFO    15:21:22:981   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07be&mi_00#6&20d80b47&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:22:987   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:22:987   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:23:006   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:23:006   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:23:012   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:23:012   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:23:024   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:23:024   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:23:031   6392; Camera Name:Microsoft LifeCam Front
+INFO    15:21:23:031   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07be&mi_00#6&20d80b47&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:23:031   6392; AgoraVideoInput::agora::AgoraVideoInput::Init thread=1, type=100, device=\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:23:031  19236; Thread with name:AgoraInputThread started 
+INFO    15:21:23:031   6392; AgoraCameraCapture::agora::AgoraCameraCapture::Initialize, device=\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:23:667   6392; Capture device '\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global' initialized.
+INFO    15:21:23:667   6392; capture type:ds capture nRet =0,dscaptrue=138832832
+INFO    15:21:23:667   6392; AgoraRTC::videocapturemodule::VideoCaptureImpl::Create,capture deviceStatus:0
+INFO    15:21:23:667   6392; RegisterCameraCallback called 8703955047449991416
+INFO    15:21:23:667   6392; agora::media::VideoEngine::setCodec: index=1 width=640 height=480 framerate=15
+INFO    15:21:23:667   6392; agora::media::VideoEngine::setMaxVideoBitrate: max bitrate=500000
+INFO    15:21:23:667   6392; AgoraVideoInput::agora::AgoraVideoInput::Start width=640, height=480, fps=15
+INFO    15:21:23:667   6392; AgoraCameraCapture::agora::AgoraCameraCapture::Start width=640, height=480, fps=15, rotation=0
+INFO    15:21:23:738   6392; agora::media::VideoEngine::startCapture: startCapture success
+INFO    15:21:23:738   6392; agora::media::VideoEngine::EnableLowBitRateStream: dual streams enabled 1
+INFO    15:21:23:739   6392; agora::media::VideoEngine::RequestEncodeKeyFrame
+INFO    15:21:23:739   6392; agora::media::VideoEngine::doStartLocalRender: init? 1 capture id -1 device 0 capturing? 1 rendering? 0
+INFO    15:21:23:739   6392; agora::media::VideoEngine::doStartLocalRender: local render windows 0003096E
+INFO    15:21:23:739   6392; AgoraVideoOutput::agora::AgoraVideoOutput::Init thread=0, type=100, view=0003096E
+INFO    15:21:23:739   6392; AgoraRTC::ModuleVideoRenderImpl::ModuleVideoRenderImpl: prefer renderer 1
+INFO    15:21:23:769  17856; Thread without name started
+INFO    15:21:23:770   6392; AgoraRTC::VideoRenderWindowsImpl::Init,Render Type:D2D Render,iRet:0
+INFO    15:21:23:770   6392; AgoraVideoOutput::agora::AgoraVideoOutput::Start uid=0, stream_id=0, render_mode=1
+INFO    15:21:23:770   6392; AgoraRTC::IncomingVideoStream::SetStreamListener running for stream 0
+INFO    15:21:23:770   6392; [che] onVideoFrameFrozen: uid 0, frozen false
+INFO    15:21:23:770  21404; Thread with name:IncomingVideoStreamThread started 
+INFO    15:21:23:788   6392; Camera Name:Microsoft LifeCam Rear
+INFO    15:21:23:788   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07bf&mi_00#6&19f26b98&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:23:797   6392; Camera Name:Microsoft LifeCam Front
+INFO    15:21:23:797   6392; Camera uniqueID:\\?\usb#vid_045e&pid_07be&mi_00#6&20d80b47&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+INFO    15:21:23:797   6392; agora::media::VideoEngine::doStartLocalRender success
+WARN    15:21:23:797   6392; agora::media::VideoEngine::doStartLocalRender: Local renderer is rendering
+INFO    15:21:23:797   6392; video agora::media::VideoEngine::setPeerVideoMuteStatus: uid 0 muted 0
+INFO    15:21:23:798   6392; [rs] updateServers 199.190.44.36:8000, priority 1
+INFO    15:21:23:798   6392; [rs] updateServers 199.190.44.37:8000, priority 1
+INFO    15:21:23:809   6392; [rlbs] selected: 221.228.78.123:9700
+INFO    15:21:23:809   6392; [rlbs] request rs list from 221.228.78.123:9700.......
+INFO    15:21:23:823   6392; ***CALL BEGIN: appid:'53****************************e7' cname:'1000' info:'{"owner":true,"width":640,"height":480,"bitrate":500}' sid:'6C9AFBEE96B74234951800ABF2FB5D8E'
+INFO    15:21:23:823   6392; addRef of media engine, ref=2
+INFO    15:21:23:824   6392; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    15:21:23:824   6392; [tactics] parse config for beckon error for tactics size:15
+INFO    15:21:23:837   6392; [vocs] vocs initialized
+INFO    15:21:23:840   6392; CacheManager: save cache to storage elapsed 1
+INFO    15:21:23:846   6392; [cm] emit join channel signal, size=3
+INFO    15:21:23:847   6392; [vocs] lookup channel...
+INFO    15:21:23:847   6392; [vocs] selected: 69.28.51.138:8000
+INFO    15:21:23:848   6392; connecting to 69.28.51.138:8000 handle 8b6eed0, 2448
+INFO    15:21:23:848   6392; [vocs] creating channel with 69.28.51.138:8000, ts 1547718683848.......
+INFO    15:21:23:848   6392; [vocs] selected: 221.228.202.134:8000
+INFO    15:21:23:848   6392; [vocs] creating channel with 221.228.202.134:8000, ts 1547718683848.......
+INFO    15:21:23:848   6392; [vocs] selected: 123.155.153.69:8000
+INFO    15:21:23:848   6392; [vocs] creating channel with 123.155.153.69:8000, ts 1547718683848.......
+INFO    15:21:23:848   6392; [ap] selected: 47.74.211.17:8000
+INFO    15:21:23:848   6392; [ap] creating channel with 47.74.211.17:8000, ts 1547718683848, flag: 2
+INFO    15:21:23:848   6392; [ap] selected: 52.68.71.190:8000
+INFO    15:21:23:848   6392; [ap] creating channel with 52.68.71.190:8000, ts 1547718683848, flag: 2
+INFO    15:21:23:848   6392; [ap] selected: 3.0.163.78:8000
+INFO    15:21:23:848   6392; [ap] creating channel with 3.0.163.78:8000, ts 1547718683848, flag: 2
+INFO    15:21:23:849   6392; [dns] parsed ip 128.1.87.155
+INFO    15:21:23:849   6392; [dns] parsed ip 52.68.71.190
+INFO    15:21:23:849   6392; [dns] parsed ip 13.127.149.196
+INFO    15:21:23:849   6392; [dns] parsed ip 47.74.211.17
+INFO    15:21:23:849   6392; [dns] parsed ip 3.0.163.78
+INFO    15:21:23:852   6392; [dns] parsed ip 13.127.149.196
+INFO    15:21:23:853   6392; [dns] parsed ip 47.74.211.17
+INFO    15:21:23:853   6392; [dns] parsed ip 3.0.163.78
+INFO    15:21:23:853   6392; [dns] parsed ip 128.1.87.155
+INFO    15:21:23:853   6392; [dns] parsed ip 52.68.71.190
+INFO    15:21:23:864   6392; [dns] parsed ip 199.190.44.37
+INFO    15:21:23:864   6392; [dns] parsed ip 128.1.33.166
+INFO    15:21:23:864   6392; [rs] dns parse result code: 0, servers size: 2
+INFO    15:21:23:864   6392; [rs] updateServers 199.190.44.37:8000, priority from 1 to 2
+INFO    15:21:23:864   6392; [rs] updateServers 128.1.33.166:8000, priority 2
+INFO    15:21:23:973   6392; [ap/u] **responsed from 47.74.211.17:8000, 3 STUN, server ts 1547718682986
+INFO    15:21:23:973   6392; [stun] added server: 107.155.26.194:7000
+INFO    15:21:23:973   6392; [stun] added server: 107.155.20.250:7000
+INFO    15:21:23:973   6392; [stun] added server: 159.117.159.4:7000
+INFO    15:21:23:973   6392; [stun] selected: 159.117.159.4:7000
+INFO    15:21:23:974   6392; [stun10] login strategy=2
+INFO    15:21:23:974   6392; [stun10] localip is 192.168.31.44, address: 0.0.0.0:55243, port: 55243, combined: 192.168.31.44:55243, ip: 740272320, port: 52183
+INFO    15:21:23:974   6392; [stun] selected: 107.155.20.250:7000
+INFO    15:21:23:974   6392; [stun11] login strategy=2
+INFO    15:21:23:974   6392; [stun11] localip is 192.168.31.44, address: 0.0.0.0:55243, port: 55243, combined: 192.168.31.44:55243, ip: 740272320, port: 52183
+INFO    15:21:24:060   6392; [ap/u] **responsed from 52.68.71.190:8000, 3 STUN, server ts 1547718683035
+INFO    15:21:24:060   6392; [stun] added server: 159.117.159.3:7000
+INFO    15:21:24:062  19236; [che] onVideoSizeChanged: uid 0 640x480 rotate 0
+INFO    15:21:24:068  23464; Encoder rc method 3
+INFO    15:21:24:070  21404; Local stream (0) first rendered with resolution 640 * 480
+INFO    15:21:24:070   6392; onFirstVideoFrame local 0 resolution 640 * 480, elapsed 1147
+INFO    15:21:24:107   6392; [vocs/t] tcp create channel connected with 08E01028
+INFO    15:21:24:108   6392; [vocs] tcp - creating channel with 69.28.51.138:8000, ts 1547718684108.......
+INFO    15:21:24:115   6392; [vocs/u] **responsed from 69.28.51.138:8000, 3 vos, elapsed 1448, server ts 1547718683080, wan ip 112.196.158.115
+INFO    15:21:24:117   6392; [vos] added server: 45.40.48.114:4007
+INFO    15:21:24:117   6392; [vos] added server: 159.117.159.4:4006
+INFO    15:21:24:117   6392; [vos] added server: 123.108.46.71:4002
+INFO    15:21:24:120   6392; [ch0] vos initialized
+INFO    15:21:24:120   6392; [vos] selected: 123.108.46.71:4002
+ERROR   15:21:24:120   6392; [ch0] login strategy=2
+INFO    15:21:24:120   6392; [ds]: ver 1 ds '{"streamType":5}'
+INFO    15:21:24:121   6392; [ch0] Login VOS (proto:10, cid:88008137, uid:2241953203, ts:1547718684120, ticket size:76 ds:1 stream:+A+VH) 2: 123.108.46.71:4002
+INFO    15:21:24:144  23464; Encoder rc method 3
+INFO    15:21:24:159   6392; [ch0] **VOS response to login request (res 0 elapsed 1492, server ts 1547718683241, s-c:-918) from 123.108.46.71:4002, and current dest server 123.108.46.71:4002
+INFO    15:21:24:159   6392; updateActiveVosList: ["123.108.46.71:4002"]
+INFO    15:21:24:159   6392; [che] start call begins
+INFO    15:21:24:159   6392; Set Application Mode in RTC Engine to No. 0
+ERROR   15:21:24:159   6392; GetCodec() invalid index (error=8004)
+INFO    15:21:24:159   6392; SetCodec by type : No. 83
+INFO    15:21:24:174   6392; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "Microphone Array (Realtek High Definition Audio)"
+INFO    15:21:24:209   6392; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "Speakers (Realtek High Definition Audio)"
+INFO    15:21:24:210  19236; User 0's view size is changed to 938 * 602
+INFO    15:21:24:408   6392; setLoopbackRecording, enabled: false, delay 0, aec 1 
+INFO    15:21:24:431   6392; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    15:21:24:431   6392; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    15:21:24:431   6392; [WIN_CORE] nChannels      : 2
+INFO    15:21:24:431   6392; [WIN_CORE] nSamplesPerSec : 48000
+INFO    15:21:24:431   6392; [WIN_CORE] wBitsPerSample : 32
+INFO    15:21:24:610   6392; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    15:21:24:610   6392; [WIN_CORE] VoE selected this rendering format:
+INFO    15:21:24:610   6392; [WIN_CORE] wFormatTag         : 0xFFFE (65534)
+INFO    15:21:24:610   6392; [WIN_CORE] nChannels          : 2
+INFO    15:21:24:610   6392; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    15:21:24:610   6392; [WIN_CORE] wBitsPerSample     : 16
+INFO    15:21:25:289   6392; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    15:21:25:289   6392; [WIN_CORE] render side is now initialized
+INFO    15:21:25:293   7612; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=1560)
+INFO    15:21:25:293   7612; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    15:21:25:293   7612; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    15:21:25:294   7612; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    15:21:25:294   7612; [WIN_CORE] [REND] initial delay        : 30
+INFO    15:21:25:294   7612; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    15:21:25:296   6392; [WIN_CORE] rendering audio stream has now started...
+INFO    15:21:25:302   6392; output: enabled=0
+INFO    15:21:25:302   6392; output: volume=168
+INFO    15:21:25:302   6392; => OnWindowsCurrentDeviceChange() : kPlayoutDevice
+INFO    15:21:25:302   6392; StartPlayout complete
+INFO    15:21:25:302   6392; output: kWindowsCoreAudio
+INFO    15:21:25:323   6392; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    15:21:25:323   6392; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    15:21:25:323   6392; [WIN_CORE] nChannels      : 2
+INFO    15:21:25:323   6392; [WIN_CORE] nSamplesPerSec : 48000
+INFO    15:21:25:323   6392; [WIN_CORE] wBitsPerSample : 32
+INFO    15:21:25:323   6392; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    15:21:25:323   6392; [WIN_CORE] VoE selected this capturing format:
+INFO    15:21:25:323   6392; [WIN_CORE] wFormatTag        : 0xFFFE (65534)
+INFO    15:21:25:323   6392; [WIN_CORE] nChannels         : 2
+INFO    15:21:25:323   6392; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    15:21:25:323   6392; [WIN_CORE] wBitsPerSample    : 16
+INFO    15:21:25:371   6392; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    15:21:25:371   6392; [WIN_CORE] capture side is now initialized
+INFO    15:21:25:372  23852; [WIN_CORE] [CAPT] size of buffer       : 1056
+INFO    15:21:25:372  23852; [WIN_CORE] [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    15:21:25:372  23852; [WIN_CORE] [CAPT] max stream latency   : 0 (0.00 ms)
+INFO    15:21:25:372  23852; [WIN_CORE] [CAPT] device period        : 100000 (10.00 ms)
+INFO    15:21:25:372  23852; [WIN_CORE] [CAPT] extraDelayMS         : 10.00
+INFO    15:21:25:372  23852; [WIN_CORE] [CAPT] endpointBufferSizeMS : 22.00
+INFO    15:21:25:375   6392; [WIN_CORE] capture audio stream has now started...
+INFO    15:21:25:376   6392; output: enabled=0
+INFO    15:21:25:380   2528; AgoraRTC::AudioDeviceNotificationWindows::OnSimpleVolumeChanged: capture session volume is changed to: 94
+INFO    15:21:25:380   6392; => OnWindowsCurrentDeviceChange() : kRecordingDevice
+INFO    15:21:25:380   6392; StartRecording complete
+INFO    15:21:25:380   6392; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC on
+INFO    15:21:25:380   6392; MID = 3003, Routing = 0
+INFO    15:21:25:380   6392; [che] start call returns 0, elapsed 1221
+INFO    15:21:25:380   6392; Setting dtx mode to 2
+INFO    15:21:25:380   6392; setNetEQMinimumPlayoutDelay delay(100)
+INFO    15:21:25:380   6392; join channel success: cname '1000' uid 2241953203 elapsed 2713
+INFO    15:21:25:383   6392; CacheManager: save cache to storage elapsed 3
+INFO    15:21:25:393   6392; onFirstLocalAudioFrame codec 83 elapsed 2725
+INFO    15:21:25:393   6392; TRACER: onFirstLocalAudioFrame codec 83 elapsed 2725
+INFO    15:21:25:393   6392; TRACER: onFirstLocalVideoFrame codec 4 elapsed 2726
+INFO    15:21:25:394   6392; [rlbs/u] responsed from 221.228.78.123:9700 with servers 199.190.44.37:8913
+INFO    15:21:25:394   6392; [rs] updateServers 199.190.44.37:8913, priority 3
+INFO    15:21:25:394   6392; [rs] updateServers 103.193.127.74:8913, priority 3
+INFO    15:21:25:394   6392; [rs] updateServers 103.193.127.73:8913, priority 3
+INFO    15:21:25:394   6392; [vocs/u] **responsed from 123.155.153.69:8000, 3 vos, elapsed 2727, server ts 1547718683087, wan ip 112.196.158.115
+INFO    15:21:25:394   6392; [stun10] login strategy=2
+INFO    15:21:25:394   6392; [stun10] localip is 192.168.31.44, address: 0.0.0.0:55243, port: 55243, combined: 192.168.31.44:55243, ip: 740272320, port: 52183
+INFO    15:21:25:394   6392; [stun11] login strategy=2
+INFO    15:21:25:394   6392; [stun11] localip is 192.168.31.44, address: 0.0.0.0:55243, port: 55243, combined: 192.168.31.44:55243, ip: 740272320, port: 52183
+INFO    15:21:25:395   6392; [vocs/u] **responsed from 221.228.202.134:8000, 3 vos, elapsed 2727, server ts 1547718683197, wan ip 112.196.158.115
+INFO    15:21:25:430   6392; [ch0] rtt: 37
+INFO    15:21:25:468   6392; [stun10] onLoggedIn with code: 0
+INFO    15:21:25:534   6392; [stun11] onLoggedIn with code: 0
+INFO    15:21:26:159   6392; agora::media::VideoEngine::notifyPeerCount: cnt 0
+INFO    15:21:26:187   5900; API call to stop preview
+INFO    15:21:26:187   5900; API call to leave channel
+INFO    15:21:26:187   6392; [rp] {"rtc.video.preview":false}
+ERROR   15:21:26:187   6392; API call failed to stop video preview due to not in idle mode
+INFO    15:21:26:187   6392; [cm] emit leave channel signal
+INFO    15:21:26:508   6392; agora::media::VideoEngine::stopLocalRender
+INFO    15:21:26:508   6392; AgoraVideoOutput::agora::AgoraVideoOutput::Stop
+INFO    15:21:26:509  21404; Thread with name:IncomingVideoStreamThread stopped
+WARN    15:21:26:509   6392; AgoraRTC::IncomingVideoStream::Stop: Not running
+INFO    15:21:26:510   6392; AgoraVideoOutput::agora::AgoraVideoOutput::Destroy
+INFO    15:21:26:510  17856; Thread without name stopped
+INFO    15:21:26:510   6392; agora::media::VideoEngine::stopLocalRender success
+INFO    15:21:26:510   6392; AgoraVideoInput::agora::AgoraVideoInput::Stop
+INFO    15:21:26:511   6392; AgoraCameraCapture::agora::AgoraCameraCapture::Stop
+INFO    15:21:26:766   6392; AgoraVideoInput::agora::AgoraVideoInput::Destroy
+INFO    15:21:26:766   6392; AgoraCameraCapture::agora::AgoraCameraCapture::Dispose
+INFO    15:21:26:863  19236; Thread with name:AgoraInputThread stopped
+INFO    15:21:26:863   6392; agora::media::VideoEngine::stopCapture: stopCapture success
+INFO    15:21:26:863   6392; agora::media::VideoEngine::stopRemoteRender
+INFO    15:21:26:863   6392; [che] stopCall begins
+INFO    15:21:26:863   6392; [WIN_CORE] closing down the agora_core_audio_capture_thread...
+INFO    15:21:26:865  23852; [WIN_CORE] _Capturing thread is now terminated properly
+INFO    15:21:26:866   6392; [WIN_CORE] agora_core_audio_capture_thread is now closed
+INFO    15:21:26:866   6392; StopRecording complete
+INFO    15:21:26:866   6392; [WIN_CORE] closing down the agora_core_audio_render_thread...
+INFO    15:21:26:890   7612; [WIN_CORE] _Rendering thread is now terminated properly
+INFO    15:21:26:891   6392; [WIN_CORE] agora_core_audio_render_thread is now closed
+INFO    15:21:26:892   6392; StopPlayout complete
+INFO    15:21:26:892   6392; [che] stop call returns 0, elapsed 29
+INFO    15:21:26:892   6392; [rs] **report stats: seq: 17, report list size 10, tx/rx: 3033/336, cache size: 0
+INFO    15:21:26:893   6392; **CALL STATS: duration 2s, tx 41.203K bytes, rx 3.38K bytes, total 44.241K bytes
+INFO    15:21:26:895   6392; CacheManager: save cache to storage elapsed 2
+INFO    15:21:26:905   6392; [ch0] vos destroyed
+INFO    15:21:26:905   6392; delRef of media engine, ref=1
+INFO    15:21:26:905   6392; ***CALL END
+INFO    15:21:26:905   6392; setMuteStatus, muted: Off
+INFO    15:21:26:905   6392; agora::media::VideoEngine::enableLocalVideoSend: enable=1
+INFO    15:21:26:905   6392; onAudioStatusChanged enable audio
+INFO    15:21:26:905   6392; [rp] {"rtc.video.mute_me":false,"che.video.local.send":true}
+INFO    15:21:26:905   6392; agora::media::VideoEngine::enableLocalVideoSend: enable=1
+INFO    15:21:26:905   6392; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    15:21:26:905   6392; setMuteStatus, muted: Off
+INFO    15:21:26:905   6392; [rp] {"che.video.stop_screen_capture":true}
+INFO    15:21:26:905   6392; [MIO] updateCapturer: (00000000), type:(1)
+INFO    15:21:26:905   6392; agora::media::VideoEngine::CreateAgoraDefaultCapture: type=0
+INFO    15:21:26:905   6392; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer capturer=08B340E8
+WARN    15:21:26:905   6392; VideoSendTrackImpl::agora::VideoSendTrackImpl::UpdateCapturer, Ignore updating the same capturer
+INFO    15:21:27:668   6392; [rs] **report stats: seq: 17, report list size 9, tx/rx: 3033/384, cache size: 0
+INFO    15:21:31:188   6392; [rs] All - total: 8/17, valid: 8/17
+INFO    15:21:31:188   6392; [rs] Event - total: 8/17, valid: 8/17

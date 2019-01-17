@@ -167,7 +167,7 @@ BOOL COpenLiveDlg::OnInitDialog()
 	InitCtrls();
 	InitChildDialog();
 
-	m_statusConnect.SetWindowTextW(L"Disconnected");
+	//m_statusConnect.SetWindowTextW(L"Disconnected");
 
 	atexit([]() {
 		std::terminate();
@@ -201,7 +201,7 @@ void COpenLiveDlg::InitCtrls()
 	m_linkAgora.SetURL(_T("http://www.eduneev.in"));
 	m_linkAgora.SetWindowText(LANG_STR("IDS_LOGO_AGORAWEB"));
 	CMFCButton::EnableWindowsTheming(FALSE);
-	SetClassroomDetails();
+	//SetClassroomDetails();
 }
 
 void COpenLiveDlg::InitChildDialog()
@@ -462,13 +462,14 @@ LRESULT COpenLiveDlg::SetDisconnected(WPARAM wParam, LPARAM lParam)
 
 LRESULT COpenLiveDlg::WebSocketHandler(WPARAM wParam, LPARAM lParam)
 {
+	/*
 	COutputLogger("Inside Websocket Handler");
 	auto t = concurrency::create_task([&]()
 	{
 		COutputLogger("GETTING HERE");
 		StartWebSockets(this);
 	});
-
+	*/
 	return 0;
 }
 

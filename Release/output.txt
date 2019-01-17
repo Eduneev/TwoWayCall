@@ -1,0 +1,1427 @@
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+ERROR
+Could not connect to websocket
+ERROR
+ERROR
+ERROR
+Could not connect to websocket
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+Exiting WebSocket thread
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+CLIENT CLOSE: 
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Exiting WebSocket thread
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Messaged received
+{"profile":"2WayCall","action":"join","channel":"1000"}nection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Join call on channel 0610D828
+Messaged received
+{"profile":"2WayCall","action":"leave","channel":"1000"}ection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Leaving Call Channel
+Starting VLC
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+Result of last used command
+No errors retrieving VLC Command
+START "" "C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+Exiting WebSocket thread
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+Disconnected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+SETTING CONNECTED
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+SETTING CONNECTED
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"100","profile":"2WayCall","type":"Connection"}
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Messaged received
+{"profile":"2WayCall","action":"join","channel":"1000"}nection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Join call on channel 046F4390
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+SETTING DISCONNECTED
+Exiting WebSocket thread
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Naraina Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "https://videos.pond5.com/monarch-butterfly-danaus-plexippusmp4-footage-010804569_main_xl.mp4?tokenCustomParameter=3&tokenhash=JcVJtVD1VBa2ulzEGbDrkmq1x_oBYrWbYGli-is4Xrc="
+Naraina Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Naraina Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+SETTING DISCONNECTED
+Exiting WebSocket thread
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Messaged received
+{"profile":"2WayCall","action":"join","channel":"1000"}nection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Join call on channel 054AACB8
+Messaged received
+{"profile":"2WayCall","action":"leave","channel":"1000"}ection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Leaving Call Channel
+Starting VLC
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+Result of last used command
+No errors retrieving VLC Command
+START "" "C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Messaged received
+{"profile":"2WayCall","action":"join","channel":"1000"}}ection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Join call on channel 07E0A8D0
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Messaged received
+{"profile":"2WayCall","action":"leave","channel":"1000"}ection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Leaving Call Channel
+Starting VLC
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+Result of last used command
+No errors retrieving VLC Command
+START "" "C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Messaged received
+{"profile":"2WayCall","action":"join","channel":"1000"}}ection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Join call on channel 049C5D28
+CLIENT CLOSE: 
+SETTING DISCONNECTED
+Exiting WebSocket thread
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Setting Classroom details
+0215AE2AED62
+http://localhost:55082/api/GetClassroom/0215AE2AED62
+Setting Classroom details
+0215AE2AED62
+http://http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+CLIENT CLOSE: 
+SETTING DISCONNECTED
+SETTING DISCONNECTED
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Messaged received
+{"profile":"2WayCall","action":"join","channel":"1000"}nection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Join call on channel 05240AF8
+Messaged received
+{"profile":"2WayCall","action":"leave","channel":"1000"}ection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Leaving Call Channel
+Starting VLC
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+Result of last used command
+No errors retrieving VLC Command
+START "" "C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Pritampura Center
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Pritampura Center
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+Pritampura Center
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+SETTING DISCONNECTED
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+Pritampura Center
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+SETTING DISCONNECTED
+Exiting WebSocket thread
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+Pritampura Center
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Pritampura Center
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+Pritampura Center
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Pritampura Center
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+Pritampura Center
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+CLIENT CLOSE: 
+SETTING DISCONNECTED
+Exiting WebSocket thread
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Pritampura Center
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+Pritampura Center
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Pritampura Center
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Pritampura Center
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+Pritampura Center
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Messaged received
+{"profile":"2WayCall","action":"join","channel":"1000"}nection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Join call on channel 07292750
+Messaged received
+{"profile":"2WayCall","action":"leave","channel":"1000"}ection: Upgrade
+sec-websocket-accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+
+
+Input is valid JSON
+Leaving Call Channel
+Starting VLC
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+Result of last used command
+No errors retrieving VLC Command
+START "" "C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Pritampura Center
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+Pritampura Center
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.220.100.99:1935/NC002/NC002_CS_MCA_CM_HD?tokenCustomParameter=3&tokenhash=DoGkgrfiWeWvztYjZH2ETfX1xKz8-sDXyV4wirteWwU="
+Pitampura Classroom 1
+Pritampura Center
+Inside Websocket Handler
+GETTING HERE
+ERROR
+Could not connect to websocket
+Connection to server successful
+SETTING CONNECTED
+Connected
+Pritampura Center
+{"CenterName":"Pritampura Center","ClassroomID":3,"ClassroomName":"Pitampura Classroom 1","channel":"1000","profile":"2WayCall","type":"Connection"}
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
+Setting Classroom details
+0215AE2AED62
+http://twowaylive.us-east-2.elasticbeanstalk.com/api/GetClassroom/0215AE2AED62
+{"ClassRoomId":3,"ClassRoomName":"Pitampura Classroom 1","CenterId":1,"CenterName":"Pritampura Center","LastUsedCommand":"\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt \"rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU=\""}
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --no-sout-video --one-instance --embedded-video --key-record=  -I --disable-qt "rtsp://18.224.156.241:1935/NC002/NC002_CS_MCA_CM_SD?tokenCustomParameter=3&tokenhash=pew83e-mGlbDBRdE-SDtajMLdXZv1mo_SpMQQBbqHXU="
+Pitampura Classroom 1
+Pritampura Center
