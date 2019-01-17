@@ -1519,3 +1519,50 @@ WARN    15:21:26:905   6392; VideoSendTrackImpl::agora::VideoSendTrackImpl::Upda
 INFO    15:21:27:668   6392; [rs] **report stats: seq: 17, report list size 9, tx/rx: 3033/384, cache size: 0
 INFO    15:21:31:188   6392; [rs] All - total: 8/17, valid: 8/17
 INFO    15:21:31:188   6392; [rs] Event - total: 8/17, valid: 8/17
+Local Date: Jan 17 2019 Local Time: 16:22:57
+Build info: Jan 16 2019 15:11:12 r
+
+INFO    16:22:57:489  13396; [rp] {"rtc.channel_profile":0}
+INFO    16:22:57:490  13396; [rp] {"rtc.video.enabled":true}
+INFO    16:22:57:490  13396; API call to enable video
+INFO    16:22:57:490  13396; [rp] {"rtc.client_role":1}
+INFO    16:22:57:516  13396; [dns] parsed ip 3.0.163.78
+INFO    16:22:57:516  13396; [dns] parsed ip 128.1.87.155
+INFO    16:22:57:516  13396; [dns] parsed ip 13.127.149.196
+INFO    16:22:57:516  13396; [dns] parsed ip 47.74.211.17
+INFO    16:22:57:516  13396; [dns] parsed ip 52.68.71.190
+INFO    16:22:57:516  13396; [ap] onParsedDns with err 0, 3.0.163.78, 128.1.87.155, 13.127.149.196, 47.74.211.17, 52.68.71.190, 
+INFO    16:22:57:631  13396; [rlbs/u] responsed from 47.74.211.17:9700 with servers 128.1.33.168:8913
+INFO    16:22:57:631  13396; [rs] updateServers 128.1.33.168:8913, priority 3
+INFO    16:22:57:631  13396; [rs] updateServers 199.190.44.37:8913, priority 3
+INFO    16:22:57:631  13396; [rs] updateServers 199.190.44.36:8913, priority 3
+INFO    16:22:57:688  13396; [ap/t] tcp connected with 00134018
+INFO    16:22:57:688  13396; [ap] CdsTdsRequest, vendor: 53ff08bd38f74477b167e89305de15e7, device: Microsoft Corporation/Surface Pro 3, detail: Microsoft Corporation/Surface Pro 3/x64-based PC/Windows 6.2.9200, system: Windows/6.2.9200, version: 2.3.2, a
+INFO    16:22:57:688  13396; [ap] tcp - creating channel with 52.58.56.244:8000, ts 0, flag: 72
+INFO    16:22:57:689  13396; [ap/u] **responsed from 52.58.56.244:8000, CDS(8).
+INFO    16:22:57:689  13396; [ap] onAPCdsRes success with config: ¸™
+INFO    16:22:57:689  13396; [cs] applied directly: {}, elapsed: 0
+INFO    16:22:57:693  13396; CacheManager: save cache to storage elapsed 3
+INFO    16:22:57:703  13396; [ap/u] **responsed from 52.58.56.244:8000, TDS(64).
+INFO    16:22:57:703  13396; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    16:22:57:752  13396; [ap/u] **responsed from 52.52.84.170:25000, TDS(64).
+INFO    16:22:57:760  13396; [ap/u] **responsed from 52.52.84.170:25000, CDS(8).
+INFO    16:22:57:924  13396; [ap/u] **responsed from 106.14.12.130:1080, TDS(64).
+INFO    16:22:57:936  13396; [ap/u] **responsed from 106.14.12.130:1080, CDS(8).
+Local Date: Jan 17 2019 Local Time: 16:23:07
+Build info: Jan 16 2019 15:11:12 r
+
+INFO    16:23:07:599   9824; [rp] {"rtc.channel_profile":0}
+INFO    16:23:07:599   9824; [rp] {"rtc.video.enabled":true}
+INFO    16:23:07:599   9824; API call to enable video
+INFO    16:23:07:599   9824; [rp] {"rtc.client_role":1}
+INFO    16:23:07:616   9824; [ap/t] tcp connected with 019BFE18
+INFO    16:23:07:616   9824; [ap] CdsTdsRequest, vendor: 53ff08bd38f74477b167e89305de15e7, device: Microsoft Corporation/Surface Pro 3, detail: Microsoft Corporation/Surface Pro 3/x64-based PC/Windows 6.2.9200, system: Windows/6.2.9200, version: 2.3.2, a
+INFO    16:23:07:616   9824; [ap] tcp - creating channel with 13.127.149.196:8000, ts 0, flag: 64
+INFO    16:23:07:670   9824; [ap/u] **responsed from 3.0.163.78:25000, TDS(64).
+INFO    16:23:07:670   9824; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    16:23:07:716   9824; [ap/u] **responsed from 13.127.149.196:8000, TDS(64).
+INFO    16:23:07:744   9824; [ap/u] **responsed from 52.68.71.190:1080, TDS(64).
+INFO    16:23:07:748   9824; [rlbs/u] responsed from 47.74.211.17:9700 with servers 128.1.33.168:8913
+INFO    16:23:07:748   9824; [rs] updateServers 128.1.33.168:8913, priority 3
+INFO    16:23:07:748   9824; [rs] updateServers 199.190.44.37:8913, priority 3
