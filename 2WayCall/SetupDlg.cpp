@@ -126,13 +126,14 @@ void CSetupDlg::InitCtrls()
 
 void CSetupDlg::InitData()
 {
-	m_szProfileDes[0] = _T("160x120 15fps");//65kbps
-	m_nProfileValue[0] = 0;
-	m_szProfileDes[1] = _T("120x120 15fps");//50kbps
-	m_nProfileValue[1] = 2;
+	m_szProfileDes[0] = _T("640x360 15fps");//400kbps
+	m_nProfileValue[0] = 30;
+	m_szProfileDes[1] = _T("640x480 15fps");//500kbps
+	m_nProfileValue[1] = 40;
 
-	m_szProfileDes[2] = _T("320x180 15fps");//140kbps
-	m_nProfileValue[2] = 10;
+	m_szProfileDes[2] = _T("1280x720 15fps"); //1130kbps
+	m_nProfileValue[2] = 50;
+	/*
 	m_szProfileDes[3] = _T("180x180 15fps");//100kbps
 	m_nProfileValue[3] = 12;
 	m_szProfileDes[4] = _T("240x180 15fps");//120kbps
@@ -197,6 +198,7 @@ void CSetupDlg::InitData()
 	m_nProfileValue[30] = 70;
 	m_szProfileDes[31] = _T("3840x2160 60fps"); //13500kbps
 	m_nProfileValue[31] = 72;
+	*/
 }
 
 void CSetupDlg::DrawClient(CDC *lpDC)

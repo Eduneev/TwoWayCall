@@ -67,8 +67,8 @@ private:
 	CFont			m_ftBtn;		// button
 	CPen            m_penFrame;
 
-    int                 m_nProfileValue[64];
-	LPTSTR			    m_szProfileDes[64];
+    int                 m_nProfileValue[3];
+	LPTSTR			    m_szProfileDes[3];
 	AGNET_RATE_RANGE	m_agRateRange[13];
 	
 private:
