@@ -102,7 +102,7 @@ void CSetupDlg::InitCtrls()
 
 	m_btnConfirm.MoveWindow(ClientRect.Width() / 2 + 93, ClientRect.Height() - 58, 174, 36, TRUE);
 
-	for (int nIndex = 0; nIndex < 31; nIndex++) {
+	for (int nIndex = 0; nIndex < 3; nIndex++) {
 		m_cbxVideoProfile.InsertString(nIndex, m_szProfileDes[nIndex]);
 		m_cbxVideoProfile.SetItemData(nIndex, (DWORD_PTR)m_nProfileValue[nIndex]);
 	}
