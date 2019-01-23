@@ -119,7 +119,7 @@ void CSetupDlg::InitCtrls()
     if (m_agConfig.IsAutoSaveEnabled())
         nResolutionIndex = m_agConfig.GetSolution();
     else
-        nResolutionIndex = 15;
+        nResolutionIndex = 0;
     
     m_cbxVideoProfile.SetCurSel(nResolutionIndex);
 }
