@@ -309,14 +309,12 @@ void COpenLiveDlg::DrawClient(CDC *lpDC)
 
 void COpenLiveDlg::OnBnClickedBtnmin()
 {
-	// TODO:  在此添加控件通知处理程序代码
 	ShowWindow(SW_MINIMIZE);
 }
 
 
 void COpenLiveDlg::OnBnClickedBtnclose()
 {
-	// TODO:  在此添加控件通知处理程序代码
 	CDialogEx::OnCancel();
 }
 
