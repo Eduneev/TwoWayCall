@@ -348,6 +348,9 @@ LRESULT COpenLiveDlg::OnJoinChannel(WPARAM wParam, LPARAM lParam)
 {
 
 	IRtcEngine		*lpRtcEngine = CAgoraObject::GetEngine();
+	RtcEngineParameters *lpRtcParameters = new RtcEngineParameters(*lpRtcEngine);
+	lpRtcParameters->setLocalVideoMirrorMode(agora::rtc::VIDEO_MIRROR_MODE_DISABLED); //Set Video mirror for local video 
+
 	CAgoraObject	*lpAgoraObject = CAgoraObject::GetAgoraObject();
 
 	CString strChannelName = m_dlgEnterChannel.GetChannelName();
