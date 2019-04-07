@@ -84,10 +84,11 @@ void CEnterChannelDlg::InitCtrls()
 	m_ctrChannel.ShowCaret();
 	m_ctrChannel.SetTip(LANG_STR("IDS_CHN_CHANNELNAME"));
 
-	m_btnSetChannel.MoveWindow(ClientRect.Width()/2, 160, ClientRect.Width()/5, ClientRect.Height()/8.5, TRUE);
-    
+	//m_btnSetChannel.MoveWindow(ClientRect.Width()/2, ClientRect.Height()/2.9, ClientRect.Width()/5, ClientRect.Height()/8.5, TRUE);
+	m_btnSetChannel.MoveWindow(ClientRect.Width()/2, ClientRect.Height()/2.9, 150, 50, TRUE);
+
 	m_btnJoin.MoveWindow(120, 310, 360, 36, TRUE);
-	m_btnSetup.MoveWindow(ClientRect.Width() / 2 - ClientRect.Width() / 5, 355, 240, 36, TRUE);
+	m_btnSetup.MoveWindow(180, 355, 240, 36, TRUE);
 
 	m_btnJoin.SetBackColor(RGB(0x00, 0xA0, 0xE9), RGB(0x05, 0x78, 0xAA), RGB(0x05, 0x78, 0xAA), RGB(0xE6, 0xE6, 0xE6));
 	m_btnJoin.SetFont(&m_ftBtn);
