@@ -74,6 +74,7 @@ private:
 	CFont		m_ftTitle;
 	CFont		m_ftLink;
 	CFont		m_ftVer;
+	CFont		m_ftTxt;
 	CImageList	m_imgNetQuality;
 	//CWnd		*m_statusConnect;
 	CStatic		m_statusConnect;

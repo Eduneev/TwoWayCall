@@ -145,6 +145,7 @@ BOOL COpenLiveDlg::OnInitDialog()
 	m_ftTitle.CreateFont(16, 0, 0, 0, FW_BOLD, FALSE, FALSE, 0, ANSI_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS, _T("Arial"));
 	m_ftLink.CreateFont(16, 0, 0, 0, FW_BOLD, FALSE, TRUE, 0, ANSI_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS, _T("Arial"));
 	m_ftVer.CreateFont(16, 0, 0, 0, FW_NORMAL, FALSE, FALSE, 0, ANSI_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS, _T("Arial"));
+	m_ftTxt.CreateFont(24, 0, 0, 0, FW_NORMAL, FALSE, FALSE, 0, ANSI_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS, _T("Arial"));
 
 	CString strAppID = CAgoraObject::LoadAppID();
 
@@ -189,6 +190,7 @@ void COpenLiveDlg::InitCtrls()
 	m_imgNetQuality.Add(&bmpNetQuality, RGB(0xFF, 0, 0xFF));
 
 	//m_statusConnect->SetWindowText(_T("Disconnected"));
+	m_statusConnect.SetFont(&m_ftTxt);
 
 	m_btnMin.MoveWindow(ClientRect.Width() - 46, 1, 22, 22, TRUE);
 	m_btnClose.MoveWindow(ClientRect.Width() - 23, 1, 22, 22, TRUE);
@@ -198,7 +200,7 @@ void COpenLiveDlg::InitCtrls()
 	m_btnClose.SetBackImage(IDB_BTNCLOSE, RGB(0xFF, 0, 0xFF));
 
 	m_linkAgora.SetFont(&m_ftLink);
-	m_linkAgora.SetURL(_T("http://www.eduneev.in"));
+	m_linkAgora.SetURL(_T("http://www.2WayLive.com"));
 	m_linkAgora.SetWindowText(LANG_STR("IDS_LOGO_AGORAWEB"));
 	CMFCButton::EnableWindowsTheming(FALSE);
 	SetClassroomDetails();
