@@ -72,6 +72,13 @@ BOOL CEnterChannelDlg::OnInitDialog()
 	return TRUE;  // return TRUE unless you set the focus to a control
 }
 
+void COutputLogger2(const char* txt)
+{
+	std::ofstream log("output.txt", std::ios_base::app | std::ios_base::out);
+	log << txt << std::endl;
+}
+
+
 void CEnterChannelDlg::InitCtrls()
 {
 	CRect ClientRect;
@@ -81,11 +88,15 @@ void CEnterChannelDlg::InitCtrls()
 	m_ctrChannel.MoveWindow(80, 180, 100, 22, TRUE);
     m_ctrChannel.SetFont(&m_ftDesc);
 	m_ctrChannel.SetCaretPos(CPoint(24, 148));
-	m_ctrChannel.ShowCaret();
+	//m_ctrChannel.ShowCaret();
 	m_ctrChannel.SetTip(LANG_STR("IDS_CHN_CHANNELNAME"));
 
 	//m_btnSetChannel.MoveWindow(ClientRect.Width()/2, ClientRect.Height()/2.9, ClientRect.Width()/5, ClientRect.Height()/8.5, TRUE);
-	m_btnSetChannel.MoveWindow(ClientRect.Width()/2, ClientRect.Height()/2.9, 150, 50, TRUE);
+		
+	m_btnSetChannel.MoveWindow(360, 162, 150, 50, TRUE);
+	char a[10];
+	COutputLogger2(_itoa(ClientRect.Width(), a, 10));
+	COutputLogger2(_itoa(ClientRect.Height(), a, 10));
 
 	m_btnJoin.MoveWindow(120, 310, 360, 36, TRUE);
 	m_btnSetup.MoveWindow(180, 355, 240, 36, TRUE);

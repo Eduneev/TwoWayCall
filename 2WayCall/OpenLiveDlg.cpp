@@ -190,8 +190,9 @@ void COpenLiveDlg::InitCtrls()
 	m_imgNetQuality.Add(&bmpNetQuality, RGB(0xFF, 0, 0xFF));
 
 	//m_statusConnect->SetWindowText(_T("Disconnected"));
+	m_statusConnect.MoveWindow(ClientRect.Width()/2-ClientRect.Width()/8, 40, ClientRect.Width()/4, 40);
 	m_statusConnect.SetFont(&m_ftTxt);
-
+	
 	m_btnMin.MoveWindow(ClientRect.Width() - 46, 1, 22, 22, TRUE);
 	m_btnClose.MoveWindow(ClientRect.Width() - 23, 1, 22, 22, TRUE);
 	m_linkAgora.MoveWindow(ClientRect.Width() / 2 - 30, ClientRect.Height()-55, 80, 20, TRUE);
