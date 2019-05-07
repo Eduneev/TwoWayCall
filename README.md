@@ -23,7 +23,7 @@ In order to run the client, you also need access to the Eduneev Server, which th
 
 1. Keep an eye on the 2WayCall page in 2WayLive portal to view all the connected classrooms.
 2. When the teacher desires, he can call any of the connected classrooms.
-3. To start 2WayCall on the Studio end, enter the Channel for the current session and press 'Join'
+3. To start 2WayCall on the Studio end, enter the Channel for the current session and press 'Join'.
 
 ## License
 
