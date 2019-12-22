@@ -17,7 +17,7 @@ const char* COpenLiveDlg::ProfileStrings[] = { "2WayCall" };
 const char* COpenLiveDlg::ActionStrings[] = { "join", "leave" };
 const char* COpenLiveDlg::MessageStrings[] = { "profile", "type", "wsID", "channel", "ClassroomName", "ClassroomID", "action", "Failure", "CenterName" };
 const char* COpenLiveDlg::WebApiStrings[] = { "ClassRoomName", "ClassRoomId", "LastUsedCommand", "CenterName" };
-std::string COpenLiveDlg::m_sBaseUrl = std::string("http://twowaylive.us-east-2.elasticbeanstalk.com/api/");
+std::string COpenLiveDlg::m_sBaseUrl = std::string("http://portal.2waylive.com/api/");
 std::string COpenLiveDlg::m_sAuthPath = std::string("auth.pem");
 std::string TESTING_URI = "ws://localhost:2000";
 std::string PROD_URI = "ws://52.15.186.193:2000";
@@ -507,7 +507,14 @@ void COpenLiveDlg::StartWebSockets(CWnd *m_statusConnect)
 	using namespace std;
 	using json = nlohmann::json;
 
-	h.connect(PROD_URI);
+	connection = COpenLiveDlg::GetConnectionDetails(COpenLiveDlg::m_nClassroomID);
+	if (strcmp(connection.c_str(), "Failure") == 0) {
+		MessageBoxA(0, "An Error Occurred Finding Server. Please contact support", "Notice", MB_ICONINFORMATION);
+	}
+	else
+	{
+		h.connect(connection.c_str());
+	}
 
 	h.onConnection([&](uWS::WebSocket<uWS::CLIENT> *ws, uWS::HttpRequest req) 
 	{
@@ -586,7 +593,7 @@ void COpenLiveDlg::StartWebSockets(CWnd *m_statusConnect)
 	
 	h.onError([&](void *user) {
 		ErrorCheck(user);
-		h.connect(PROD_URI);
+		h.connect(connection.c_str());
 	});
 
 	//h.connect(TESTING_URI); // connect to server Change to prod server for release
@@ -693,6 +700,27 @@ void COpenLiveDlg::StartVlc()
 	}
 }
 
+std::string COpenLiveDlg::GetConnectionDetails(int m_nClassroomID)
+{
+	using web::uri;
+	std::string connectUrl = COpenLiveDlg::m_sBaseUrl + "GetCallServer/" + std::to_string(m_nClassroomID);
+	COutputLogger("URL Is: ");
+	COutputLogger(connectUrl.c_str());
+
+	uri* url = new uri(ConvertToWString(connectUrl).c_str());
+	std::string val = std::string(HTTPStreamingAsync(url).get());
+
+	if (!IsJson(val))
+		throw std::exception("Call to server unsuccessful!");
+
+	val = val.substr(1, val.length() - 2);
+
+	COutputLogger("Server Url Retrieved");
+	COutputLogger(val.c_str());
+
+	return val;
+}
+
 void COpenLiveDlg::SetClassroomDetails()
 {
 	using namespace std;
@@ -744,6 +772,23 @@ std::string COpenLiveDlg::ReadAuthPermissions()
 
 	COutputLogger(result.c_str());
 	return result;
+}
+
+bool IsJson(std::string str)
+{
+	using json = nlohmann::json;
+	json j;
+	try
+	{
+		j = json::parse(str);
+		return true;
+	}
+	catch (json::exception e)
+	{
+		printf("Input is not json: %s\n", e.what());
+		return false;
+	}
+	return false;
 }
 
 // Creates an HTTP request and returns the response body.

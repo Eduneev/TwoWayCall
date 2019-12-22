@@ -111,6 +111,7 @@ public:
 	void SetClassroomDetails();
 	void StartVlc();
 	std::string COpenLiveDlg::ReadAuthPermissions();
+	std::string GetConnectionDetails(int m_nClassroomID);
 
 
 	static const char* EventsStrings[];
@@ -131,4 +132,5 @@ public:
 	std::string m_sCenterName;
 	std::string m_sLastUsedCommand;
 	std::string m_sAuthKey;
+	std::string connection;
 };
