@@ -725,11 +725,30 @@ void COpenLiveDlg::SetClassroomDetails()
 {
 	using namespace std;
 	using web::uri;
-	
+	COutputLogger("About to get baseboard details!");
+	string baseboard = Exec("wmic baseboard get SerialNumber");
+
+	// Vector of string to save tokens 
+	vector <string> tokens;
+
+	// stringstream class check1 
+	stringstream check1(baseboard);
+	string intermediate;
+
+	// Tokenize
+	while (getline(check1, intermediate, '\n'))
+	{
+		tokens.push_back(intermediate);
+	}
+
+	// Baseboard number is the second one
+	baseboard = tokens[1].substr(0, tokens[1].size() - 3);
+	COutputLogger(baseboard.c_str());
+
 	COutputLogger("Setting Classroom details");
 
 	// Read permissions
-	m_sAuthKey = ReadAuthPermissions();
+	m_sAuthKey = baseboard;//ReadAuthPermissions();
 
 	if (m_sAuthKey.empty()) {
 		MessageBox(_T("NO Permissions!"), _T("Notice"), MB_ICONINFORMATION);
@@ -760,6 +779,27 @@ void COpenLiveDlg::SetClassroomDetails()
 	COutputLogger(m_sCenterName.c_str());
 }
 
+std::string COpenLiveDlg::Exec(const char* cmd) {
+	
+	char buffer[128];
+	std::string result = "";
+	
+	FILE* pipe = _popen(cmd, "r");
+	if (!pipe) throw std::runtime_error("popen() failed!");
+	try {
+		while (fgets(buffer, sizeof buffer, pipe) != NULL) {
+			result += buffer;
+		}
+	}
+	catch (...) {
+		_pclose(pipe);
+		throw;
+	}
+	_pclose(pipe);
+	
+	return result;
+}
+
 std::string COpenLiveDlg::ReadAuthPermissions()
 {
 	using namespace std;
@@ -772,23 +812,6 @@ std::string COpenLiveDlg::ReadAuthPermissions()
 
 	COutputLogger(result.c_str());
 	return result;
-}
-
-bool IsJson(std::string str)
-{
-	using json = nlohmann::json;
-	json j;
-	try
-	{
-		j = json::parse(str);
-		return true;
-	}
-	catch (json::exception e)
-	{
-		printf("Input is not json: %s\n", e.what());
-		return false;
-	}
-	return false;
 }
 
 // Creates an HTTP request and returns the response body.

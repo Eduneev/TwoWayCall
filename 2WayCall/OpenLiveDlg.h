@@ -106,6 +106,7 @@ public:
 	//place in different file maybe
 	void StartWebSockets(CWnd *m_statusConnect);
 	bool IsJson(std::string str);
+	std::string Exec(const char* cmd);
 	void ErrorCheck(void* user);
 	Concurrency::task<std::string> COpenLiveDlg::HTTPStreamingAsync(web::uri* url);
 	void SetClassroomDetails();
