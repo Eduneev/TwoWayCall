@@ -41,6 +41,12 @@ int	 CAGScreenCaptureDlg::RefreashWndInfo()
 	return static_cast<int>(m_listWnd.GetCount());
 }
 
+void COutputLogger4(const char* txt)
+{
+	std::ofstream log("output.txt", std::ios_base::app | std::ios_base::out);
+	log << txt << std::endl;
+}
+
 BOOL CAGScreenCaptureDlg::SaveScreen(LPCRECT lpRect)
 {
 	CDC			dcDesktop;

@@ -118,7 +118,7 @@ void CVideoDlg::OnSize(UINT nType, int cx, int cy)
 		rcChatArea.CopyRect(&m_rcVideoArea);
 		rcChatArea.top = rcChatArea.bottom - 150;
 		ClientToScreen(&rcChatArea);
-		m_dlgChat.MoveWindow(&rcChatArea);
+		//m_dlgChat.MoveWindow(&rcChatArea);
 	}
 
 	if (m_wndLocal.GetSafeHwnd() == NULL || m_wndVideo[0].GetSafeHwnd() == NULL)
@@ -506,8 +506,15 @@ void CVideoDlg::OnBnClickedScreenshare()
 	UpdateWindow();
 }
 
+void COutputLogger3(const char* txt)
+{
+	std::ofstream log("output.txt", std::ios_base::app | std::ios_base::out);
+	log << txt << std::endl;
+}
+
 void CVideoDlg::OnBnClickedWindowshare()
 {
+	COutputLogger3("Getting Here!!!!!!!!!!");
 	m_dlgScreenCapture.RefreashWndInfo();
 	m_dlgScreenCapture.SaveScreen(NULL);
 
@@ -903,7 +910,7 @@ void CVideoDlg::InitCtrls()
 
 	//m_btnMode.MoveWindow(rcClient.Width() / 2 - 24, rcClient.Height() - 84, 72, 72, TRUE);
 	m_btnAudio.MoveWindow(rcClient.Width() / 2 - 24, rcClient.Height() - 84, 72, 72, TRUE);
-	m_btnShow.MoveWindow(rcClient.Width()/2 + 144, rcClient.Height() - 84, 72, 72, TRUE);
+	//m_btnShow.MoveWindow(rcClient.Width()/2 + 144, rcClient.Height() - 84, 72, 72, TRUE);
 	m_btnEndCall.MoveWindow(rcClient.Width() - 144, rcClient.Height() - 84, 72, 72, TRUE);
 
 	m_wndVideo[0].MoveWindow(0, 24, rcClient.Width(), rcClient.Height() - 96, TRUE);
