@@ -56,8 +56,9 @@ void CChatDlg::OnSize(UINT nType, int cx, int cy)
 	CDialogEx::OnSize(nType, cx, cy);
 
 	// TODO:  在此处添加消息处理程序代码
-	if (::IsWindow(m_edtChatBox.GetSafeHwnd()))
-		m_edtChatBox.MoveWindow(1, cy - 21, cx - 2, 20);
+	if (::IsWindow(m_edtChatBox.GetSafeHwnd())) {
+		//m_edtChatBox.MoveWindow(1, cy - 21, cx - 2, 20);
+	}
 }
 
 

@@ -85,20 +85,22 @@ void CEnterChannelDlg::InitCtrls()
 
 	GetClientRect(&ClientRect);
 
-	m_ctrChannel.MoveWindow(80, 180, 100, 22, TRUE);
-    m_ctrChannel.SetFont(&m_ftDesc);
-	m_ctrChannel.SetCaretPos(CPoint(24, 148));
+	m_ctrChannel.SetWindowPos(NULL,75, 175, 100, 30, SWP_NOZORDER);
+	//m_ctrChannel.SetBackColor(RGB(0x00, 0xA0, 0xE9), RGB(0x05, 0x78, 0xAA), RGB(0x05, 0x78, 0xAA), RGB(0xE6, 0xE6, 0xE6));
+	m_ctrChannel.SetFont(&m_ftDesc);
+	m_ctrChannel.SetCaretPos(CPoint(20, 148));
 	//m_ctrChannel.ShowCaret();
 	m_ctrChannel.SetTip(LANG_STR("IDS_CHN_CHANNELNAME"));
 
 	//m_btnSetChannel.MoveWindow(ClientRect.Width()/2, ClientRect.Height()/2.9, ClientRect.Width()/5, ClientRect.Height()/8.5, TRUE);
 		
-	m_btnSetChannel.MoveWindow(360, 162, 150, 50, TRUE);
+	m_btnSetChannel.MoveWindow(360, 165, 150, 50, TRUE);
 	char a[10];
 	COutputLogger2(_itoa(ClientRect.Width(), a, 10));
 	COutputLogger2(_itoa(ClientRect.Height(), a, 10));
 
 	m_btnJoin.MoveWindow(120, 310, 360, 36, TRUE);
+	//m_btnJoin.MoveWindow(90, 180, 100, 20, TRUE);
 	m_btnSetup.MoveWindow(180, 355, 240, 36, TRUE);
 
 	m_btnJoin.SetBackColor(RGB(0x00, 0xA0, 0xE9), RGB(0x05, 0x78, 0xAA), RGB(0x05, 0x78, 0xAA), RGB(0xE6, 0xE6, 0xE6));
