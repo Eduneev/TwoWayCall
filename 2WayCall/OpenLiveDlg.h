@@ -111,6 +111,7 @@ public:
 	Concurrency::task<std::string> COpenLiveDlg::HTTPStreamingAsync(web::uri* url);
 	void SetClassroomDetails();
 	void StartVlc();
+	void COutputLogger(const char* txt);
 	std::string COpenLiveDlg::ReadAuthPermissions();
 	std::string GetConnectionDetails(int m_nClassroomID);
 

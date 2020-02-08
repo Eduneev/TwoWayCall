@@ -419,7 +419,7 @@ void COpenLiveDlg::OnStnClickedLinkagora()
 }
 
 
-void COutputLogger(const char* txt)
+void COpenLiveDlg::COutputLogger(const char* txt)
 {
 	std::ofstream log("output.txt", std::ios_base::app | std::ios_base::out);
 	log << txt << std::endl;
@@ -726,7 +726,7 @@ void COpenLiveDlg::SetClassroomDetails()
 	using namespace std;
 	using web::uri;
 	COutputLogger("About to get baseboard details!");
-	string baseboard = Exec("wmic baseboard get SerialNumber");
+	string baseboard = Exec("wmic path win32_computersystemproduct get uuid");
 
 	// Vector of string to save tokens 
 	vector <string> tokens;
