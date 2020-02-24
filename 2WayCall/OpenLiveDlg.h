@@ -77,7 +77,7 @@ private:
 	CFont		m_ftTxt;
 	CImageList	m_imgNetQuality;
 	//CWnd		*m_statusConnect;
-	CStatic		m_statusConnect;
+	//CStatic		m_statusConnect;
 
 private:
 	CVideoDlg		m_dlgVideo;
