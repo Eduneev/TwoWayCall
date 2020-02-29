@@ -773,6 +773,7 @@ BOOL CAgoraObject::GetSEIInfoByIndex(int nIndex, LPSEI_INFO lpSEIInfo)
 	return TRUE;
 }
 
+/*
 BOOL CAgoraObject::EnableSEIPush(BOOL bEnable, COLORREF crBack)
 {
 	CStringA	strBackColor;
@@ -822,6 +823,7 @@ BOOL CAgoraObject::EnableSEIPush(BOOL bEnable, COLORREF crBack)
 
 	return nRet == 0 ? TRUE : FALSE;
 }
+*/
 
 BOOL CAgoraObject::EnableH264Compatible()
 {
