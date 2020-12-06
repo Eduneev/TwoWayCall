@@ -102,7 +102,7 @@ void CSetupDlg::InitCtrls()
 
 	m_btnConfirm.MoveWindow(ClientRect.Width() / 2 + 93, ClientRect.Height() - 58, 174, 36, TRUE);
 
-	for (int nIndex = 0; nIndex < 6; nIndex++) {
+	for (int nIndex = 0; nIndex < 7; nIndex++) {
 		m_cbxVideoProfile.InsertString(nIndex, m_szProfileDes[nIndex]);
 		m_cbxVideoProfile.SetItemData(nIndex, (DWORD_PTR)m_nProfileValue[nIndex]);
 	}
@@ -134,24 +134,25 @@ void CSetupDlg::InitData()
 	m_szProfileDes[2] = _T("640x480 15fps");//500kbps
 	m_nProfileValue[2] = 40;
 
-	m_szProfileDes[3] = _T("640x480 30fps");//750kbps
-	m_nProfileValue[3] = 43;
+	m_szProfileDes[3] = _T("320x240 15fps");//200kbps
+	m_nProfileValue[3] = 20;
+	m_szProfileDes[4] = _T("240x240 15fps");//140kbps
+	m_nProfileValue[4] = 22;
 
-	m_szProfileDes[4] = _T("1280x720 15fps"); //1130kbps
-	m_nProfileValue[4] = 50;
+	m_szProfileDes[5] = _T("640x480 30fps");//750kbps
+	m_nProfileValue[5] = 43;
 
-	m_szProfileDes[5] = _T("1280x720 30fps"); //1710kbps
-	m_nProfileValue[5] = 52;
+	m_szProfileDes[6] = _T("1280x720 15fps"); //1130kbps
+	m_nProfileValue[6] = 50;
+
+	m_szProfileDes[7] = _T("1280x720 30fps"); //1710kbps
+	m_nProfileValue[7] = 52;
 	/*
 	m_szProfileDes[3] = _T("180x180 15fps");//100kbps
 	m_nProfileValue[3] = 12;
 	m_szProfileDes[4] = _T("240x180 15fps");//120kbps
 	m_nProfileValue[4] = 13;
 
-	m_szProfileDes[5] = _T("320x240 15fps");//200kbps
-	m_nProfileValue[5] = 20;
-	m_szProfileDes[6] = _T("240x240 15fps");//140kbps
-	m_nProfileValue[6] = 22;
 	m_szProfileDes[7] = _T("424x240 15fps");//220kbps
 	m_nProfileValue[7] = 23;
 
