@@ -135,7 +135,7 @@ public:
 	BOOL GetSEIInfo(UINT nUID, LPSEI_INFO lpSEIInfo);
 	BOOL GetSEIInfoByIndex(int nIndex, LPSEI_INFO lpSEIInfo);
 	int	 GetSEICount() { return m_mapSEIInfo.GetCount(); };
-	BOOL EnableSEIPush(BOOL bEnable, COLORREF crBack);
+	//BOOL EnableSEIPush(BOOL bEnable, COLORREF crBack);
 
 	BOOL EnableH264Compatible();
 	BOOL AdjustVolume(int nRcdVol, int nPlaybackVol, int nMixVol);
