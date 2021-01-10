@@ -75,7 +75,7 @@ void CSEIDlg::OnBnClickedApply()
 
 	CAgoraObject *lpAgoraObject = CAgoraObject::GetAgoraObject();
 
-	lpAgoraObject->EnableSEIPush(m_ckSEI.GetCheck(), RGB(0xFF, 0, 0));
+	//lpAgoraObject->EnableSEIPush(m_ckSEI.GetCheck(), RGB(0xFF, 0, 0));
 }
 
 
@@ -86,7 +86,7 @@ void CSEIDlg::OnBnClickedOk()
 
 	CAgoraObject *lpAgoraObject = CAgoraObject::GetAgoraObject();
 
-	lpAgoraObject->EnableSEIPush(m_ckSEI.GetCheck(), RGB(0xFF, 0, 0));
+	//lpAgoraObject->EnableSEIPush(m_ckSEI.GetCheck(), RGB(0xFF, 0, 0));
 
 }
 

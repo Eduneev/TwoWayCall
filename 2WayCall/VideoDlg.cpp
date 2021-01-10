@@ -51,6 +51,7 @@ BEGIN_MESSAGE_MAP(CVideoDlg, CDialogEx)
 
 	ON_MESSAGE(WM_SHOWMODECHANGED, &CVideoDlg::OnShowModeChanged)
 	ON_MESSAGE(WM_SHOWBIG, &CVideoDlg::OnShowBig)
+	ON_MESSAGE(WM_WINDOWSHARE, &CVideoDlg::OnWindowShareStart)
 	ON_MESSAGE(WM_LEAVEHANDLER, &CVideoDlg::OnLeaveChannelCall)
 	ON_MESSAGE(WM_WINDOWSHARE, &CVideoDlg::OnWindowShareStart)
 
