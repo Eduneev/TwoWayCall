@@ -135,7 +135,6 @@ void CSetupDlg::InitData()
 	m_szProfileDes[3] = _T("240x240 15fps");//140kbps
 	m_nProfileValue[3] = 22;
 
-
 	m_szProfileDes[4] = _T("640x360 30fps");//600kbps
 	m_nProfileValue[4] = 33;
 

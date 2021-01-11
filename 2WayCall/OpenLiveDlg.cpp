@@ -72,7 +72,7 @@ void COpenLiveDlg::DoDataExchange(CDataExchange* pDX)
 	CDialogEx::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_BTNMIN, m_btnMin);
 	DDX_Control(pDX, IDC_BTNCLOSE, m_btnClose);
-	//DDX_Control(pDX, IDC_STATUSCONNECT, m_statusConnect);
+	DDX_Control(pDX, IDC_STATUSCONNECT, m_statusConnect);
 	DDX_Control(pDX, IDC_LINKAGORA, m_linkAgora);
 }
 BEGIN_MESSAGE_MAP(COpenLiveDlg, CDialogEx)
@@ -168,7 +168,7 @@ BOOL COpenLiveDlg::OnInitDialog()
 	InitCtrls();
 	InitChildDialog();
 
-	//m_statusConnect.SetWindowTextW(L"Disconnected");
+	m_statusConnect.SetWindowTextW(L"Disconnected");
 
 	atexit([]() {
 		std::terminate();
@@ -190,8 +190,8 @@ void COpenLiveDlg::InitCtrls()
 	m_imgNetQuality.Add(&bmpNetQuality, RGB(0xFF, 0, 0xFF));
 
 	//m_statusConnect->SetWindowText(_T("Disconnected"));
-	//m_statusConnect.MoveWindow(ClientRect.Width()/2-ClientRect.Width()/8, 40, ClientRect.Width()/4, 40);
-	//m_statusConnect.SetFont(&m_ftTxt);
+	m_statusConnect.MoveWindow(ClientRect.Width()/2-ClientRect.Width()/8, 40, ClientRect.Width()/4, 40);
+	m_statusConnect.SetFont(&m_ftTxt);
 	
 	m_btnMin.MoveWindow(ClientRect.Width() - 46, 1, 22, 22, TRUE);
 	m_btnClose.MoveWindow(ClientRect.Width() - 23, 1, 22, 22, TRUE);
@@ -435,15 +435,15 @@ std::wstring ConvertToWString(std::string str)
 LRESULT COpenLiveDlg::SetConnected(WPARAM wParam, LPARAM lParam)
 {
 	COutputLogger("SETTING CONNECTED");
-	//m_statusConnect.SetWindowTextW(L"Connected");
+	m_statusConnect.SetWindowTextW(L"Connected");
 	CRect rect;
-	//m_statusConnect.GetWindowRect(&rect);
+	m_statusConnect.GetWindowRect(&rect);
 	ScreenToClient(&rect);
 	InvalidateRect(&rect);
 	UpdateWindow();
 
 	CString s;
-	//m_statusConnect.GetWindowTextW(s);
+	m_statusConnect.GetWindowTextW(s);
 	std::wstring st(s);
 	std::string str(st.begin(), st.end());
 	COutputLogger(str.c_str());
@@ -454,9 +454,9 @@ LRESULT COpenLiveDlg::SetConnected(WPARAM wParam, LPARAM lParam)
 LRESULT COpenLiveDlg::SetDisconnected(WPARAM wParam, LPARAM lParam)
 {
 	COutputLogger("SETTING DISCONNECTED");
-	//m_statusConnect.SetWindowTextW(L"Disconnected");
+	m_statusConnect.SetWindowTextW(L"Disconnected");
 	CRect rect;
-	//m_statusConnect.GetWindowRect(&rect);
+	m_statusConnect.GetWindowRect(&rect);
 	ScreenToClient(&rect);
 	InvalidateRect(&rect);
 	UpdateWindow();

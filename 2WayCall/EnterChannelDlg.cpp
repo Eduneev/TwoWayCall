@@ -26,7 +26,7 @@ void CEnterChannelDlg::DoDataExchange(CDataExchange* pDX)
     DDX_Control(pDX, IDC_EDCHNAME_CHANNEL, m_ctrChannel);
     DDX_Control(pDX, IDC_BTNJOIN_CHANNEL, m_btnJoin);
     DDX_Control(pDX, IDC_BTNSET_CHANNEL, m_btnSetup);
-	//DDX_Control(pDX, IDC_BTNGET_CHANNEL, m_btnSetChannel);
+	DDX_Control(pDX, IDC_BTNGET_CHANNEL, m_btnSetChannel);
 }
 
 
@@ -35,7 +35,7 @@ BEGIN_MESSAGE_MAP(CEnterChannelDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_BN_CLICKED(IDC_BTNJOIN_CHANNEL, &CEnterChannelDlg::OnBnClickedBtnjoinChannel)
 	ON_BN_CLICKED(IDC_BTNSET_CHANNEL, &CEnterChannelDlg::OnBnClickedBtnsetChannel)
-	//ON_BN_CLICKED(IDC_BTNGET_CHANNEL, &CEnterChannelDlg::OnBnClickedBtngetChannel)
+	ON_BN_CLICKED(IDC_BTNGET_CHANNEL, &CEnterChannelDlg::OnBnClickedBtngetChannel)
 END_MESSAGE_MAP()
 
 
